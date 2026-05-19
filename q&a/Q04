@@ -1,0 +1,51 @@
+--Q04-Για συγκεκριμένο ιατρό, βρείτε τον μέσο όρο αξιολογήσεων των ασθενών του (κριτήριο: Ποιότητα ιατρικής φροντίδας) και τη Συνολική εντύπωση νοσηλείας*. 
+--(α) το αποτέλεσμα EXPLAIN/EXPLAIN ANALYZE
+EXPLAIN ANALYZE 
+SELECT 
+st.staff_id,
+st.first_name,
+st.last_name,
+doc.rank,
+h.discharge_date,
+hr.overall_score,
+ROUND(AVG(pr.medical_care_score)OVER(PARTITION BY doc.staff_id), 2) AS doc_review,
+COUNT(pr.doctor_review_id)OVER (PARTITION BY doc.staff_id) AS review_count
+FROM doctor doc
+JOIN staff st ON doc.staff_id = st.staff_id
+JOIN hospitalization_staff hs ON doc.staff_id = hs.staff_id
+JOIN hospitalization h ON hs.hospitalization_id = h.hospitalization_id
+LEFT JOIN patient_doctor_review pr 
+    ON doc.staff_id = pr.doctor_id
+    AND h.hospitalization_id = pr.hospitalization_id
+LEFT JOIN patient_hospitalization_review hr 
+    ON h.hospitalization_id = hr.hospitalization_id
+WHERE h.discharge_date IS NOT NULL
+  AND doc.staff_id = 80
+ORDER BY review_count DESC;
+
+--(β) εναλλακτική έκδοση με FORCE INDEX ή hint
+SET enable_seqscan = OFF;
+EXPLAIN ANALYZE 
+SELECT 
+st.staff_id,
+st.first_name,
+st.last_name,
+doc.rank,
+h.discharge_date,
+hr.overall_score,
+ROUND(AVG(pr.medical_care_score)OVER(PARTITION BY doc.staff_id), 2) AS doc_review,
+COUNT(pr.doctor_review_id)OVER (PARTITION BY doc.staff_id) AS review_count
+FROM doctor doc
+JOIN staff st ON doc.staff_id = st.staff_id
+JOIN hospitalization_staff hs ON doc.staff_id = hs.staff_id
+JOIN hospitalization h ON hs.hospitalization_id = h.hospitalization_id
+LEFT JOIN patient_doctor_review pr 
+    ON doc.staff_id = pr.doctor_id
+    AND h.hospitalization_id = pr.hospitalization_id
+LEFT JOIN patient_hospitalization_review hr 
+    ON h.hospitalization_id = hr.hospitalization_id
+WHERE h.discharge_date IS NOT NULL
+  AND doc.staff_id = 80
+ORDER BY review_count DESC;
+
+SET enable_seqscan = ON;
