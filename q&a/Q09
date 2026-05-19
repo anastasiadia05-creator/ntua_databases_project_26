@@ -1,0 +1,37 @@
+--Q09. Βρείτε ποιοι ασθενείς νοσηλεύτηκαν τον ίδιο αριθμό ημερών σε διάστημα ενός έτους, με συνολική διάρκεια άνω των 15 ημερών.
+WITH hosp_days AS(
+SELECT 
+p.patient_id,
+p.first_name,
+p.last_name,
+SUM((h.discharge_date - h.admission_date)::INT) AS total_days,
+EXTRACT(YEAR FROM h.discharge_date)::INT AS year
+FROM hospitalization h
+JOIN patient p ON h.patient_id=p.patient_id
+WHERE h.discharge_date IS NOT NULL
+ GROUP BY 
+ p.patient_id,
+ p.first_name,
+ p.last_name,
+ year
+ HAVING SUM((h.discharge_date - h.admission_date)::INT) > 15
+ )
+ 
+SELECT 
+hd1.patient_id,
+hd1.first_name,
+hd1.last_name,
+hd1.total_days,
+hd1.year
+FROM hosp_days hd1
+WHERE EXISTS(
+SELECT 1
+FROM hosp_days hd2 
+WHERE hd1.total_days=hd2.total_days
+ AND hd1.patient_id<>hd2.patient_id
+ AND hd1.year=hd2.year
+)
+  ORDER BY
+  hd1.year DESC,
+  hd1.total_days;
+  
