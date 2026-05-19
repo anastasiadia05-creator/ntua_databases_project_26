@@ -1,0 +1,20 @@
+--Q08. Βρείτε το προσωπικό (ιατροί, νοσηλευτές, διοικητικό προσωπικό) που δεν έχει προγραμματισμένη εφημερία σε συγκεκριμένη ημερομηνία και τμήμα.
+SELECT 
+    st.staff_id,
+    st.first_name,
+    st.last_name,
+    st.staff_type
+FROM staff st
+WHERE NOT EXISTS (
+    SELECT 1
+    FROM shift_staff ss
+    JOIN shifts sh ON ss.shift_id = sh.shift_id
+    WHERE ss.staff_id    = st.staff_id
+      AND sh.shift_date  = '2026-05-18'        -- η ημερομηνία
+      AND sh.department_name = 'Καρδιολογία'   -- το τμήμα
+)
+ORDER BY 
+    st.staff_type,
+    st.last_name;
+ 
+ 
