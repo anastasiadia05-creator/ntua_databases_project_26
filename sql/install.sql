@@ -1140,12 +1140,6 @@ BEGIN
         ORDER BY bed_id
         LIMIT 1;
 
-        INSERT INTO hospitalization (
-            patient_id, triage_id, bed_id, department_name, admission_date
-        ) VALUES (
-            NEW.patient_id, NEW.triage_id, v_bed_number,
-            NEW.referred_dept_name, CURRENT_DATE
-        );
     END IF;
 
     RETURN NEW;
