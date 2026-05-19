@@ -1,0 +1,23 @@
+--Q14. Βρείτε ποιες κατηγορίες ICD-10 διαγνώσεων είχαν τον ίδιο αριθμό εισαγωγών σε δύο συνεχόμενα έτη, με τουλάχιστον 5 περιστατικά ανά έτος.
+WITH yearly_counts AS(
+SELECT 
+i.category,
+EXTRACT(YEAR FROM h.admission_date)::INT AS year,
+COUNT(h.hospitalization_id) AS hosp_count
+FROM hospitalization h
+JOIN icd10_code i ON h.admission_diag_icd10=i.icd10_code
+GROUP BY i.category, EXTRACT(YEAR FROM h.admission_date)
+ HAVING COUNT(h.hospitalization_id) >= 5
+)
+SELECT
+    y1.category,
+    y1.year        AS year1,
+    y2.year        AS year2,
+    y1.hosp_count  AS count_year1,
+    y2.hosp_count  AS count_year2
+FROM yearly_counts y1
+JOIN yearly_counts y2
+    ON  y1.category  = y2.category
+    AND y2.year      = y1.year + 1        -- συνεχόμενα έτη
+    AND y1.hosp_count = y2.hosp_count     -- ίδιος αριθμός εισαγωγών
+ORDER BY y1.category, y1.year;
