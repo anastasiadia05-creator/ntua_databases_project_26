@@ -1,0 +1,32 @@
+--Q02 — Για συγκεκριμένη ειδικότητα ιατρού, βρείτε όλους τους ιατρούς που ανήκουν σε αυτήν, με ένδειξη αν είχαν εφημερία το τρέχον έτος και πόσες επεμβάσεις εκτέλεσαν ως κύριοι χειρουργοί.
+
+SELECT 
+    st.staff_id,
+    st.first_name,
+    st.last_name,
+    doc.specialty,
+    doc.rank,
+    CASE 
+        WHEN EXISTS (
+            SELECT 1
+            FROM shift_staff ss
+            JOIN shifts sh ON ss.shift_id = sh.shift_id
+            WHERE ss.staff_id = st.staff_id
+              AND EXTRACT(YEAR FROM sh.shift_date) = EXTRACT(YEAR FROM CURRENT_DATE)
+        ) THEN 'ΝΑΙ'
+        ELSE 'ΟΧΙ'
+    END AS had_shift_this_year,
+    COUNT(hp.hosp_procedure_id) AS lead_doctor_procedures
+FROM staff st
+JOIN doctor doc ON st.staff_id = doc.staff_id
+LEFT JOIN hospitalization_procedure hp ON hp.performed_by = st.staff_id
+WHERE doc.specialty = 'Καρδιολογία'  -- ειδικότητα εδώ
+GROUP BY 
+    st.staff_id,
+    st.first_name,
+    st.last_name,
+    doc.specialty,
+    doc.rank
+ORDER BY 
+    lead_doctor_procedures DESC,
+    st.last_name;
