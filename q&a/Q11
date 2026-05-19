@@ -1,0 +1,31 @@
+--Q11. Βρείτε όλους τους ιατρούς που έχουν εκτελέσει τουλάχιστον 5 λιγότερες επεμβάσεις από τον ιατρό με τις περισσότερες επεμβάσεις στο τρέχον έτος.
+--για να φανεί αποτέλεσμα υπολογίζαμε για το έτος 2025
+WITH procedure_count AS (
+    SELECT 
+        hp.performed_by                  AS doctor_id,
+        COUNT(hp.hosp_procedure_id)      AS num_of_procedures
+    FROM hospitalization_procedure hp
+    WHERE EXTRACT(YEAR FROM hp.performed_date) = '2025'
+    GROUP BY hp.performed_by
+	
+),
+max_procedures AS (
+    
+    SELECT MAX(num_of_procedures) AS max_count
+    FROM procedure_count
+	
+)
+SELECT 
+    pc.doctor_id,
+    s.first_name,
+    s.last_name,
+    d.rank,
+    pc.num_of_procedures,
+    mp.max_count,
+    (mp.max_count - pc.num_of_procedures) AS difference
+FROM procedure_count pc
+JOIN max_procedures mp ON TRUE
+JOIN staff s ON pc.doctor_id = s.staff_id
+JOIN doctor d ON pc.doctor_id = d.staff_id
+WHERE (mp.max_count - pc.num_of_procedures) >= 5
+ORDER BY pc.num_of_procedures DESC;
