@@ -1,0 +1,50 @@
+--Q06-Για συγκεκριμένο ασθενή, βρείτε το ιστορικό νοσηλειών του, τις αντίστοιχες διαγνώσεις (ICD-10), το συνολικό κόστος ανά νοσηλεία και τον μέσο όρο αξιολόγησής του*.
+--α) EXPLAIN/EXPLAIN ANALYZE
+EXPLAIN ANALYZE
+SELECT 
+    p.patient_id,
+    p.first_name,
+    p.last_name,
+    h.hospitalization_id,
+    h.admission_date,
+    h.discharge_date,
+    h.admission_diag_icd10,
+    h.discharge_diag_icd10,
+    h.total_cost,
+    hr.overall_score,
+    ROUND(AVG(hr.overall_score) OVER (PARTITION BY p.patient_id), 2) AS avg_review,
+    COUNT(h.hospitalization_id) OVER (PARTITION BY p.patient_id)     AS hosp_count
+FROM patient p
+JOIN hospitalization h ON p.patient_id = h.patient_id
+LEFT JOIN patient_hospitalization_review hr 
+    ON h.hospitalization_id = hr.hospitalization_id
+WHERE h.discharge_date IS NOT NULL
+  AND p.patient_id = 101
+ORDER BY h.admission_date DESC;
+
+--β) εναλλακτική έκδοση με FORCE INDEX ή hint,
+SET enable_seqscan = OFF;
+EXPLAIN ANALYZE
+SELECT 
+    p.patient_id,
+    p.first_name,
+    p.last_name,
+    h.hospitalization_id,
+    h.admission_date,
+    h.discharge_date,
+    h.admission_diag_icd10,
+    h.discharge_diag_icd10,
+    h.total_cost,
+    hr.overall_score,
+   
+    ROUND(AVG(hr.overall_score) OVER (PARTITION BY p.patient_id), 2) AS avg_review,
+    COUNT(h.hospitalization_id) OVER (PARTITION BY p.patient_id)     AS hosp_count
+FROM patient p
+JOIN hospitalization h ON p.patient_id = h.patient_id
+LEFT JOIN patient_hospitalization_review hr 
+    ON h.hospitalization_id = hr.hospitalization_id
+WHERE h.discharge_date IS NOT NULL
+  AND p.patient_id = 101
+ORDER BY h.admission_date DESC;
+
+SET enable_seqscan = ON;
