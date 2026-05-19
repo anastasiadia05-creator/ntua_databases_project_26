@@ -1,0 +1,49 @@
+--Q13. Βρείτε για κάθε ιατρό όλη την ιεραρχία εποπτείας του, από τον άμεσο επόπτη έως τον Διευθυντή, με ένδειξη του επιπέδου σε κάθε βαθμίδα
+WITH RECURSIVE supervision_hierarchy AS (
+
+    -- Base case
+    SELECT
+        d.staff_id                          AS doctor_id,
+        s.first_name || ' ' || s.last_name  AS doctor_name,
+        d.rank                              AS doctor_rank,
+        d.supervisor_id,
+        0                                   AS level,
+        d.staff_id                          AS root_id
+    FROM doctor d
+    JOIN staff s ON d.staff_id = s.staff_id
+
+    UNION ALL
+
+    -- Recursive στην ιεραρχία
+    SELECT
+        sup.staff_id,
+        ss.first_name || ' ' || ss.last_name,
+        sup.rank,
+        sup.supervisor_id,
+        h.level + 1,
+        h.root_id
+    FROM supervision_hierarchy h
+    JOIN doctor sup ON h.supervisor_id = sup.staff_id
+    JOIN staff  ss  ON sup.staff_id    = ss.staff_id
+    WHERE h.supervisor_id IS NOT NULL
+
+)
+SELECT
+    h.root_id                               AS doctor_id,
+    rs.first_name || ' ' || rs.last_name    AS doctor_name,
+    rd.rank                                 AS doctor_rank,
+    h.level,
+    CASE h.level
+        WHEN 0 THEN 'Ο ίδιος'
+        WHEN 1 THEN 'Άμεσος Επόπτης'
+        ELSE        'Επόπτης Επιπέδου ' || h.level
+    END                                     AS level_description,
+    h.doctor_id                             AS supervisor_id,
+    h.doctor_name                           AS supervisor_name,
+    h.doctor_rank                           AS supervisor_rank
+FROM supervision_hierarchy h
+JOIN doctor rd ON h.root_id = rd.staff_id
+JOIN staff  rs ON h.root_id = rs.staff_id
+ORDER BY
+    h.root_id,
+    h.level;
