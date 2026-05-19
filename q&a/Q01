@@ -1,0 +1,39 @@
+--Q01 — Βρείτε τα συνολικά έσοδα του νοσοκομείου ανά τμήμα και ανά έτος, με ανάλυση ανά ΚΕΝ κωδικό (βασικό κόστος έναντι πρόσθετης χρέωσης λόγω υπέρβασης ΜΔΝ) και κατανομή νοσηλειών ανά ασφαλιστικό φορέα
+SELECT
+    h.department_name,
+    EXTRACT(YEAR FROM h.discharge_date)::INT        AS year,
+    h.ken_code,
+    k.description                                    AS ken_description,
+    i.name                                           AS insurer_name,
+    i.type                                           AS insurer_type,
+
+    -- Ανάλυση κόστους ΚΕΝ
+    k.base_cost                                      AS ken_base_cost,
+    SUM(
+        GREATEST(0, (h.discharge_date - h.admission_date) - k.avg_duration_days)
+        * k.daily_extra
+    )                                                AS total_extra_charge,
+
+    -- Έσοδα
+    COUNT(h.hospitalization_id)                      AS hosp_count,
+    SUM(h.total_cost)                                AS total_revenue
+
+FROM hospitalization h
+JOIN patient p      ON h.patient_id      = p.patient_id
+JOIN insurer i      ON p.insurer_id      = i.insurer_id
+JOIN ken k          ON h.ken_code        = k.ken_code
+WHERE h.discharge_date IS NOT NULL
+GROUP BY
+    h.department_name,
+    EXTRACT(YEAR FROM h.discharge_date),
+    h.ken_code,
+    k.description,
+    k.base_cost,
+    k.avg_duration_days,
+    k.daily_extra,
+    i.name,
+    i.type
+ORDER BY
+    year DESC,
+    h.department_name,
+    total_revenue DESC;
