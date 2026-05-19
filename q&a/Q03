@@ -1,0 +1,20 @@
+--Q03 — Βρείτε ποιοι ασθενείς έχουν νοσηλευτεί περισσότερες από 3 φορές στο ίδιο τμήμα, με το συνολικό κόστος νοσηλείας τους.
+SELECT 
+    pt.patient_id,
+    pt.first_name,
+    pt.last_name,
+    hp.department_name,
+    COUNT(hp.hospitalization_id)  AS hosp_count,
+    SUM(hp.total_cost)            AS total_cost
+FROM hospitalization hp
+JOIN patient pt ON hp.patient_id = pt.patient_id
+WHERE hp.discharge_date IS NOT NULL
+GROUP BY 
+    pt.patient_id,
+    pt.first_name,
+    pt.last_name,
+    hp.department_name
+HAVING COUNT(hp.hospitalization_id) > 3
+ORDER BY 
+    hosp_count DESC,
+    pt.last_name;
