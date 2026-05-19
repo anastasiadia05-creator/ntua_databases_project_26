@@ -1,0 +1,31 @@
+--Q10. Πολλοί ασθενείς λαμβάνουν συνδυασμούς φαρμάκων. Βρείτε τα top-3 ζεύγη δραστικών ουσιών που συνταγογραφήθηκαν ταυτόχρονα στον ίδιο ασθενή κατά την ίδια νοσηλεία, ταξινομημένα κατά συχνότητα εμφάνισης.
+WITH substance_per_prescription AS(
+SELECT
+pr.patient_id,
+pr.hospitalization_id,
+pr.drug_code,
+ds.active_substance_name AS substance
+ FROM prescription pr
+    JOIN drug_substance ds ON pr.drug_code = ds.drug_code
+	),
+substance_pairs AS (
+SELECT 
+    sp1.substance AS substance_a,
+    sp2.substance AS substance_b,
+sp1.patient_id,
+sp2.hospitalization_id
+FROM substance_per_prescription sp1
+JOIN substance_per_prescription sp2 ON sp1.patient_id=sp2.patient_id
+ AND sp1.hospitalization_id=sp2.hospitalization_id
+ AND  sp1.substance < sp2.substance
+)
+
+SELECT 
+    substance_a,
+  substance_b,
+COUNT(*) AS frequency 
+FROM substance_pairs 
+GROUP BY substance_a,substance_b
+ORDER BY 
+frequency DESC
+LIMIT 3;
