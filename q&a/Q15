@@ -1,0 +1,38 @@
+--Q15. Βρείτε την κατανομή των περιστατικών triage ανά επίπεδο επείγοντος, με μέσο χρόνο αναμονής ανά επίπεδο, ποσοστό περιστατικών που οδήγησαν σε νοσηλεία και κατανομή παραπομπών ανά τμήμα.
+
+SELECT
+    t.urgency_level,
+    CASE t.urgency_level
+        WHEN 1 THEN 'Άμεσο'
+        WHEN 2 THEN 'Επείγον'
+        WHEN 3 THEN 'Επιτακτικό'
+        WHEN 4 THEN 'Λιγότερο επείγον'
+        WHEN 5 THEN 'Μη επείγον'
+    END                                                                AS urgency_label,
+    SUM(COUNT(*)) OVER (PARTITION BY t.urgency_level)                  AS total_cases,
+   
+    ROUND(
+        AVG(
+            EXTRACT(EPOCH FROM (
+                h.admission_date::TIMESTAMP - t.arrival_time
+            )) / 60.0
+        )::NUMERIC
+    , 2)                                                               AS avg_wait_minutes,
+    SUM(COUNT(*) FILTER (WHERE t.outcome = 'παραπομπή για νοσηλεία'))
+        OVER (PARTITION BY t.urgency_level)                            AS hospitalized_count,
+    ROUND(
+        100.0 *
+        SUM(COUNT(*) FILTER (WHERE t.outcome = 'παραπομπή για νοσηλεία'))
+            OVER (PARTITION BY t.urgency_level)
+        / SUM(COUNT(*)) OVER (PARTITION BY t.urgency_level)
+    , 2)                                                               AS hospitalization_pct,
+    t.referred_dept_name,
+    COUNT(*)                                                           AS referrals_to_dept,
+    ROUND(
+        100.0 * COUNT(*)
+        / SUM(COUNT(*)) OVER (PARTITION BY t.urgency_level)
+    , 2)                                                               AS pct_referrals_within_level
+FROM triage t
+LEFT JOIN hospitalization h ON t.triage_id = h.triage_id
+GROUP BY t.urgency_level, t.referred_dept_name
+ORDER BY t.urgency_level, referrals_to_dept DESC;
