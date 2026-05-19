@@ -1,0 +1,35 @@
+--Q12. Βρείτε τον απαιτούμενο αριθμό προσωπικού ανά τμήμα και ανά βάρδια για συγκεκριμένη εβδομάδα, με ανάλυση ανά υποκλάση προσωπικού (ιατροί ανά ειδικότητα, νοσηλευτές ανά βαθμίδα, διοικητικό προσωπικό ανά ρόλο
+SELECT 
+    sh.department_name,
+    sh.shift_date,
+    sh.shift_type,
+    s.staff_type,
+    CASE 
+        WHEN doc.staff_id IS NOT NULL THEN doc.specialty
+        WHEN n.staff_id   IS NOT NULL THEN n.nurse_rank
+        WHEN a.staff_id   IS NOT NULL THEN a.role
+    END AS subcategory,
+    COUNT(ss.staff_id) AS staff_count
+FROM shifts sh
+JOIN shift_staff ss  ON sh.shift_id  = ss.shift_id
+JOIN staff s         ON ss.staff_id  = s.staff_id
+LEFT JOIN doctor doc       ON s.staff_id = doc.staff_id
+LEFT JOIN nurse n        ON s.staff_id = n.staff_id
+LEFT JOIN admin_staff a  ON s.staff_id = a.staff_id
+WHERE sh.shift_date BETWEEN '2026-05-04' AND '2026-05-13'
+GROUP BY 
+    sh.department_name,
+    sh.shift_date,
+    sh.shift_type,
+    s.staff_type,
+    CASE 
+        WHEN doc.staff_id IS NOT NULL THEN doc.specialty
+        WHEN n.staff_id IS NOT NULL THEN n.nurse_rank
+        WHEN a.staff_id IS NOT NULL THEN a.role
+    END
+ORDER BY 
+    sh.shift_date,
+    sh.department_name,
+    sh.shift_type,
+    s.staff_type,
+    subcategory;
