@@ -1,0 +1,12 @@
+--Q07. Βρείτε για κάθε δραστική ουσία τον αριθμό ασθενών που έχουν δηλώσει αλλεργία και τον αριθμό φαρμάκων που την περιέχουν, ταξινομημένα κατά συνολικό αριθμό αλλεργικών ασθενών.
+SELECT 
+a.name,
+COUNT(DISTINCT pa.patient_id)       AS patient_count,
+    COUNT(DISTINCT ds.drug_code)        AS drug_count
+FROM active_substance a
+LEFT JOIN patient_allergy pa ON a.name=pa.active_substance
+LEFT JOIN drug_substance ds ON a.name=ds.active_substance_name
+GROUP BY 
+a.name
+ORDER BY 
+patient_count DESC;
