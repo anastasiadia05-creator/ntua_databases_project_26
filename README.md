@@ -158,7 +158,6 @@ For each of the three files below, repeat:
 4. Press **F5** (or click ▶ **Execute**) to run it
 Run in this order:
 - `sql/install.sql`
-- `sql/reference_data.sql`
 - `sql/load.sql`
 **Step 5 — Run a query and save its output**
  
