@@ -4,7 +4,7 @@
 
 ## Relational Diagram
 
-![Relational Model Diagram](relational_model.png)
+![Relational Model Diagram](RELATIONAL-diagram.png)
 
 ## Relational Schema - PK/FK/Cardinalities
 
