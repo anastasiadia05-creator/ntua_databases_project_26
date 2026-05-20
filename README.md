@@ -88,11 +88,9 @@ This repository contains all necessary files to set up and run the database from
 
 ### Prerequisites
 
-Install one of the following DBMS:
+Install the following DBMS:
 
 - **PostgreSQL 15+** *(recommended)* — https://www.postgresql.org/
-- MySQL 8+ — https://www.mysql.com/
-- MariaDB 10.6+ — https://mariadb.org/
 
 > All scripts were written and tested on **PostgreSQL 15+**.
 
