@@ -2,18 +2,7 @@
 
 ## Overview
 
-Αυτό το documentation περιέχει Entity Relationship Diagram (ERD) σε Mermaid format για το schema του αρχείου `install.sql`.
-
-Το diagram μπορεί να χρησιμοποιηθεί σε:
-
-- GitHub README
-- Markdown docs
-- Obsidian
-- Notion
-- GitLab Wiki
-- VS Code Markdown Preview
-
----
+Αυτό το documentation περιέχει Relational Diagram σε Mermaid format για το schema του αρχείου `install.sql`.
 
 # Full ER Diagram
 
