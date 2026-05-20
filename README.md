@@ -94,20 +94,47 @@ Install one of the following DBMS:
 
 > All scripts were written and tested on **PostgreSQL 15+**.
 
-### Installation
+---
 
-1. Clone the repository:
+## Installation
 
-   ```bash
-   git clone https://github.com/anastasiadia05-creator/ntua_databases_project_26.git
-   cd ntua_databases_project_26
-   ```
+### 1. Download the Repository
 
-2. Set up the database — choose one of the two methods below:
+Download the repository files from:
+
+```text
+https://github.com/anastasiadia05-creator/ntua_databases_project_26
+```
+
+Extract the project folder anywhere on your computer.
 
 ---
 
-#### Method 1 — Interactive (psql shell)
+### 2. Open a Terminal Inside the Project Folder
+
+#### On Windows
+
+1. Open the project folder in File Explorer
+2. Click on the address bar
+3. Type:
+
+```text
+cmd
+```
+
+4. Press `Enter`
+
+A terminal window will open directly inside the project folder.
+
+---
+
+## Database Setup
+
+Choose one of the two methods below.
+
+---
+
+### Method 1 — Interactive (psql shell)
 
 Connect to PostgreSQL:
 
@@ -115,14 +142,14 @@ Connect to PostgreSQL:
 psql -U postgres
 ```
 
-On Windows:
+If `psql` is not recognized, run:
 
 ```cmd
 cd "C:\Program Files\PostgreSQL\15\bin"
 psql.exe -U postgres
 ```
 
-Then, inside the psql shell, run:
+Then, inside the `psql` shell, run:
 
 ```sql
 CREATE DATABASE ygeiopolis;
@@ -132,6 +159,10 @@ CREATE DATABASE ygeiopolis;
 \i sql/reference_data.sql
 \i sql/load.sql
 ```
+
+---
+
+### Running Queries
 
 To run a query and save its output:
 
@@ -143,16 +174,21 @@ To run a query and save its output:
 
 ---
 
-#### Method 2 — Direct (command line flags)
+### Method 2 — Direct (command line flags)
 
-Run everything directly from your terminal, without entering the psql shell:
+Run everything directly from your terminal, without entering the `psql` shell:
 
 ```bash
 psql -U postgres -c "CREATE DATABASE ygeiopolis;"
 
 psql -U postgres -d ygeiopolis -f sql/install.sql
+psql -U postgres -d ygeiopolis -f sql/reference_data.sql
 psql -U postgres -d ygeiopolis -f sql/load.sql
 ```
+
+---
+
+### Running Queries
 
 To run a query and save its output:
 
@@ -160,7 +196,9 @@ To run a query and save its output:
 psql -U postgres -d ygeiopolis -f sql/Q01.sql > sql/Q01_out.txt
 ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+---
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ---
 
