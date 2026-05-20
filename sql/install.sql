@@ -613,7 +613,7 @@ CREATE TABLE image (
     active_substance VARCHAR(200) DEFAULT NULL,
     allergy_id INT DEFAULT NULL,
     bed_id INT DEFAULT NULL,
-    url VARCHAR(255) NOT NULL,
+    url VARCHAR(1000) NOT NULL,
     caption VARCHAR(255) NOT NULL,
     CONSTRAINT pk_image PRIMARY KEY (image_id),
     CONSTRAINT fk_img_dept FOREIGN KEY (department_name) REFERENCES department (department_name) ON DELETE SET NULL ON UPDATE CASCADE,
