@@ -21,7 +21,7 @@ SELECT
 FROM hospitalization h
 JOIN patient p      ON h.patient_id      = p.patient_id
 JOIN insurer i      ON p.insurer_id      = i.insurer_id
-JOIN ken k          ON h.ken_code        = k.ken_code
+JOIN ken_code k          ON h.ken_code        = k.ken_code
 WHERE h.discharge_date IS NOT NULL
 GROUP BY
     h.department_name,
