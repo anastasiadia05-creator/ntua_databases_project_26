@@ -20217,4 +20217,69 @@ FROM hospitalization h
 WHERE h.triage_id = t.triage_id
   AND t.triage_id BETWEEN 935 AND 984;
 
+-- ── 1. Operating Rooms ───────────────────────────────────────
+INSERT INTO operating_room (room_id, name, type, building, category)
+OVERRIDING SYSTEM VALUE
+VALUES
+(1,  'Α1',  'Χειρουργείο',       'Ισόγειο-Α1',  'Διαθέσιμη'),
+(2,  'Α2',  'Χειρουργείο',       'Ισόγειο-Α2',  'Κατειλημμένη'),
+(3,  'Α3',  'Χειρουργείο',       'Ισόγειο-Α3',  'Υπό Συντήρηση'),
+(4,  'Α4',  'Χειρουργείο',       'Ισόγειο-Α4',  'Διαθέσιμη'),
+(5,  'Α5',  'Χειρουργείο',       'Ισόγειο-Α5',  'Κατειλημμένη'),
+(6,  'Β6',  'Χειρουργείο',       'Ισόγειο-Β6',  'Διαθέσιμη'),
+(7,  'Β7',  'Αίθουσα επέμβασης', 'Ισόγειο-Β7',  'Υπό Συντήρηση'),
+(8,  'Β8',  'Αίθουσα επέμβασης', 'Ισόγειο-Β8',  'Διαθέσιμη'),
+(9,  'Β9',  'Αίθουσα επέμβασης', 'Ισόγειο-Β9',  'Κατειλημμένη'),
+(10, 'Β10', 'Αίθουσα επέμβασης', 'Ισόγειο-Β10', 'Διαθέσιμη')
+ON CONFLICT (room_id) DO NOTHING;
+
+SELECT setval('operating_room_room_id_seq', 10);
+
+-- ── 2. Ανάθεση αιθουσών στις υπάρχουσες hospitalization_procedure ──
+-- Αναθέτει κυκλικά rooms 1-10 (μόνο Διαθέσιμες/Κατειλημμένες, όχι Υπό Συντήρηση)
+-- Αφήνει room=NULL αν δεν υπάρχουν εγγραφές
+UPDATE hospitalization_procedure
+SET room = ((hosp_procedure_id - 1) % 10) + 1
+WHERE room IS NULL;
+
+
+
+
+-- Ενημέρωση start_time και duration_minutes
+-- βάσει της ημερομηνίας εισαγωγής + offset
+WITH ranked AS (
+    SELECT
+        hp.hosp_procedure_id,
+        hp.hospitalization_id,
+        hp.performed_by,
+        ROW_NUMBER() OVER (
+            PARTITION BY hp.performed_by
+            ORDER BY hp.hosp_procedure_id
+        ) AS rn
+    FROM hospitalization_procedure hp
+    WHERE hp.start_time IS NULL
+)
+UPDATE hospitalization_procedure hp
+SET
+    start_time = (
+        SELECT h.admission_date::TIMESTAMP
+               + ((r.rn - 1) * 4 || ' hours')::INTERVAL  -- κάθε γιατρός +4h ανά επέμβαση
+               + '08:00'::INTERVAL                         -- ξεκινάει στις 08:00
+        FROM hospitalization h, ranked r
+        WHERE h.hospitalization_id = hp.hospitalization_id
+          AND r.hosp_procedure_id  = hp.hosp_procedure_id
+    ),
+    duration_minutes = CASE (hp.hosp_procedure_id % 8)
+        WHEN 0 THEN 30
+        WHEN 1 THEN 45
+        WHEN 2 THEN 60
+        WHEN 3 THEN 90
+        WHEN 4 THEN 120
+        WHEN 5 THEN 150
+        WHEN 6 THEN 180
+        WHEN 7 THEN 240
+    END
+WHERE hp.start_time IS NULL;
+
+
 COMMIT;
