@@ -16,7 +16,7 @@
 
 Εξαμηνιαία εργασία για το μάθημα **Βάσεις Δεδομένων** (6ο εξάμηνο, ΣΗΜΜΥ ΕΜΠ, 2025-2026).
 
-Σχεδιάσαμε και υλοποιήσαμε μια πλήρη βάση δεδομένων για το **Γενικό Νοσοκομείο «Υγειόπολης»** — ένα ρεαλιστικό σύστημα που διαχειρίζεται:
+Σχεδιάσαμε και υλοποιήσαμε μια πλήρη βάση δεδομένων για το **Γενικό Νοσοκομείο «Υγειόπολης»**, ένα σύστημα που διαχειρίζεται:
 
 - **Προσωπικό** — ιατροί (με ιεραρχία εποπτείας), νοσηλευτές, διοικητικό προσωπικό
 - **Τμήματα & Κλίνες** — 15+ τμήματα, κλίνες με τύπο και κατάσταση
@@ -32,7 +32,7 @@
 
 Semester project for the **Databases** course (6th Semester, ECE NTUA, 2025-2026).
 
-We designed and implemented a full relational database for **General Hospital "Ygeiopolis"** — a realistic hospital management system covering staff, patients, hospitalizations, on-call scheduling, and billing.
+We designed and implemented a full relational database for **General Hospital "Ygeiopolis"**, a hospital management system covering staff, patients, hospitalizations, on-call scheduling, and billing.
 
 This repository contains all necessary files to set up and run the **Hospital Database**, including schema creation, reference data loading, and 15 optimized SQL queries.
 
