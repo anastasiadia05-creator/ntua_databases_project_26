@@ -99,7 +99,7 @@ Install the following DBMS:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/<username>/ntua_databases_project_26.git
+   git clone https://github.com/anastasiadia05-creator/ntua_databases_project_26.git
    cd ntua_databases_project_26
    ```
 
