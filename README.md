@@ -1,5 +1,5 @@
+
 # ntua_databases_project_26
-# 🏥 ntua_databases_project_26
 
 ### Γενικό Νοσοκομείο «Υγειόπολης» — Σύστημα Διαχείρισης Βάσης Δεδομένων
 
