@@ -4,7 +4,7 @@
 
 ## E-R Diagram
 
-![Hospital Database E-R Diagram](E-R_diagram.png)
+![Hospital Database E-R Diagram](ER-diagram.png)
 
 ## Σύντομη περιγραφή
 
