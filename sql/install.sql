@@ -479,10 +479,12 @@ CREATE TABLE IF NOT EXISTS hospitalization_procedure (
     performed_date     DATE        NOT NULL,
     performed_by       INT         NOT NULL,
     notes              TEXT,
+    room            INT,
     CONSTRAINT pk_hosp_proc PRIMARY KEY (hosp_procedure_id),
     CONSTRAINT fk_hp_hosp FOREIGN KEY (hospitalization_id) REFERENCES hospitalization (hospitalization_id),
     CONSTRAINT fk_hp_proc FOREIGN KEY (procedure_code)     REFERENCES medical_procedure (procedure_code),
-    CONSTRAINT fk_hp_doc  FOREIGN KEY (performed_by)       REFERENCES doctor (staff_id)
+    CONSTRAINT fk_hp_doc  FOREIGN KEY (performed_by)       REFERENCES doctor (staff_id),
+    CONSTRAINT fk_hp_room  FOREIGN KEY (room)       REFERENCES operating_room (room_id)
 );
 
 -- Βοηθοί Επεμβάσεων (ιατροί ή νοσηλευτές)
