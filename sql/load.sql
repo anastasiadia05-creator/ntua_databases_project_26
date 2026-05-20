@@ -16103,906 +16103,906 @@ WHERE h.triage_id = t.triage_id;
 SELECT setval('shifts_shift_id_seq', 1, false);
 
 
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά','Πρωινή Βάρδια (07:00-15:00)', '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά','Πρωινή Βάρδια (07:00-15:00)', '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά','Πρωινή Βάρδια (07:00-15:00)', '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά','Πρωινή Βάρδια (07:00-15:00)', '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά','Πρωινή Βάρδια (07:00-15:00)', '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά','Πρωινή Βάρδια (07:00-15:00)', '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά','Πρωινή Βάρδια (07:00-15:00)', '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά','Πρωινή Βάρδια (07:00-15:00)', '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά','Πρωινή Βάρδια (07:00-15:00)', '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά','Πρωινή Βάρδια (07:00-15:00)', '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά','Πρωινή Βάρδια (07:00-15:00)', '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά','Πρωινή Βάρδια (07:00-15:00)', '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά','Πρωινή Βάρδια (07:00-15:00)', '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά','Πρωινή Βάρδια (07:00-15:00)', '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά','Πρωινή Βάρδια (07:00-15:00)', '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά','Πρωινή Βάρδια (07:00-15:00)', '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά','Πρωινή Βάρδια (07:00-15:00)', '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά','Πρωινή Βάρδια (07:00-15:00)', '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά','Πρωινή Βάρδια (07:00-15:00)', '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά','Πρωινή Βάρδια (07:00-15:00)', '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία','Πρωινή Βάρδια (07:00-15:00)', '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική','Πρωινή Βάρδια (07:00-15:00)', '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ','Πρωινή Βάρδια (07:00-15:00)', '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-01');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ','Πρωινή Βάρδια (07:00-15:00)', '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-02');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ','Πρωινή Βάρδια (07:00-15:00)', '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-03');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ','Πρωινή Βάρδια (07:00-15:00)', '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-04');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ','Πρωινή Βάρδια (07:00-15:00)', '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-05');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ','Πρωινή Βάρδια (07:00-15:00)', '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-06');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ','Πρωινή Βάρδια (07:00-15:00)', '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-07');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ','Πρωινή Βάρδια (07:00-15:00)', '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-08');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ','Πρωινή Βάρδια (07:00-15:00)', '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-09');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ','Πρωινή Βάρδια (07:00-15:00)', '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-10');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ','Πρωινή Βάρδια (07:00-15:00)', '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-11');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ','Πρωινή Βάρδια (07:00-15:00)', '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-12');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ','Πρωινή Βάρδια (07:00-15:00)', '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-13');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ','Πρωινή Βάρδια (07:00-15:00)', '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-14');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ','Πρωινή Βάρδια (07:00-15:00)', '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-15');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ','Πρωινή Βάρδια (07:00-15:00)', '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-16');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ','Πρωινή Βάρδια (07:00-15:00)', '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-17');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ','Πρωινή Βάρδια (07:00-15:00)', '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-18');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ','Πρωινή Βάρδια (07:00-15:00)', '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-19');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ','Πρωινή Βάρδια (07:00-15:00)', '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Απογευματινή Βάρδια (15:00-23:00)' , '2025-03-20');
-INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2025-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά','Πρωινή Βάρδια (07:00-15:00)', '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά','Πρωινή Βάρδια (07:00-15:00)', '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά','Πρωινή Βάρδια (07:00-15:00)', '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά','Πρωινή Βάρδια (07:00-15:00)', '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά','Πρωινή Βάρδια (07:00-15:00)', '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά','Πρωινή Βάρδια (07:00-15:00)', '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά','Πρωινή Βάρδια (07:00-15:00)', '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά','Πρωινή Βάρδια (07:00-15:00)', '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά','Πρωινή Βάρδια (07:00-15:00)', '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά','Πρωινή Βάρδια (07:00-15:00)', '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά','Πρωινή Βάρδια (07:00-15:00)', '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά','Πρωινή Βάρδια (07:00-15:00)', '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά','Πρωινή Βάρδια (07:00-15:00)', '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά','Πρωινή Βάρδια (07:00-15:00)', '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά','Πρωινή Βάρδια (07:00-15:00)', '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά','Πρωινή Βάρδια (07:00-15:00)', '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά','Πρωινή Βάρδια (07:00-15:00)', '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά','Πρωινή Βάρδια (07:00-15:00)', '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά','Πρωινή Βάρδια (07:00-15:00)', '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά','Πρωινή Βάρδια (07:00-15:00)', '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Επείγοντα Περιστατικά', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Καρδιολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Χειρουργική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ορθοπαιδική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νευρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παθολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Πνευμονολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Γαστρεντερολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ουρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Νεφρολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ογκολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Παιδιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία','Πρωινή Βάρδια (07:00-15:00)', '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Μαιευτική-Γυναικολογία', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική','Πρωινή Βάρδια (07:00-15:00)', '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('Ψυχιατρική', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ','Πρωινή Βάρδια (07:00-15:00)', '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-01');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ','Πρωινή Βάρδια (07:00-15:00)', '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-02');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ','Πρωινή Βάρδια (07:00-15:00)', '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-03');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ','Πρωινή Βάρδια (07:00-15:00)', '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-04');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ','Πρωινή Βάρδια (07:00-15:00)', '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-05');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ','Πρωινή Βάρδια (07:00-15:00)', '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-06');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ','Πρωινή Βάρδια (07:00-15:00)', '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-07');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ','Πρωινή Βάρδια (07:00-15:00)', '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-08');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ','Πρωινή Βάρδια (07:00-15:00)', '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-09');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ','Πρωινή Βάρδια (07:00-15:00)', '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-10');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ','Πρωινή Βάρδια (07:00-15:00)', '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-11');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ','Πρωινή Βάρδια (07:00-15:00)', '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-12');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ','Πρωινή Βάρδια (07:00-15:00)', '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-13');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ','Πρωινή Βάρδια (07:00-15:00)', '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-14');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ','Πρωινή Βάρδια (07:00-15:00)', '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-15');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ','Πρωινή Βάρδια (07:00-15:00)', '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-16');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ','Πρωινή Βάρδια (07:00-15:00)', '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-17');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ','Πρωινή Βάρδια (07:00-15:00)', '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-18');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ','Πρωινή Βάρδια (07:00-15:00)', '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-19');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ','Πρωινή Βάρδια (07:00-15:00)', '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Απογευματινή Βάρδια (15:00-23:00)' , '2026-03-20');
+INSERT INTO shifts (department_name, shift_type, shift_date) VALUES ('ΜΕΘ', 'Νυχτερινή Βάρδια (23:00-07:00)' , '2026-03-20');
 
 -- new_staff_for_march.sql
 -- 9 new Επιμελητές Β (staff_ids 283-291)
@@ -17056,279 +17056,279 @@ INSERT INTO doctor_department (doctor_id, department_name) VALUES
 -- NOT EXISTS prevents duplicate key on re-run.
 
 
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (3), (20), (48), (103), (104), (105), (106), (107), (108), (239), (240)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2025-03-01' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (62), (288), (3), (109), (110), (111), (112), (103), (104), (241), (239)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2025-03-01' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (20), (48), (62), (105), (106), (107), (108), (109), (110), (240), (241)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2025-03-01' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (288), (3), (20), (111), (112), (103), (104), (105), (106), (239), (240)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2025-03-02' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (48), (62), (288), (107), (108), (109), (110), (111), (112), (241), (239)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2025-03-02' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (3), (20), (48), (103), (104), (105), (106), (107), (108), (240), (241)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2025-03-02' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (62), (288), (3), (109), (110), (111), (112), (103), (104), (239), (240)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2025-03-03' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (20), (48), (62), (105), (106), (107), (108), (109), (110), (241), (239)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2025-03-03' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (288), (3), (20), (111), (112), (103), (104), (105), (106), (240), (241)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2025-03-03' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (48), (62), (288), (107), (108), (109), (110), (111), (112), (239), (240)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2025-03-04' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (3), (20), (48), (103), (104), (105), (106), (107), (108), (241), (239)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2025-03-04' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (62), (288), (3), (109), (110), (111), (112), (103), (104), (240), (241)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2025-03-04' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (20), (48), (62), (105), (106), (107), (108), (109), (110), (239), (240)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2025-03-05' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (288), (3), (20), (111), (112), (103), (104), (105), (106), (241), (239)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2025-03-05' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (48), (62), (288), (107), (108), (109), (110), (111), (112), (240), (241)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2025-03-05' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (3), (20), (48), (103), (104), (105), (106), (107), (108), (239), (240)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2025-03-06' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (62), (288), (3), (109), (110), (111), (112), (103), (104), (241), (239)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2025-03-06' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (20), (48), (62), (105), (106), (107), (108), (109), (110), (240), (241)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2025-03-06' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (288), (3), (20), (111), (112), (103), (104), (105), (106), (239), (240)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2025-03-07' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (48), (62), (288), (107), (108), (109), (110), (111), (112), (241), (239)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2025-03-07' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (3), (20), (48), (103), (104), (105), (106), (107), (108), (240), (241)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2025-03-07' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (4), (22), (23), (113), (114), (115), (116), (117), (118), (242), (243)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2025-03-01' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (49), (289), (4), (119), (120), (121), (122), (113), (114), (244), (242)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2025-03-01' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (22), (23), (49), (115), (116), (117), (118), (119), (120), (243), (244)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2025-03-01' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (289), (4), (22), (121), (122), (113), (114), (115), (116), (242), (243)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2025-03-02' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (23), (49), (289), (117), (118), (119), (120), (121), (122), (244), (242)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2025-03-02' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (4), (22), (23), (113), (114), (115), (116), (117), (118), (243), (244)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2025-03-02' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (49), (289), (4), (119), (120), (121), (122), (113), (114), (242), (243)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2025-03-03' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (22), (23), (49), (115), (116), (117), (118), (119), (120), (244), (242)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2025-03-03' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (289), (4), (22), (121), (122), (113), (114), (115), (116), (243), (244)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2025-03-03' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (23), (49), (289), (117), (118), (119), (120), (121), (122), (242), (243)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2025-03-04' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (4), (22), (23), (113), (114), (115), (116), (117), (118), (244), (242)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2025-03-04' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (49), (289), (4), (119), (120), (121), (122), (113), (114), (243), (244)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2025-03-04' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (22), (23), (49), (115), (116), (117), (118), (119), (120), (242), (243)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2025-03-05' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (289), (4), (22), (121), (122), (113), (114), (115), (116), (244), (242)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2025-03-05' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (23), (49), (289), (117), (118), (119), (120), (121), (122), (243), (244)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2025-03-05' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (4), (22), (23), (113), (114), (115), (116), (117), (118), (242), (243)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2025-03-06' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (49), (289), (4), (119), (120), (121), (122), (113), (114), (244), (242)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2025-03-06' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (22), (23), (49), (115), (116), (117), (118), (119), (120), (243), (244)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2025-03-06' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (289), (4), (22), (121), (122), (113), (114), (115), (116), (242), (243)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2025-03-07' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (23), (49), (289), (117), (118), (119), (120), (121), (122), (244), (242)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2025-03-07' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (4), (22), (23), (113), (114), (115), (116), (117), (118), (243), (244)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2025-03-07' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (5), (24), (25), (123), (124), (125), (126), (127), (128), (245), (246)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2025-03-01' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (50), (64), (5), (129), (130), (131), (132), (123), (124), (247), (245)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2025-03-01' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (24), (25), (50), (125), (126), (127), (128), (129), (130), (246), (247)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2025-03-01' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (64), (5), (24), (131), (132), (123), (124), (125), (126), (245), (246)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2025-03-02' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (25), (50), (64), (127), (128), (129), (130), (131), (132), (247), (245)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2025-03-02' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (5), (24), (25), (123), (124), (125), (126), (127), (128), (246), (247)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2025-03-02' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (50), (64), (5), (129), (130), (131), (132), (123), (124), (245), (246)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2025-03-03' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (24), (25), (50), (125), (126), (127), (128), (129), (130), (247), (245)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2025-03-03' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (64), (5), (24), (131), (132), (123), (124), (125), (126), (246), (247)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2025-03-03' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (25), (50), (64), (127), (128), (129), (130), (131), (132), (245), (246)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2025-03-04' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (5), (24), (25), (123), (124), (125), (126), (127), (128), (247), (245)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2025-03-04' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (50), (64), (5), (129), (130), (131), (132), (123), (124), (246), (247)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2025-03-04' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (24), (25), (50), (125), (126), (127), (128), (129), (130), (245), (246)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2025-03-05' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (64), (5), (24), (131), (132), (123), (124), (125), (126), (247), (245)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2025-03-05' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (25), (50), (64), (127), (128), (129), (130), (131), (132), (246), (247)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2025-03-05' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (5), (24), (25), (123), (124), (125), (126), (127), (128), (245), (246)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2025-03-06' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (50), (64), (5), (129), (130), (131), (132), (123), (124), (247), (245)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2025-03-06' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (24), (25), (50), (125), (126), (127), (128), (129), (130), (246), (247)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2025-03-06' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (64), (5), (24), (131), (132), (123), (124), (125), (126), (245), (246)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2025-03-07' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (25), (50), (64), (127), (128), (129), (130), (131), (132), (247), (245)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2025-03-07' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (5), (24), (25), (123), (124), (125), (126), (127), (128), (246), (247)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2025-03-07' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (6), (26), (27), (133), (134), (135), (136), (137), (138), (248), (249)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2025-03-01' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (51), (63), (6), (139), (140), (141), (142), (133), (134), (250), (251)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2025-03-01' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (26), (27), (51), (135), (136), (137), (138), (139), (140), (248), (249)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2025-03-01' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (63), (6), (26), (141), (142), (133), (134), (135), (136), (250), (251)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2025-03-02' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (27), (51), (63), (137), (138), (139), (140), (141), (142), (248), (249)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2025-03-02' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (6), (26), (27), (133), (134), (135), (136), (137), (138), (250), (251)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2025-03-02' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (51), (63), (6), (139), (140), (141), (142), (133), (134), (248), (249)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2025-03-03' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (26), (27), (51), (135), (136), (137), (138), (139), (140), (250), (251)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2025-03-03' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (63), (6), (26), (141), (142), (133), (134), (135), (136), (248), (249)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2025-03-03' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (27), (51), (63), (137), (138), (139), (140), (141), (142), (250), (251)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2025-03-04' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (6), (26), (27), (133), (134), (135), (136), (137), (138), (248), (249)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2025-03-04' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (51), (63), (6), (139), (140), (141), (142), (133), (134), (250), (251)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2025-03-04' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (26), (27), (51), (135), (136), (137), (138), (139), (140), (248), (249)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2025-03-05' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (63), (6), (26), (141), (142), (133), (134), (135), (136), (250), (251)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2025-03-05' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (27), (51), (63), (137), (138), (139), (140), (141), (142), (248), (249)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2025-03-05' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (6), (26), (27), (133), (134), (135), (136), (137), (138), (250), (251)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2025-03-06' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (51), (63), (6), (139), (140), (141), (142), (133), (134), (248), (249)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2025-03-06' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (26), (27), (51), (135), (136), (137), (138), (139), (140), (250), (251)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2025-03-06' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (63), (6), (26), (141), (142), (133), (134), (135), (136), (248), (249)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2025-03-07' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (27), (51), (63), (137), (138), (139), (140), (141), (142), (250), (251)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2025-03-07' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (6), (26), (27), (133), (134), (135), (136), (137), (138), (248), (249)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2025-03-07' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (7), (28), (29), (143), (144), (145), (146), (147), (148), (252), (253)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2025-03-01' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (52), (283), (7), (149), (150), (151), (152), (143), (144), (254), (252)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2025-03-01' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (28), (29), (52), (145), (146), (147), (148), (149), (150), (253), (254)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2025-03-01' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (283), (7), (28), (151), (152), (143), (144), (145), (146), (252), (253)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2025-03-02' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (29), (52), (283), (147), (148), (149), (150), (151), (152), (254), (252)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2025-03-02' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (7), (28), (29), (143), (144), (145), (146), (147), (148), (253), (254)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2025-03-02' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (52), (283), (7), (149), (150), (151), (152), (143), (144), (252), (253)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2025-03-03' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (28), (29), (52), (145), (146), (147), (148), (149), (150), (254), (252)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2025-03-03' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (283), (7), (28), (151), (152), (143), (144), (145), (146), (253), (254)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2025-03-03' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (29), (52), (283), (147), (148), (149), (150), (151), (152), (252), (253)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2025-03-04' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (7), (28), (29), (143), (144), (145), (146), (147), (148), (254), (252)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2025-03-04' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (52), (283), (7), (149), (150), (151), (152), (143), (144), (253), (254)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2025-03-04' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (28), (29), (52), (145), (146), (147), (148), (149), (150), (252), (253)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2025-03-05' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (283), (7), (28), (151), (152), (143), (144), (145), (146), (254), (252)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2025-03-05' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (29), (52), (283), (147), (148), (149), (150), (151), (152), (253), (254)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2025-03-05' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (7), (28), (29), (143), (144), (145), (146), (147), (148), (252), (253)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2025-03-06' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (52), (283), (7), (149), (150), (151), (152), (143), (144), (254), (252)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2025-03-06' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (28), (29), (52), (145), (146), (147), (148), (149), (150), (253), (254)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2025-03-06' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (283), (7), (28), (151), (152), (143), (144), (145), (146), (252), (253)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2025-03-07' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (29), (52), (283), (147), (148), (149), (150), (151), (152), (254), (252)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2025-03-07' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (7), (28), (29), (143), (144), (145), (146), (147), (148), (253), (254)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2025-03-07' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (8), (30), (31), (153), (154), (155), (156), (157), (158), (255), (256)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2025-03-01' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (53), (284), (8), (159), (160), (161), (162), (153), (154), (257), (255)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2025-03-01' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (30), (31), (53), (155), (156), (157), (158), (159), (160), (256), (257)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2025-03-01' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (284), (8), (30), (161), (162), (153), (154), (155), (156), (255), (256)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2025-03-02' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (31), (53), (284), (157), (158), (159), (160), (161), (162), (257), (255)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2025-03-02' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (8), (30), (31), (153), (154), (155), (156), (157), (158), (256), (257)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2025-03-02' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (53), (284), (8), (159), (160), (161), (162), (153), (154), (255), (256)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2025-03-03' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (30), (31), (53), (155), (156), (157), (158), (159), (160), (257), (255)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2025-03-03' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (284), (8), (30), (161), (162), (153), (154), (155), (156), (256), (257)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2025-03-03' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (31), (53), (284), (157), (158), (159), (160), (161), (162), (255), (256)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2025-03-04' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (8), (30), (31), (153), (154), (155), (156), (157), (158), (257), (255)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2025-03-04' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (53), (284), (8), (159), (160), (161), (162), (153), (154), (256), (257)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2025-03-04' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (30), (31), (53), (155), (156), (157), (158), (159), (160), (255), (256)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2025-03-05' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (284), (8), (30), (161), (162), (153), (154), (155), (156), (257), (255)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2025-03-05' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (31), (53), (284), (157), (158), (159), (160), (161), (162), (256), (257)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2025-03-05' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (8), (30), (31), (153), (154), (155), (156), (157), (158), (255), (256)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2025-03-06' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (53), (284), (8), (159), (160), (161), (162), (153), (154), (257), (255)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2025-03-06' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (30), (31), (53), (155), (156), (157), (158), (159), (160), (256), (257)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2025-03-06' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (284), (8), (30), (161), (162), (153), (154), (155), (156), (255), (256)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2025-03-07' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (31), (53), (284), (157), (158), (159), (160), (161), (162), (257), (255)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2025-03-07' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (8), (30), (31), (153), (154), (155), (156), (157), (158), (256), (257)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2025-03-07' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (9), (32), (33), (163), (164), (165), (166), (167), (168), (258), (259)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2025-03-01' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (54), (290), (9), (169), (170), (171), (172), (163), (164), (260), (258)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2025-03-01' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (32), (33), (54), (165), (166), (167), (168), (169), (170), (259), (260)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2025-03-01' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (290), (9), (32), (171), (172), (163), (164), (165), (166), (258), (259)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2025-03-02' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (33), (54), (290), (167), (168), (169), (170), (171), (172), (260), (258)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2025-03-02' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (9), (32), (33), (163), (164), (165), (166), (167), (168), (259), (260)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2025-03-02' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (54), (290), (9), (169), (170), (171), (172), (163), (164), (258), (259)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2025-03-03' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (32), (33), (54), (165), (166), (167), (168), (169), (170), (260), (258)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2025-03-03' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (290), (9), (32), (171), (172), (163), (164), (165), (166), (259), (260)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2025-03-03' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (33), (54), (290), (167), (168), (169), (170), (171), (172), (258), (259)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2025-03-04' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (9), (32), (33), (163), (164), (165), (166), (167), (168), (260), (258)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2025-03-04' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (54), (290), (9), (169), (170), (171), (172), (163), (164), (259), (260)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2025-03-04' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (32), (33), (54), (165), (166), (167), (168), (169), (170), (258), (259)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2025-03-05' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (290), (9), (32), (171), (172), (163), (164), (165), (166), (260), (258)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2025-03-05' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (33), (54), (290), (167), (168), (169), (170), (171), (172), (259), (260)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2025-03-05' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (9), (32), (33), (163), (164), (165), (166), (167), (168), (258), (259)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2025-03-06' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (54), (290), (9), (169), (170), (171), (172), (163), (164), (260), (258)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2025-03-06' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (32), (33), (54), (165), (166), (167), (168), (169), (170), (259), (260)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2025-03-06' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (290), (9), (32), (171), (172), (163), (164), (165), (166), (258), (259)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2025-03-07' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (33), (54), (290), (167), (168), (169), (170), (171), (172), (260), (258)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2025-03-07' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (9), (32), (33), (163), (164), (165), (166), (167), (168), (259), (260)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2025-03-07' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (10), (34), (35), (173), (174), (175), (176), (177), (178), (261), (262)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2025-03-01' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (55), (285), (10), (179), (180), (181), (182), (173), (174), (263), (261)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2025-03-01' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (34), (35), (55), (175), (176), (177), (178), (179), (180), (262), (263)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2025-03-01' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (285), (10), (34), (181), (182), (173), (174), (175), (176), (261), (262)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2025-03-02' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (35), (55), (285), (177), (178), (179), (180), (181), (182), (263), (261)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2025-03-02' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (10), (34), (35), (173), (174), (175), (176), (177), (178), (262), (263)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2025-03-02' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (55), (285), (10), (179), (180), (181), (182), (173), (174), (261), (262)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2025-03-03' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (34), (35), (55), (175), (176), (177), (178), (179), (180), (263), (261)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2025-03-03' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (285), (10), (34), (181), (182), (173), (174), (175), (176), (262), (263)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2025-03-03' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (35), (55), (285), (177), (178), (179), (180), (181), (182), (261), (262)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2025-03-04' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (10), (34), (35), (173), (174), (175), (176), (177), (178), (263), (261)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2025-03-04' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (55), (285), (10), (179), (180), (181), (182), (173), (174), (262), (263)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2025-03-04' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (34), (35), (55), (175), (176), (177), (178), (179), (180), (261), (262)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2025-03-05' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (285), (10), (34), (181), (182), (173), (174), (175), (176), (263), (261)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2025-03-05' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (35), (55), (285), (177), (178), (179), (180), (181), (182), (262), (263)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2025-03-05' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (10), (34), (35), (173), (174), (175), (176), (177), (178), (261), (262)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2025-03-06' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (55), (285), (10), (179), (180), (181), (182), (173), (174), (263), (261)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2025-03-06' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (34), (35), (55), (175), (176), (177), (178), (179), (180), (262), (263)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2025-03-06' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (285), (10), (34), (181), (182), (173), (174), (175), (176), (261), (262)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2025-03-07' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (35), (55), (285), (177), (178), (179), (180), (181), (182), (263), (261)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2025-03-07' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (10), (34), (35), (173), (174), (175), (176), (177), (178), (262), (263)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2025-03-07' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (11), (36), (37), (183), (184), (185), (186), (187), (188), (264), (265)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2025-03-01' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (56), (65), (11), (189), (190), (191), (192), (183), (184), (266), (267)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2025-03-01' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (36), (37), (56), (185), (186), (187), (188), (189), (190), (264), (265)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2025-03-01' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (65), (11), (36), (191), (192), (183), (184), (185), (186), (266), (267)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2025-03-02' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (37), (56), (65), (187), (188), (189), (190), (191), (192), (264), (265)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2025-03-02' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (11), (36), (37), (183), (184), (185), (186), (187), (188), (266), (267)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2025-03-02' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (56), (65), (11), (189), (190), (191), (192), (183), (184), (264), (265)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2025-03-03' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (36), (37), (56), (185), (186), (187), (188), (189), (190), (266), (267)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2025-03-03' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (65), (11), (36), (191), (192), (183), (184), (185), (186), (264), (265)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2025-03-03' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (37), (56), (65), (187), (188), (189), (190), (191), (192), (266), (267)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2025-03-04' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (11), (36), (37), (183), (184), (185), (186), (187), (188), (264), (265)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2025-03-04' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (56), (65), (11), (189), (190), (191), (192), (183), (184), (266), (267)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2025-03-04' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (36), (37), (56), (185), (186), (187), (188), (189), (190), (264), (265)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2025-03-05' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (65), (11), (36), (191), (192), (183), (184), (185), (186), (266), (267)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2025-03-05' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (37), (56), (65), (187), (188), (189), (190), (191), (192), (264), (265)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2025-03-05' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (11), (36), (37), (183), (184), (185), (186), (187), (188), (266), (267)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2025-03-06' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (56), (65), (11), (189), (190), (191), (192), (183), (184), (264), (265)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2025-03-06' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (36), (37), (56), (185), (186), (187), (188), (189), (190), (266), (267)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2025-03-06' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (65), (11), (36), (191), (192), (183), (184), (185), (186), (264), (265)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2025-03-07' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (37), (56), (65), (187), (188), (189), (190), (191), (192), (266), (267)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2025-03-07' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (11), (36), (37), (183), (184), (185), (186), (187), (188), (264), (265)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2025-03-07' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (12), (38), (39), (193), (194), (195), (196), (197), (198), (268), (269)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2025-03-01' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (57), (286), (12), (199), (200), (201), (202), (193), (194), (270), (268)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2025-03-01' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (38), (39), (57), (195), (196), (197), (198), (199), (200), (269), (270)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2025-03-01' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (286), (12), (38), (201), (202), (193), (194), (195), (196), (268), (269)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2025-03-02' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (39), (57), (286), (197), (198), (199), (200), (201), (202), (270), (268)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2025-03-02' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (12), (38), (39), (193), (194), (195), (196), (197), (198), (269), (270)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2025-03-02' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (57), (286), (12), (199), (200), (201), (202), (193), (194), (268), (269)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2025-03-03' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (38), (39), (57), (195), (196), (197), (198), (199), (200), (270), (268)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2025-03-03' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (286), (12), (38), (201), (202), (193), (194), (195), (196), (269), (270)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2025-03-03' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (39), (57), (286), (197), (198), (199), (200), (201), (202), (268), (269)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2025-03-04' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (12), (38), (39), (193), (194), (195), (196), (197), (198), (270), (268)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2025-03-04' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (57), (286), (12), (199), (200), (201), (202), (193), (194), (269), (270)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2025-03-04' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (38), (39), (57), (195), (196), (197), (198), (199), (200), (268), (269)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2025-03-05' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (286), (12), (38), (201), (202), (193), (194), (195), (196), (270), (268)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2025-03-05' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (39), (57), (286), (197), (198), (199), (200), (201), (202), (269), (270)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2025-03-05' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (12), (38), (39), (193), (194), (195), (196), (197), (198), (268), (269)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2025-03-06' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (57), (286), (12), (199), (200), (201), (202), (193), (194), (270), (268)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2025-03-06' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (38), (39), (57), (195), (196), (197), (198), (199), (200), (269), (270)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2025-03-06' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (286), (12), (38), (201), (202), (193), (194), (195), (196), (268), (269)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2025-03-07' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (39), (57), (286), (197), (198), (199), (200), (201), (202), (270), (268)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2025-03-07' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (12), (38), (39), (193), (194), (195), (196), (197), (198), (269), (270)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2025-03-07' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (13), (40), (41), (203), (204), (205), (206), (207), (208), (271), (272)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2025-03-01' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (58), (291), (13), (209), (210), (211), (212), (203), (204), (273), (271)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2025-03-01' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (40), (41), (58), (205), (206), (207), (208), (209), (210), (272), (273)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2025-03-01' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (291), (13), (40), (211), (212), (203), (204), (205), (206), (271), (272)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2025-03-02' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (41), (58), (291), (207), (208), (209), (210), (211), (212), (273), (271)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2025-03-02' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (13), (40), (41), (203), (204), (205), (206), (207), (208), (272), (273)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2025-03-02' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (58), (291), (13), (209), (210), (211), (212), (203), (204), (271), (272)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2025-03-03' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (40), (41), (58), (205), (206), (207), (208), (209), (210), (273), (271)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2025-03-03' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (291), (13), (40), (211), (212), (203), (204), (205), (206), (272), (273)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2025-03-03' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (41), (58), (291), (207), (208), (209), (210), (211), (212), (271), (272)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2025-03-04' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (13), (40), (41), (203), (204), (205), (206), (207), (208), (273), (271)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2025-03-04' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (58), (291), (13), (209), (210), (211), (212), (203), (204), (272), (273)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2025-03-04' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (40), (41), (58), (205), (206), (207), (208), (209), (210), (271), (272)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2025-03-05' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (291), (13), (40), (211), (212), (203), (204), (205), (206), (273), (271)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2025-03-05' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (41), (58), (291), (207), (208), (209), (210), (211), (212), (272), (273)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2025-03-05' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (13), (40), (41), (203), (204), (205), (206), (207), (208), (271), (272)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2025-03-06' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (58), (291), (13), (209), (210), (211), (212), (203), (204), (273), (271)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2025-03-06' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (40), (41), (58), (205), (206), (207), (208), (209), (210), (272), (273)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2025-03-06' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (291), (13), (40), (211), (212), (203), (204), (205), (206), (271), (272)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2025-03-07' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (41), (58), (291), (207), (208), (209), (210), (211), (212), (273), (271)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2025-03-07' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (13), (40), (41), (203), (204), (205), (206), (207), (208), (272), (273)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2025-03-07' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (14), (42), (43), (213), (214), (215), (216), (217), (218), (274), (275)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2025-03-01' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (59), (287), (14), (219), (220), (221), (222), (213), (214), (276), (277)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2025-03-01' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (42), (43), (59), (215), (216), (217), (218), (219), (220), (274), (275)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2025-03-01' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (287), (14), (42), (221), (222), (213), (214), (215), (216), (276), (277)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2025-03-02' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (43), (59), (287), (217), (218), (219), (220), (221), (222), (274), (275)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2025-03-02' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (14), (42), (43), (213), (214), (215), (216), (217), (218), (276), (277)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2025-03-02' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (59), (287), (14), (219), (220), (221), (222), (213), (214), (274), (275)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2025-03-03' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (42), (43), (59), (215), (216), (217), (218), (219), (220), (276), (277)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2025-03-03' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (287), (14), (42), (221), (222), (213), (214), (215), (216), (274), (275)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2025-03-03' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (43), (59), (287), (217), (218), (219), (220), (221), (222), (276), (277)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2025-03-04' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (14), (42), (43), (213), (214), (215), (216), (217), (218), (274), (275)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2025-03-04' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (59), (287), (14), (219), (220), (221), (222), (213), (214), (276), (277)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2025-03-04' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (42), (43), (59), (215), (216), (217), (218), (219), (220), (274), (275)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2025-03-05' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (287), (14), (42), (221), (222), (213), (214), (215), (216), (276), (277)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2025-03-05' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (43), (59), (287), (217), (218), (219), (220), (221), (222), (274), (275)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2025-03-05' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (14), (42), (43), (213), (214), (215), (216), (217), (218), (276), (277)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2025-03-06' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (59), (287), (14), (219), (220), (221), (222), (213), (214), (274), (275)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2025-03-06' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (42), (43), (59), (215), (216), (217), (218), (219), (220), (276), (277)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2025-03-06' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (287), (14), (42), (221), (222), (213), (214), (215), (216), (274), (275)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2025-03-07' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (43), (59), (287), (217), (218), (219), (220), (221), (222), (276), (277)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2025-03-07' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (14), (42), (43), (213), (214), (215), (216), (217), (218), (274), (275)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2025-03-07' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (15), (21), (44), (223), (224), (225), (226), (227), (228), (278), (279)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2025-03-01' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (45), (47), (60), (229), (230), (231), (232), (223), (224), (280), (281)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2025-03-01' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (61), (15), (21), (225), (226), (227), (228), (229), (230), (282), (278)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2025-03-01' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (44), (45), (47), (231), (232), (223), (224), (225), (226), (279), (280)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2025-03-02' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (60), (61), (15), (227), (228), (229), (230), (231), (232), (281), (282)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2025-03-02' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (21), (44), (45), (223), (224), (225), (226), (227), (228), (278), (279)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2025-03-02' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (47), (60), (61), (229), (230), (231), (232), (223), (224), (280), (281)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2025-03-03' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (15), (21), (44), (225), (226), (227), (228), (229), (230), (282), (278)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2025-03-03' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (45), (47), (60), (231), (232), (223), (224), (225), (226), (279), (280)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2025-03-03' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (61), (15), (21), (227), (228), (229), (230), (231), (232), (281), (282)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2025-03-04' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (44), (45), (47), (223), (224), (225), (226), (227), (228), (278), (279)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2025-03-04' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (60), (61), (15), (229), (230), (231), (232), (223), (224), (280), (281)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2025-03-04' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (21), (44), (45), (225), (226), (227), (228), (229), (230), (282), (278)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2025-03-05' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (47), (60), (61), (231), (232), (223), (224), (225), (226), (279), (280)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2025-03-05' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (15), (21), (44), (227), (228), (229), (230), (231), (232), (281), (282)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2025-03-05' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (45), (47), (60), (223), (224), (225), (226), (227), (228), (278), (279)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2025-03-06' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (61), (15), (21), (229), (230), (231), (232), (223), (224), (280), (281)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2025-03-06' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (44), (45), (47), (225), (226), (227), (228), (229), (230), (282), (278)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2025-03-06' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (60), (61), (15), (231), (232), (223), (224), (225), (226), (279), (280)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2025-03-07' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (21), (44), (45), (227), (228), (229), (230), (231), (232), (281), (282)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2025-03-07' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
-INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (47), (60), (61), (223), (224), (225), (226), (227), (228), (278), (279)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2025-03-07' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2025 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (3), (20), (48), (103), (104), (105), (106), (107), (108), (239), (240)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2026-03-01' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (62), (288), (3), (109), (110), (111), (112), (103), (104), (241), (239)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2026-03-01' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (20), (48), (62), (105), (106), (107), (108), (109), (110), (240), (241)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2026-03-01' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (288), (3), (20), (111), (112), (103), (104), (105), (106), (239), (240)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2026-03-02' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (48), (62), (288), (107), (108), (109), (110), (111), (112), (241), (239)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2026-03-02' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (3), (20), (48), (103), (104), (105), (106), (107), (108), (240), (241)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2026-03-02' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (62), (288), (3), (109), (110), (111), (112), (103), (104), (239), (240)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2026-03-03' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (20), (48), (62), (105), (106), (107), (108), (109), (110), (241), (239)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2026-03-03' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (288), (3), (20), (111), (112), (103), (104), (105), (106), (240), (241)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2026-03-03' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (48), (62), (288), (107), (108), (109), (110), (111), (112), (239), (240)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2026-03-04' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (3), (20), (48), (103), (104), (105), (106), (107), (108), (241), (239)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2026-03-04' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (62), (288), (3), (109), (110), (111), (112), (103), (104), (240), (241)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2026-03-04' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (20), (48), (62), (105), (106), (107), (108), (109), (110), (239), (240)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2026-03-05' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (288), (3), (20), (111), (112), (103), (104), (105), (106), (241), (239)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2026-03-05' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (48), (62), (288), (107), (108), (109), (110), (111), (112), (240), (241)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2026-03-05' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (3), (20), (48), (103), (104), (105), (106), (107), (108), (239), (240)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2026-03-06' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (62), (288), (3), (109), (110), (111), (112), (103), (104), (241), (239)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2026-03-06' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (20), (48), (62), (105), (106), (107), (108), (109), (110), (240), (241)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2026-03-06' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (288), (3), (20), (111), (112), (103), (104), (105), (106), (239), (240)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2026-03-07' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (48), (62), (288), (107), (108), (109), (110), (111), (112), (241), (239)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2026-03-07' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (3), (20), (48), (103), (104), (105), (106), (107), (108), (240), (241)) AS v(staff_id) WHERE s.department_name = 'Χειρουργική' AND s.shift_date = '2026-03-07' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (4), (22), (23), (113), (114), (115), (116), (117), (118), (242), (243)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2026-03-01' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (49), (289), (4), (119), (120), (121), (122), (113), (114), (244), (242)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2026-03-01' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (22), (23), (49), (115), (116), (117), (118), (119), (120), (243), (244)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2026-03-01' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (289), (4), (22), (121), (122), (113), (114), (115), (116), (242), (243)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2026-03-02' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (23), (49), (289), (117), (118), (119), (120), (121), (122), (244), (242)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2026-03-02' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (4), (22), (23), (113), (114), (115), (116), (117), (118), (243), (244)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2026-03-02' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (49), (289), (4), (119), (120), (121), (122), (113), (114), (242), (243)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2026-03-03' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (22), (23), (49), (115), (116), (117), (118), (119), (120), (244), (242)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2026-03-03' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (289), (4), (22), (121), (122), (113), (114), (115), (116), (243), (244)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2026-03-03' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (23), (49), (289), (117), (118), (119), (120), (121), (122), (242), (243)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2026-03-04' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (4), (22), (23), (113), (114), (115), (116), (117), (118), (244), (242)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2026-03-04' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (49), (289), (4), (119), (120), (121), (122), (113), (114), (243), (244)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2026-03-04' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (22), (23), (49), (115), (116), (117), (118), (119), (120), (242), (243)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2026-03-05' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (289), (4), (22), (121), (122), (113), (114), (115), (116), (244), (242)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2026-03-05' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (23), (49), (289), (117), (118), (119), (120), (121), (122), (243), (244)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2026-03-05' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (4), (22), (23), (113), (114), (115), (116), (117), (118), (242), (243)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2026-03-06' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (49), (289), (4), (119), (120), (121), (122), (113), (114), (244), (242)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2026-03-06' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (22), (23), (49), (115), (116), (117), (118), (119), (120), (243), (244)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2026-03-06' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (289), (4), (22), (121), (122), (113), (114), (115), (116), (242), (243)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2026-03-07' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (23), (49), (289), (117), (118), (119), (120), (121), (122), (244), (242)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2026-03-07' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (4), (22), (23), (113), (114), (115), (116), (117), (118), (243), (244)) AS v(staff_id) WHERE s.department_name = 'Ορθοπαιδική' AND s.shift_date = '2026-03-07' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (5), (24), (25), (123), (124), (125), (126), (127), (128), (245), (246)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2026-03-01' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (50), (64), (5), (129), (130), (131), (132), (123), (124), (247), (245)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2026-03-01' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (24), (25), (50), (125), (126), (127), (128), (129), (130), (246), (247)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2026-03-01' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (64), (5), (24), (131), (132), (123), (124), (125), (126), (245), (246)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2026-03-02' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (25), (50), (64), (127), (128), (129), (130), (131), (132), (247), (245)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2026-03-02' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (5), (24), (25), (123), (124), (125), (126), (127), (128), (246), (247)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2026-03-02' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (50), (64), (5), (129), (130), (131), (132), (123), (124), (245), (246)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2026-03-03' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (24), (25), (50), (125), (126), (127), (128), (129), (130), (247), (245)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2026-03-03' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (64), (5), (24), (131), (132), (123), (124), (125), (126), (246), (247)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2026-03-03' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (25), (50), (64), (127), (128), (129), (130), (131), (132), (245), (246)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2026-03-04' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (5), (24), (25), (123), (124), (125), (126), (127), (128), (247), (245)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2026-03-04' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (50), (64), (5), (129), (130), (131), (132), (123), (124), (246), (247)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2026-03-04' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (24), (25), (50), (125), (126), (127), (128), (129), (130), (245), (246)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2026-03-05' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (64), (5), (24), (131), (132), (123), (124), (125), (126), (247), (245)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2026-03-05' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (25), (50), (64), (127), (128), (129), (130), (131), (132), (246), (247)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2026-03-05' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (5), (24), (25), (123), (124), (125), (126), (127), (128), (245), (246)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2026-03-06' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (50), (64), (5), (129), (130), (131), (132), (123), (124), (247), (245)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2026-03-06' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (24), (25), (50), (125), (126), (127), (128), (129), (130), (246), (247)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2026-03-06' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (64), (5), (24), (131), (132), (123), (124), (125), (126), (245), (246)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2026-03-07' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (25), (50), (64), (127), (128), (129), (130), (131), (132), (247), (245)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2026-03-07' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (5), (24), (25), (123), (124), (125), (126), (127), (128), (246), (247)) AS v(staff_id) WHERE s.department_name = 'Νευρολογία' AND s.shift_date = '2026-03-07' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (6), (26), (27), (133), (134), (135), (136), (137), (138), (248), (249)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2026-03-01' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (51), (63), (6), (139), (140), (141), (142), (133), (134), (250), (251)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2026-03-01' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (26), (27), (51), (135), (136), (137), (138), (139), (140), (248), (249)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2026-03-01' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (63), (6), (26), (141), (142), (133), (134), (135), (136), (250), (251)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2026-03-02' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (27), (51), (63), (137), (138), (139), (140), (141), (142), (248), (249)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2026-03-02' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (6), (26), (27), (133), (134), (135), (136), (137), (138), (250), (251)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2026-03-02' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (51), (63), (6), (139), (140), (141), (142), (133), (134), (248), (249)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2026-03-03' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (26), (27), (51), (135), (136), (137), (138), (139), (140), (250), (251)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2026-03-03' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (63), (6), (26), (141), (142), (133), (134), (135), (136), (248), (249)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2026-03-03' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (27), (51), (63), (137), (138), (139), (140), (141), (142), (250), (251)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2026-03-04' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (6), (26), (27), (133), (134), (135), (136), (137), (138), (248), (249)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2026-03-04' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (51), (63), (6), (139), (140), (141), (142), (133), (134), (250), (251)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2026-03-04' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (26), (27), (51), (135), (136), (137), (138), (139), (140), (248), (249)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2026-03-05' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (63), (6), (26), (141), (142), (133), (134), (135), (136), (250), (251)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2026-03-05' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (27), (51), (63), (137), (138), (139), (140), (141), (142), (248), (249)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2026-03-05' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (6), (26), (27), (133), (134), (135), (136), (137), (138), (250), (251)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2026-03-06' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (51), (63), (6), (139), (140), (141), (142), (133), (134), (248), (249)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2026-03-06' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (26), (27), (51), (135), (136), (137), (138), (139), (140), (250), (251)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2026-03-06' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (63), (6), (26), (141), (142), (133), (134), (135), (136), (248), (249)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2026-03-07' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (27), (51), (63), (137), (138), (139), (140), (141), (142), (250), (251)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2026-03-07' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (6), (26), (27), (133), (134), (135), (136), (137), (138), (248), (249)) AS v(staff_id) WHERE s.department_name = 'Παθολογία' AND s.shift_date = '2026-03-07' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (7), (28), (29), (143), (144), (145), (146), (147), (148), (252), (253)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2026-03-01' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (52), (283), (7), (149), (150), (151), (152), (143), (144), (254), (252)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2026-03-01' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (28), (29), (52), (145), (146), (147), (148), (149), (150), (253), (254)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2026-03-01' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (283), (7), (28), (151), (152), (143), (144), (145), (146), (252), (253)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2026-03-02' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (29), (52), (283), (147), (148), (149), (150), (151), (152), (254), (252)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2026-03-02' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (7), (28), (29), (143), (144), (145), (146), (147), (148), (253), (254)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2026-03-02' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (52), (283), (7), (149), (150), (151), (152), (143), (144), (252), (253)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2026-03-03' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (28), (29), (52), (145), (146), (147), (148), (149), (150), (254), (252)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2026-03-03' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (283), (7), (28), (151), (152), (143), (144), (145), (146), (253), (254)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2026-03-03' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (29), (52), (283), (147), (148), (149), (150), (151), (152), (252), (253)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2026-03-04' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (7), (28), (29), (143), (144), (145), (146), (147), (148), (254), (252)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2026-03-04' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (52), (283), (7), (149), (150), (151), (152), (143), (144), (253), (254)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2026-03-04' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (28), (29), (52), (145), (146), (147), (148), (149), (150), (252), (253)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2026-03-05' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (283), (7), (28), (151), (152), (143), (144), (145), (146), (254), (252)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2026-03-05' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (29), (52), (283), (147), (148), (149), (150), (151), (152), (253), (254)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2026-03-05' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (7), (28), (29), (143), (144), (145), (146), (147), (148), (252), (253)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2026-03-06' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (52), (283), (7), (149), (150), (151), (152), (143), (144), (254), (252)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2026-03-06' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (28), (29), (52), (145), (146), (147), (148), (149), (150), (253), (254)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2026-03-06' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (283), (7), (28), (151), (152), (143), (144), (145), (146), (252), (253)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2026-03-07' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (29), (52), (283), (147), (148), (149), (150), (151), (152), (254), (252)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2026-03-07' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (7), (28), (29), (143), (144), (145), (146), (147), (148), (253), (254)) AS v(staff_id) WHERE s.department_name = 'Πνευμονολογία' AND s.shift_date = '2026-03-07' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (8), (30), (31), (153), (154), (155), (156), (157), (158), (255), (256)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2026-03-01' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (53), (284), (8), (159), (160), (161), (162), (153), (154), (257), (255)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2026-03-01' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (30), (31), (53), (155), (156), (157), (158), (159), (160), (256), (257)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2026-03-01' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (284), (8), (30), (161), (162), (153), (154), (155), (156), (255), (256)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2026-03-02' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (31), (53), (284), (157), (158), (159), (160), (161), (162), (257), (255)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2026-03-02' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (8), (30), (31), (153), (154), (155), (156), (157), (158), (256), (257)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2026-03-02' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (53), (284), (8), (159), (160), (161), (162), (153), (154), (255), (256)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2026-03-03' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (30), (31), (53), (155), (156), (157), (158), (159), (160), (257), (255)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2026-03-03' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (284), (8), (30), (161), (162), (153), (154), (155), (156), (256), (257)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2026-03-03' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (31), (53), (284), (157), (158), (159), (160), (161), (162), (255), (256)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2026-03-04' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (8), (30), (31), (153), (154), (155), (156), (157), (158), (257), (255)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2026-03-04' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (53), (284), (8), (159), (160), (161), (162), (153), (154), (256), (257)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2026-03-04' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (30), (31), (53), (155), (156), (157), (158), (159), (160), (255), (256)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2026-03-05' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (284), (8), (30), (161), (162), (153), (154), (155), (156), (257), (255)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2026-03-05' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (31), (53), (284), (157), (158), (159), (160), (161), (162), (256), (257)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2026-03-05' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (8), (30), (31), (153), (154), (155), (156), (157), (158), (255), (256)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2026-03-06' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (53), (284), (8), (159), (160), (161), (162), (153), (154), (257), (255)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2026-03-06' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (30), (31), (53), (155), (156), (157), (158), (159), (160), (256), (257)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2026-03-06' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (284), (8), (30), (161), (162), (153), (154), (155), (156), (255), (256)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2026-03-07' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (31), (53), (284), (157), (158), (159), (160), (161), (162), (257), (255)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2026-03-07' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (8), (30), (31), (153), (154), (155), (156), (157), (158), (256), (257)) AS v(staff_id) WHERE s.department_name = 'Γαστρεντερολογία' AND s.shift_date = '2026-03-07' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (9), (32), (33), (163), (164), (165), (166), (167), (168), (258), (259)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2026-03-01' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (54), (290), (9), (169), (170), (171), (172), (163), (164), (260), (258)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2026-03-01' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (32), (33), (54), (165), (166), (167), (168), (169), (170), (259), (260)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2026-03-01' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (290), (9), (32), (171), (172), (163), (164), (165), (166), (258), (259)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2026-03-02' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (33), (54), (290), (167), (168), (169), (170), (171), (172), (260), (258)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2026-03-02' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (9), (32), (33), (163), (164), (165), (166), (167), (168), (259), (260)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2026-03-02' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (54), (290), (9), (169), (170), (171), (172), (163), (164), (258), (259)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2026-03-03' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (32), (33), (54), (165), (166), (167), (168), (169), (170), (260), (258)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2026-03-03' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (290), (9), (32), (171), (172), (163), (164), (165), (166), (259), (260)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2026-03-03' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (33), (54), (290), (167), (168), (169), (170), (171), (172), (258), (259)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2026-03-04' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (9), (32), (33), (163), (164), (165), (166), (167), (168), (260), (258)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2026-03-04' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (54), (290), (9), (169), (170), (171), (172), (163), (164), (259), (260)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2026-03-04' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (32), (33), (54), (165), (166), (167), (168), (169), (170), (258), (259)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2026-03-05' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (290), (9), (32), (171), (172), (163), (164), (165), (166), (260), (258)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2026-03-05' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (33), (54), (290), (167), (168), (169), (170), (171), (172), (259), (260)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2026-03-05' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (9), (32), (33), (163), (164), (165), (166), (167), (168), (258), (259)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2026-03-06' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (54), (290), (9), (169), (170), (171), (172), (163), (164), (260), (258)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2026-03-06' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (32), (33), (54), (165), (166), (167), (168), (169), (170), (259), (260)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2026-03-06' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (290), (9), (32), (171), (172), (163), (164), (165), (166), (258), (259)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2026-03-07' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (33), (54), (290), (167), (168), (169), (170), (171), (172), (260), (258)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2026-03-07' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (9), (32), (33), (163), (164), (165), (166), (167), (168), (259), (260)) AS v(staff_id) WHERE s.department_name = 'Ουρολογία' AND s.shift_date = '2026-03-07' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (10), (34), (35), (173), (174), (175), (176), (177), (178), (261), (262)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2026-03-01' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (55), (285), (10), (179), (180), (181), (182), (173), (174), (263), (261)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2026-03-01' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (34), (35), (55), (175), (176), (177), (178), (179), (180), (262), (263)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2026-03-01' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (285), (10), (34), (181), (182), (173), (174), (175), (176), (261), (262)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2026-03-02' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (35), (55), (285), (177), (178), (179), (180), (181), (182), (263), (261)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2026-03-02' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (10), (34), (35), (173), (174), (175), (176), (177), (178), (262), (263)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2026-03-02' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (55), (285), (10), (179), (180), (181), (182), (173), (174), (261), (262)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2026-03-03' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (34), (35), (55), (175), (176), (177), (178), (179), (180), (263), (261)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2026-03-03' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (285), (10), (34), (181), (182), (173), (174), (175), (176), (262), (263)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2026-03-03' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (35), (55), (285), (177), (178), (179), (180), (181), (182), (261), (262)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2026-03-04' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (10), (34), (35), (173), (174), (175), (176), (177), (178), (263), (261)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2026-03-04' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (55), (285), (10), (179), (180), (181), (182), (173), (174), (262), (263)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2026-03-04' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (34), (35), (55), (175), (176), (177), (178), (179), (180), (261), (262)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2026-03-05' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (285), (10), (34), (181), (182), (173), (174), (175), (176), (263), (261)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2026-03-05' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (35), (55), (285), (177), (178), (179), (180), (181), (182), (262), (263)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2026-03-05' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (10), (34), (35), (173), (174), (175), (176), (177), (178), (261), (262)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2026-03-06' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (55), (285), (10), (179), (180), (181), (182), (173), (174), (263), (261)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2026-03-06' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (34), (35), (55), (175), (176), (177), (178), (179), (180), (262), (263)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2026-03-06' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (285), (10), (34), (181), (182), (173), (174), (175), (176), (261), (262)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2026-03-07' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (35), (55), (285), (177), (178), (179), (180), (181), (182), (263), (261)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2026-03-07' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (10), (34), (35), (173), (174), (175), (176), (177), (178), (262), (263)) AS v(staff_id) WHERE s.department_name = 'Νεφρολογία' AND s.shift_date = '2026-03-07' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (11), (36), (37), (183), (184), (185), (186), (187), (188), (264), (265)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2026-03-01' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (56), (65), (11), (189), (190), (191), (192), (183), (184), (266), (267)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2026-03-01' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (36), (37), (56), (185), (186), (187), (188), (189), (190), (264), (265)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2026-03-01' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (65), (11), (36), (191), (192), (183), (184), (185), (186), (266), (267)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2026-03-02' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (37), (56), (65), (187), (188), (189), (190), (191), (192), (264), (265)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2026-03-02' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (11), (36), (37), (183), (184), (185), (186), (187), (188), (266), (267)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2026-03-02' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (56), (65), (11), (189), (190), (191), (192), (183), (184), (264), (265)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2026-03-03' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (36), (37), (56), (185), (186), (187), (188), (189), (190), (266), (267)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2026-03-03' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (65), (11), (36), (191), (192), (183), (184), (185), (186), (264), (265)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2026-03-03' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (37), (56), (65), (187), (188), (189), (190), (191), (192), (266), (267)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2026-03-04' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (11), (36), (37), (183), (184), (185), (186), (187), (188), (264), (265)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2026-03-04' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (56), (65), (11), (189), (190), (191), (192), (183), (184), (266), (267)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2026-03-04' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (36), (37), (56), (185), (186), (187), (188), (189), (190), (264), (265)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2026-03-05' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (65), (11), (36), (191), (192), (183), (184), (185), (186), (266), (267)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2026-03-05' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (37), (56), (65), (187), (188), (189), (190), (191), (192), (264), (265)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2026-03-05' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (11), (36), (37), (183), (184), (185), (186), (187), (188), (266), (267)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2026-03-06' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (56), (65), (11), (189), (190), (191), (192), (183), (184), (264), (265)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2026-03-06' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (36), (37), (56), (185), (186), (187), (188), (189), (190), (266), (267)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2026-03-06' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (65), (11), (36), (191), (192), (183), (184), (185), (186), (264), (265)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2026-03-07' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (37), (56), (65), (187), (188), (189), (190), (191), (192), (266), (267)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2026-03-07' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (11), (36), (37), (183), (184), (185), (186), (187), (188), (264), (265)) AS v(staff_id) WHERE s.department_name = 'Ογκολογία' AND s.shift_date = '2026-03-07' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (12), (38), (39), (193), (194), (195), (196), (197), (198), (268), (269)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2026-03-01' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (57), (286), (12), (199), (200), (201), (202), (193), (194), (270), (268)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2026-03-01' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (38), (39), (57), (195), (196), (197), (198), (199), (200), (269), (270)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2026-03-01' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (286), (12), (38), (201), (202), (193), (194), (195), (196), (268), (269)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2026-03-02' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (39), (57), (286), (197), (198), (199), (200), (201), (202), (270), (268)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2026-03-02' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (12), (38), (39), (193), (194), (195), (196), (197), (198), (269), (270)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2026-03-02' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (57), (286), (12), (199), (200), (201), (202), (193), (194), (268), (269)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2026-03-03' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (38), (39), (57), (195), (196), (197), (198), (199), (200), (270), (268)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2026-03-03' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (286), (12), (38), (201), (202), (193), (194), (195), (196), (269), (270)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2026-03-03' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (39), (57), (286), (197), (198), (199), (200), (201), (202), (268), (269)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2026-03-04' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (12), (38), (39), (193), (194), (195), (196), (197), (198), (270), (268)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2026-03-04' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (57), (286), (12), (199), (200), (201), (202), (193), (194), (269), (270)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2026-03-04' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (38), (39), (57), (195), (196), (197), (198), (199), (200), (268), (269)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2026-03-05' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (286), (12), (38), (201), (202), (193), (194), (195), (196), (270), (268)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2026-03-05' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (39), (57), (286), (197), (198), (199), (200), (201), (202), (269), (270)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2026-03-05' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (12), (38), (39), (193), (194), (195), (196), (197), (198), (268), (269)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2026-03-06' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (57), (286), (12), (199), (200), (201), (202), (193), (194), (270), (268)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2026-03-06' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (38), (39), (57), (195), (196), (197), (198), (199), (200), (269), (270)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2026-03-06' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (286), (12), (38), (201), (202), (193), (194), (195), (196), (268), (269)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2026-03-07' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (39), (57), (286), (197), (198), (199), (200), (201), (202), (270), (268)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2026-03-07' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (12), (38), (39), (193), (194), (195), (196), (197), (198), (269), (270)) AS v(staff_id) WHERE s.department_name = 'Παιδιατρική' AND s.shift_date = '2026-03-07' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (13), (40), (41), (203), (204), (205), (206), (207), (208), (271), (272)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2026-03-01' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (58), (291), (13), (209), (210), (211), (212), (203), (204), (273), (271)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2026-03-01' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (40), (41), (58), (205), (206), (207), (208), (209), (210), (272), (273)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2026-03-01' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (291), (13), (40), (211), (212), (203), (204), (205), (206), (271), (272)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2026-03-02' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (41), (58), (291), (207), (208), (209), (210), (211), (212), (273), (271)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2026-03-02' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (13), (40), (41), (203), (204), (205), (206), (207), (208), (272), (273)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2026-03-02' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (58), (291), (13), (209), (210), (211), (212), (203), (204), (271), (272)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2026-03-03' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (40), (41), (58), (205), (206), (207), (208), (209), (210), (273), (271)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2026-03-03' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (291), (13), (40), (211), (212), (203), (204), (205), (206), (272), (273)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2026-03-03' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (41), (58), (291), (207), (208), (209), (210), (211), (212), (271), (272)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2026-03-04' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (13), (40), (41), (203), (204), (205), (206), (207), (208), (273), (271)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2026-03-04' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (58), (291), (13), (209), (210), (211), (212), (203), (204), (272), (273)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2026-03-04' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (40), (41), (58), (205), (206), (207), (208), (209), (210), (271), (272)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2026-03-05' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (291), (13), (40), (211), (212), (203), (204), (205), (206), (273), (271)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2026-03-05' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (41), (58), (291), (207), (208), (209), (210), (211), (212), (272), (273)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2026-03-05' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (13), (40), (41), (203), (204), (205), (206), (207), (208), (271), (272)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2026-03-06' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (58), (291), (13), (209), (210), (211), (212), (203), (204), (273), (271)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2026-03-06' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (40), (41), (58), (205), (206), (207), (208), (209), (210), (272), (273)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2026-03-06' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (291), (13), (40), (211), (212), (203), (204), (205), (206), (271), (272)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2026-03-07' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (41), (58), (291), (207), (208), (209), (210), (211), (212), (273), (271)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2026-03-07' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (13), (40), (41), (203), (204), (205), (206), (207), (208), (272), (273)) AS v(staff_id) WHERE s.department_name = 'Μαιευτική-Γυναικολογία' AND s.shift_date = '2026-03-07' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (14), (42), (43), (213), (214), (215), (216), (217), (218), (274), (275)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2026-03-01' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (59), (287), (14), (219), (220), (221), (222), (213), (214), (276), (277)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2026-03-01' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (42), (43), (59), (215), (216), (217), (218), (219), (220), (274), (275)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2026-03-01' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (287), (14), (42), (221), (222), (213), (214), (215), (216), (276), (277)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2026-03-02' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (43), (59), (287), (217), (218), (219), (220), (221), (222), (274), (275)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2026-03-02' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (14), (42), (43), (213), (214), (215), (216), (217), (218), (276), (277)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2026-03-02' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (59), (287), (14), (219), (220), (221), (222), (213), (214), (274), (275)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2026-03-03' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (42), (43), (59), (215), (216), (217), (218), (219), (220), (276), (277)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2026-03-03' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (287), (14), (42), (221), (222), (213), (214), (215), (216), (274), (275)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2026-03-03' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (43), (59), (287), (217), (218), (219), (220), (221), (222), (276), (277)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2026-03-04' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (14), (42), (43), (213), (214), (215), (216), (217), (218), (274), (275)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2026-03-04' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (59), (287), (14), (219), (220), (221), (222), (213), (214), (276), (277)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2026-03-04' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (42), (43), (59), (215), (216), (217), (218), (219), (220), (274), (275)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2026-03-05' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (287), (14), (42), (221), (222), (213), (214), (215), (216), (276), (277)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2026-03-05' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (43), (59), (287), (217), (218), (219), (220), (221), (222), (274), (275)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2026-03-05' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (14), (42), (43), (213), (214), (215), (216), (217), (218), (276), (277)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2026-03-06' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (59), (287), (14), (219), (220), (221), (222), (213), (214), (274), (275)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2026-03-06' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (42), (43), (59), (215), (216), (217), (218), (219), (220), (276), (277)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2026-03-06' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (287), (14), (42), (221), (222), (213), (214), (215), (216), (274), (275)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2026-03-07' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (43), (59), (287), (217), (218), (219), (220), (221), (222), (276), (277)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2026-03-07' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (14), (42), (43), (213), (214), (215), (216), (217), (218), (274), (275)) AS v(staff_id) WHERE s.department_name = 'Ψυχιατρική' AND s.shift_date = '2026-03-07' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (15), (21), (44), (223), (224), (225), (226), (227), (228), (278), (279)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2026-03-01' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (45), (47), (60), (229), (230), (231), (232), (223), (224), (280), (281)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2026-03-01' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (61), (15), (21), (225), (226), (227), (228), (229), (230), (282), (278)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2026-03-01' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (44), (45), (47), (231), (232), (223), (224), (225), (226), (279), (280)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2026-03-02' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (60), (61), (15), (227), (228), (229), (230), (231), (232), (281), (282)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2026-03-02' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (21), (44), (45), (223), (224), (225), (226), (227), (228), (278), (279)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2026-03-02' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (47), (60), (61), (229), (230), (231), (232), (223), (224), (280), (281)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2026-03-03' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (15), (21), (44), (225), (226), (227), (228), (229), (230), (282), (278)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2026-03-03' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (45), (47), (60), (231), (232), (223), (224), (225), (226), (279), (280)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2026-03-03' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (61), (15), (21), (227), (228), (229), (230), (231), (232), (281), (282)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2026-03-04' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (44), (45), (47), (223), (224), (225), (226), (227), (228), (278), (279)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2026-03-04' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (60), (61), (15), (229), (230), (231), (232), (223), (224), (280), (281)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2026-03-04' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (21), (44), (45), (225), (226), (227), (228), (229), (230), (282), (278)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2026-03-05' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (47), (60), (61), (231), (232), (223), (224), (225), (226), (279), (280)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2026-03-05' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (15), (21), (44), (227), (228), (229), (230), (231), (232), (281), (282)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2026-03-05' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (45), (47), (60), (223), (224), (225), (226), (227), (228), (278), (279)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2026-03-06' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (61), (15), (21), (229), (230), (231), (232), (223), (224), (280), (281)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2026-03-06' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (44), (45), (47), (225), (226), (227), (228), (229), (230), (282), (278)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2026-03-06' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (60), (61), (15), (231), (232), (223), (224), (225), (226), (279), (280)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2026-03-07' AND s.shift_type = 'Πρωινή Βάρδια (07:00-15:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (21), (44), (45), (227), (228), (229), (230), (231), (232), (281), (282)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2026-03-07' AND s.shift_type = 'Απογευματινή Βάρδια (15:00-23:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
+INSERT INTO shift_staff (shift_id, staff_id) SELECT s.shift_id, v.staff_id FROM shifts s, (VALUES (47), (60), (61), (223), (224), (225), (226), (227), (228), (278), (279)) AS v(staff_id) WHERE s.department_name = 'ΜΕΘ' AND s.shift_date = '2026-03-07' AND s.shift_type = 'Νυχτερινή Βάρδια (23:00-07:00)' AND EXTRACT(YEAR FROM s.shift_date) = 2026 AND NOT EXISTS (SELECT 1 FROM shift_staff ss WHERE ss.shift_id = s.shift_id AND ss.staff_id = v.staff_id);
 
 
 
@@ -20280,6 +20280,660 @@ SET
         WHEN 7 THEN 240
     END
 WHERE hp.start_time IS NULL;
+-- ============================================================
+-- procedure_participant: 647 εγγραφές
+-- ============================================================
+INSERT INTO procedure_participant
+    (hosp_procedure_id, staff_id, role)
+VALUES
+(1, 37, 'Βοηθός Χειρουργός'),
+(1, 14, 'Βοηθός Ιατρός'),
+(2, 77, 'Αναισθησιολόγος'),
+(2, 12, 'Βοηθός Χειρουργός'),
+(3, 226, 'Βοηθός Νοσηλευτής'),
+(4, 190, 'Βοηθός Νοσηλευτής'),
+(4, 37, 'Βοηθός Χειρουργός'),
+(5, 56, 'Αναισθησιολόγος'),
+(5, 29, 'Αναισθησιολόγος'),
+(5, 51, 'Βοηθός Χειρουργός'),
+(6, 34, 'Βοηθός Χειρουργός'),
+(6, 220, 'Βοηθός Νοσηλευτής'),
+(7, 72, 'Αναισθησιολόγος'),
+(7, 175, 'Νοσηλευτής Αναισθησίας'),
+(7, 9, 'Βοηθός Χειρουργός'),
+(8, 103, 'Βοηθός Νοσηλευτής'),
+(8, 181, 'Εργαλειοδότης'),
+(9, 124, 'Εργαλειοδότης'),
+(9, 287, 'Αναισθησιολόγος'),
+(10, 101, 'Νοσηλευτής Αναισθησίας'),
+(10, 220, 'Νοσηλευτής Αναισθησίας'),
+(11, 35, 'Βοηθός Ιατρός'),
+(12, 43, 'Βοηθός Χειρουργός'),
+(12, 5, 'Αναισθησιολόγος'),
+(13, 74, 'Βοηθός Ιατρός'),
+(13, 286, 'Αναισθησιολόγος'),
+(14, 200, 'Βοηθός Νοσηλευτής'),
+(14, 33, 'Βοηθός Ιατρός'),
+(15, 76, 'Αναισθησιολόγος'),
+(15, 185, 'Εργαλειοδότης'),
+(16, 213, 'Εργαλειοδότης'),
+(17, 15, 'Βοηθός Χειρουργός'),
+(18, 191, 'Νοσηλευτής Αναισθησίας'),
+(18, 49, 'Βοηθός Ιατρός'),
+(19, 72, 'Βοηθός Χειρουργός'),
+(19, 112, 'Νοσηλευτής Αναισθησίας'),
+(19, 152, 'Νοσηλευτής Αναισθησίας'),
+(20, 21, 'Αναισθησιολόγος'),
+(20, 35, 'Βοηθός Ιατρός'),
+(21, 14, 'Βοηθός Ιατρός'),
+(21, 284, 'Βοηθός Ιατρός'),
+(21, 122, 'Εργαλειοδότης'),
+(22, 69, 'Βοηθός Χειρουργός'),
+(22, 64, 'Βοηθός Χειρουργός'),
+(22, 48, 'Αναισθησιολόγος'),
+(23, 74, 'Βοηθός Χειρουργός'),
+(24, 9, 'Βοηθός Ιατρός'),
+(25, 62, 'Βοηθός Ιατρός'),
+(25, 70, 'Βοηθός Ιατρός'),
+(25, 28, 'Βοηθός Ιατρός'),
+(26, 162, 'Εργαλειοδότης'),
+(26, 179, 'Εργαλειοδότης'),
+(26, 200, 'Βοηθός Νοσηλευτής'),
+(27, 3, 'Βοηθός Ιατρός'),
+(28, 1, 'Βοηθός Χειρουργός'),
+(28, 98, 'Βοηθός Νοσηλευτής'),
+(29, 43, 'Βοηθός Χειρουργός'),
+(30, 64, 'Βοηθός Χειρουργός'),
+(30, 76, 'Βοηθός Ιατρός'),
+(31, 187, 'Βοηθός Νοσηλευτής'),
+(31, 286, 'Αναισθησιολόγος'),
+(32, 7, 'Βοηθός Ιατρός'),
+(32, 108, 'Βοηθός Νοσηλευτής'),
+(33, 14, 'Βοηθός Χειρουργός'),
+(33, 71, 'Αναισθησιολόγος'),
+(34, 60, 'Βοηθός Χειρουργός'),
+(35, 72, 'Βοηθός Χειρουργός'),
+(35, 71, 'Βοηθός Χειρουργός'),
+(35, 143, 'Βοηθός Νοσηλευτής'),
+(36, 53, 'Βοηθός Χειρουργός'),
+(36, 1, 'Αναισθησιολόγος'),
+(37, 199, 'Εργαλειοδότης'),
+(38, 225, 'Νοσηλευτής Αναισθησίας'),
+(38, 122, 'Βοηθός Νοσηλευτής'),
+(39, 231, 'Νοσηλευτής Αναισθησίας'),
+(40, 97, 'Βοηθός Νοσηλευτής'),
+(40, 66, 'Βοηθός Ιατρός'),
+(41, 103, 'Βοηθός Νοσηλευτής'),
+(42, 31, 'Αναισθησιολόγος'),
+(43, 146, 'Νοσηλευτής Αναισθησίας'),
+(44, 190, 'Νοσηλευτής Αναισθησίας'),
+(44, 68, 'Αναισθησιολόγος'),
+(45, 41, 'Βοηθός Χειρουργός'),
+(45, 17, 'Βοηθός Ιατρός'),
+(45, 200, 'Εργαλειοδότης'),
+(46, 85, 'Εργαλειοδότης'),
+(46, 228, 'Βοηθός Νοσηλευτής'),
+(46, 29, 'Βοηθός Ιατρός'),
+(47, 100, 'Βοηθός Νοσηλευτής'),
+(48, 70, 'Βοηθός Ιατρός'),
+(48, 286, 'Βοηθός Ιατρός'),
+(49, 159, 'Νοσηλευτής Αναισθησίας'),
+(50, 150, 'Βοηθός Νοσηλευτής'),
+(51, 122, 'Εργαλειοδότης'),
+(51, 27, 'Βοηθός Ιατρός'),
+(51, 290, 'Βοηθός Ιατρός'),
+(52, 34, 'Βοηθός Χειρουργός'),
+(52, 57, 'Αναισθησιολόγος'),
+(52, 45, 'Βοηθός Χειρουργός'),
+(53, 58, 'Βοηθός Ιατρός'),
+(53, 226, 'Βοηθός Νοσηλευτής'),
+(54, 121, 'Νοσηλευτής Αναισθησίας'),
+(55, 72, 'Βοηθός Χειρουργός'),
+(56, 48, 'Βοηθός Χειρουργός'),
+(56, 136, 'Νοσηλευτής Αναισθησίας'),
+(57, 73, 'Αναισθησιολόγος'),
+(58, 143, 'Βοηθός Νοσηλευτής'),
+(58, 128, 'Εργαλειοδότης'),
+(58, 43, 'Αναισθησιολόγος'),
+(59, 146, 'Εργαλειοδότης'),
+(59, 291, 'Βοηθός Χειρουργός'),
+(59, 5, 'Αναισθησιολόγος'),
+(60, 200, 'Εργαλειοδότης'),
+(61, 141, 'Βοηθός Νοσηλευτής'),
+(61, 25, 'Αναισθησιολόγος'),
+(62, 154, 'Εργαλειοδότης'),
+(62, 186, 'Νοσηλευτής Αναισθησίας'),
+(63, 4, 'Βοηθός Χειρουργός'),
+(63, 149, 'Βοηθός Νοσηλευτής'),
+(63, 36, 'Βοηθός Χειρουργός'),
+(64, 41, 'Αναισθησιολόγος'),
+(65, 51, 'Βοηθός Ιατρός'),
+(65, 6, 'Βοηθός Ιατρός'),
+(66, 70, 'Βοηθός Ιατρός'),
+(66, 133, 'Εργαλειοδότης'),
+(67, 167, 'Νοσηλευτής Αναισθησίας'),
+(67, 16, 'Βοηθός Ιατρός'),
+(68, 287, 'Αναισθησιολόγος'),
+(68, 38, 'Βοηθός Ιατρός'),
+(68, 55, 'Βοηθός Ιατρός'),
+(69, 127, 'Νοσηλευτής Αναισθησίας'),
+(69, 52, 'Βοηθός Ιατρός'),
+(69, 161, 'Εργαλειοδότης'),
+(70, 165, 'Εργαλειοδότης'),
+(71, 213, 'Εργαλειοδότης'),
+(71, 126, 'Νοσηλευτής Αναισθησίας'),
+(72, 283, 'Βοηθός Ιατρός'),
+(73, 143, 'Νοσηλευτής Αναισθησίας'),
+(73, 26, 'Βοηθός Χειρουργός'),
+(74, 62, 'Βοηθός Ιατρός'),
+(75, 55, 'Βοηθός Ιατρός'),
+(75, 51, 'Αναισθησιολόγος'),
+(75, 19, 'Βοηθός Ιατρός'),
+(76, 110, 'Εργαλειοδότης'),
+(76, 291, 'Βοηθός Ιατρός'),
+(77, 16, 'Αναισθησιολόγος'),
+(77, 62, 'Βοηθός Ιατρός'),
+(78, 41, 'Αναισθησιολόγος'),
+(78, 212, 'Εργαλειοδότης'),
+(79, 22, 'Βοηθός Ιατρός'),
+(79, 198, 'Εργαλειοδότης'),
+(79, 153, 'Νοσηλευτής Αναισθησίας'),
+(80, 57, 'Βοηθός Χειρουργός'),
+(80, 143, 'Εργαλειοδότης'),
+(81, 103, 'Βοηθός Νοσηλευτής'),
+(81, 51, 'Βοηθός Ιατρός'),
+(82, 55, 'Αναισθησιολόγος'),
+(83, 8, 'Βοηθός Χειρουργός'),
+(83, 182, 'Νοσηλευτής Αναισθησίας'),
+(84, 75, 'Αναισθησιολόγος'),
+(84, 47, 'Αναισθησιολόγος'),
+(84, 190, 'Νοσηλευτής Αναισθησίας'),
+(85, 79, 'Βοηθός Χειρουργός'),
+(85, 35, 'Αναισθησιολόγος'),
+(86, 287, 'Βοηθός Ιατρός'),
+(86, 125, 'Εργαλειοδότης'),
+(87, 219, 'Βοηθός Νοσηλευτής'),
+(87, 228, 'Νοσηλευτής Αναισθησίας'),
+(87, 284, 'Αναισθησιολόγος'),
+(88, 7, 'Αναισθησιολόγος'),
+(89, 43, 'Αναισθησιολόγος'),
+(89, 180, 'Εργαλειοδότης'),
+(90, 147, 'Βοηθός Νοσηλευτής'),
+(90, 71, 'Βοηθός Χειρουργός'),
+(90, 173, 'Βοηθός Νοσηλευτής'),
+(91, 93, 'Βοηθός Νοσηλευτής'),
+(91, 135, 'Βοηθός Νοσηλευτής'),
+(92, 62, 'Βοηθός Ιατρός'),
+(92, 29, 'Αναισθησιολόγος'),
+(93, 125, 'Νοσηλευτής Αναισθησίας'),
+(93, 112, 'Βοηθός Νοσηλευτής'),
+(94, 4, 'Αναισθησιολόγος'),
+(94, 51, 'Αναισθησιολόγος'),
+(94, 133, 'Βοηθός Νοσηλευτής'),
+(95, 145, 'Βοηθός Νοσηλευτής'),
+(95, 161, 'Νοσηλευτής Αναισθησίας'),
+(96, 74, 'Βοηθός Χειρουργός'),
+(96, 55, 'Βοηθός Ιατρός'),
+(97, 44, 'Βοηθός Χειρουργός'),
+(97, 208, 'Βοηθός Νοσηλευτής'),
+(98, 59, 'Βοηθός Ιατρός'),
+(98, 23, 'Βοηθός Ιατρός'),
+(99, 220, 'Εργαλειοδότης'),
+(99, 77, 'Αναισθησιολόγος'),
+(100, 13, 'Αναισθησιολόγος'),
+(100, 145, 'Εργαλειοδότης'),
+(101, 169, 'Βοηθός Νοσηλευτής'),
+(101, 43, 'Βοηθός Χειρουργός'),
+(102, 35, 'Αναισθησιολόγος'),
+(102, 79, 'Βοηθός Ιατρός'),
+(103, 67, 'Βοηθός Χειρουργός'),
+(103, 53, 'Αναισθησιολόγος'),
+(103, 31, 'Βοηθός Ιατρός'),
+(104, 197, 'Βοηθός Νοσηλευτής'),
+(104, 29, 'Αναισθησιολόγος'),
+(105, 76, 'Αναισθησιολόγος'),
+(105, 69, 'Αναισθησιολόγος'),
+(106, 167, 'Εργαλειοδότης'),
+(106, 152, 'Εργαλειοδότης'),
+(107, 26, 'Αναισθησιολόγος'),
+(108, 290, 'Βοηθός Χειρουργός'),
+(109, 153, 'Νοσηλευτής Αναισθησίας'),
+(110, 155, 'Βοηθός Νοσηλευτής'),
+(110, 159, 'Βοηθός Νοσηλευτής'),
+(111, 70, 'Βοηθός Χειρουργός'),
+(111, 7, 'Βοηθός Ιατρός'),
+(112, 208, 'Βοηθός Νοσηλευτής'),
+(113, 62, 'Αναισθησιολόγος'),
+(113, 24, 'Βοηθός Χειρουργός'),
+(113, 65, 'Βοηθός Χειρουργός'),
+(114, 10, 'Βοηθός Ιατρός'),
+(114, 96, 'Βοηθός Νοσηλευτής'),
+(114, 75, 'Αναισθησιολόγος'),
+(115, 73, 'Αναισθησιολόγος'),
+(116, 140, 'Νοσηλευτής Αναισθησίας'),
+(116, 58, 'Αναισθησιολόγος'),
+(117, 161, 'Νοσηλευτής Αναισθησίας'),
+(117, 108, 'Βοηθός Νοσηλευτής'),
+(117, 151, 'Νοσηλευτής Αναισθησίας'),
+(118, 71, 'Βοηθός Χειρουργός'),
+(119, 290, 'Βοηθός Ιατρός'),
+(120, 37, 'Βοηθός Ιατρός'),
+(120, 60, 'Βοηθός Χειρουργός'),
+(121, 133, 'Εργαλειοδότης'),
+(121, 29, 'Βοηθός Ιατρός'),
+(122, 19, 'Βοηθός Χειρουργός'),
+(123, 228, 'Εργαλειοδότης'),
+(124, 40, 'Βοηθός Ιατρός'),
+(124, 35, 'Βοηθός Ιατρός'),
+(125, 78, 'Βοηθός Χειρουργός'),
+(125, 165, 'Νοσηλευτής Αναισθησίας'),
+(126, 288, 'Βοηθός Ιατρός'),
+(127, 288, 'Αναισθησιολόγος'),
+(127, 24, 'Αναισθησιολόγος'),
+(128, 36, 'Βοηθός Χειρουργός'),
+(128, 194, 'Νοσηλευτής Αναισθησίας'),
+(129, 203, 'Εργαλειοδότης'),
+(129, 43, 'Βοηθός Ιατρός'),
+(129, 22, 'Αναισθησιολόγος'),
+(130, 286, 'Αναισθησιολόγος'),
+(130, 223, 'Βοηθός Νοσηλευτής'),
+(131, 42, 'Βοηθός Χειρουργός'),
+(131, 186, 'Νοσηλευτής Αναισθησίας'),
+(132, 70, 'Αναισθησιολόγος'),
+(132, 25, 'Βοηθός Ιατρός'),
+(132, 65, 'Βοηθός Ιατρός'),
+(133, 36, 'Βοηθός Ιατρός'),
+(133, 39, 'Αναισθησιολόγος'),
+(134, 4, 'Βοηθός Ιατρός'),
+(134, 144, 'Νοσηλευτής Αναισθησίας'),
+(134, 73, 'Βοηθός Χειρουργός'),
+(135, 16, 'Αναισθησιολόγος'),
+(135, 122, 'Εργαλειοδότης'),
+(136, 36, 'Αναισθησιολόγος'),
+(136, 203, 'Βοηθός Νοσηλευτής'),
+(136, 20, 'Αναισθησιολόγος'),
+(137, 18, 'Βοηθός Χειρουργός'),
+(138, 189, 'Εργαλειοδότης'),
+(139, 1, 'Αναισθησιολόγος'),
+(139, 231, 'Νοσηλευτής Αναισθησίας'),
+(139, 21, 'Αναισθησιολόγος'),
+(140, 72, 'Βοηθός Ιατρός'),
+(140, 43, 'Βοηθός Χειρουργός'),
+(141, 50, 'Βοηθός Χειρουργός'),
+(141, 188, 'Βοηθός Νοσηλευτής'),
+(141, 62, 'Βοηθός Ιατρός'),
+(142, 286, 'Βοηθός Ιατρός'),
+(142, 209, 'Βοηθός Νοσηλευτής'),
+(142, 77, 'Αναισθησιολόγος'),
+(143, 195, 'Βοηθός Νοσηλευτής'),
+(143, 60, 'Βοηθός Χειρουργός'),
+(143, 187, 'Νοσηλευτής Αναισθησίας'),
+(144, 34, 'Αναισθησιολόγος'),
+(144, 184, 'Νοσηλευτής Αναισθησίας'),
+(144, 45, 'Βοηθός Ιατρός'),
+(145, 42, 'Βοηθός Ιατρός'),
+(145, 207, 'Νοσηλευτής Αναισθησίας'),
+(145, 9, 'Βοηθός Χειρουργός'),
+(146, 141, 'Νοσηλευτής Αναισθησίας'),
+(146, 13, 'Βοηθός Ιατρός'),
+(147, 22, 'Βοηθός Ιατρός'),
+(147, 4, 'Βοηθός Χειρουργός'),
+(148, 47, 'Αναισθησιολόγος'),
+(148, 33, 'Βοηθός Ιατρός'),
+(149, 129, 'Βοηθός Νοσηλευτής'),
+(149, 80, 'Αναισθησιολόγος'),
+(150, 76, 'Βοηθός Χειρουργός'),
+(150, 284, 'Αναισθησιολόγος'),
+(151, 202, 'Εργαλειοδότης'),
+(151, 123, 'Βοηθός Νοσηλευτής'),
+(152, 77, 'Αναισθησιολόγος'),
+(152, 191, 'Νοσηλευτής Αναισθησίας'),
+(153, 133, 'Εργαλειοδότης'),
+(154, 49, 'Βοηθός Ιατρός'),
+(154, 38, 'Βοηθός Ιατρός'),
+(154, 288, 'Αναισθησιολόγος'),
+(155, 289, 'Βοηθός Ιατρός'),
+(156, 210, 'Εργαλειοδότης'),
+(156, 141, 'Νοσηλευτής Αναισθησίας'),
+(156, 139, 'Νοσηλευτής Αναισθησίας'),
+(157, 286, 'Βοηθός Ιατρός'),
+(158, 93, 'Εργαλειοδότης'),
+(158, 91, 'Νοσηλευτής Αναισθησίας'),
+(158, 17, 'Βοηθός Χειρουργός'),
+(159, 55, 'Βοηθός Χειρουργός'),
+(159, 72, 'Αναισθησιολόγος'),
+(159, 35, 'Βοηθός Χειρουργός'),
+(160, 206, 'Εργαλειοδότης'),
+(161, 15, 'Αναισθησιολόγος'),
+(161, 119, 'Βοηθός Νοσηλευτής'),
+(162, 184, 'Νοσηλευτής Αναισθησίας'),
+(162, 52, 'Βοηθός Χειρουργός'),
+(162, 16, 'Αναισθησιολόγος'),
+(163, 150, 'Νοσηλευτής Αναισθησίας'),
+(163, 283, 'Αναισθησιολόγος'),
+(164, 4, 'Βοηθός Ιατρός'),
+(165, 80, 'Βοηθός Χειρουργός'),
+(165, 201, 'Νοσηλευτής Αναισθησίας'),
+(165, 54, 'Βοηθός Χειρουργός'),
+(166, 160, 'Εργαλειοδότης'),
+(167, 70, 'Βοηθός Χειρουργός'),
+(168, 291, 'Βοηθός Ιατρός'),
+(168, 20, 'Αναισθησιολόγος'),
+(169, 187, 'Εργαλειοδότης'),
+(169, 48, 'Βοηθός Χειρουργός'),
+(170, 175, 'Βοηθός Νοσηλευτής'),
+(170, 178, 'Νοσηλευτής Αναισθησίας'),
+(171, 98, 'Εργαλειοδότης'),
+(171, 16, 'Αναισθησιολόγος'),
+(171, 29, 'Βοηθός Ιατρός'),
+(172, 95, 'Εργαλειοδότης'),
+(172, 17, 'Βοηθός Ιατρός'),
+(173, 224, 'Βοηθός Νοσηλευτής'),
+(174, 142, 'Εργαλειοδότης'),
+(174, 83, 'Εργαλειοδότης'),
+(175, 17, 'Βοηθός Ιατρός'),
+(175, 24, 'Βοηθός Χειρουργός'),
+(175, 89, 'Βοηθός Νοσηλευτής'),
+(176, 143, 'Νοσηλευτής Αναισθησίας'),
+(177, 7, 'Βοηθός Χειρουργός'),
+(177, 217, 'Βοηθός Νοσηλευτής'),
+(178, 47, 'Βοηθός Ιατρός'),
+(178, 59, 'Βοηθός Ιατρός'),
+(179, 216, 'Εργαλειοδότης'),
+(180, 98, 'Εργαλειοδότης'),
+(180, 193, 'Νοσηλευτής Αναισθησίας'),
+(181, 196, 'Βοηθός Νοσηλευτής'),
+(182, 20, 'Βοηθός Χειρουργός'),
+(182, 82, 'Βοηθός Ιατρός'),
+(182, 44, 'Αναισθησιολόγος'),
+(183, 60, 'Βοηθός Ιατρός'),
+(183, 108, 'Νοσηλευτής Αναισθησίας'),
+(183, 286, 'Βοηθός Ιατρός'),
+(184, 28, 'Αναισθησιολόγος'),
+(184, 31, 'Αναισθησιολόγος'),
+(184, 62, 'Αναισθησιολόγος'),
+(185, 56, 'Αναισθησιολόγος'),
+(185, 178, 'Βοηθός Νοσηλευτής'),
+(186, 12, 'Βοηθός Χειρουργός'),
+(186, 14, 'Βοηθός Ιατρός'),
+(187, 225, 'Βοηθός Νοσηλευτής'),
+(187, 73, 'Βοηθός Ιατρός'),
+(188, 47, 'Βοηθός Ιατρός'),
+(188, 191, 'Νοσηλευτής Αναισθησίας'),
+(189, 40, 'Αναισθησιολόγος'),
+(190, 20, 'Βοηθός Ιατρός'),
+(191, 172, 'Νοσηλευτής Αναισθησίας'),
+(191, 36, 'Βοηθός Ιατρός'),
+(192, 73, 'Βοηθός Ιατρός'),
+(193, 89, 'Νοσηλευτής Αναισθησίας'),
+(193, 152, 'Βοηθός Νοσηλευτής'),
+(194, 162, 'Εργαλειοδότης'),
+(195, 19, 'Βοηθός Ιατρός'),
+(195, 100, 'Βοηθός Νοσηλευτής'),
+(196, 106, 'Νοσηλευτής Αναισθησίας'),
+(196, 49, 'Αναισθησιολόγος'),
+(197, 41, 'Βοηθός Ιατρός'),
+(197, 75, 'Βοηθός Ιατρός'),
+(198, 21, 'Βοηθός Ιατρός'),
+(199, 58, 'Βοηθός Ιατρός'),
+(200, 189, 'Εργαλειοδότης'),
+(200, 67, 'Βοηθός Χειρουργός'),
+(201, 288, 'Βοηθός Ιατρός'),
+(201, 69, 'Βοηθός Ιατρός'),
+(202, 78, 'Βοηθός Χειρουργός'),
+(202, 39, 'Βοηθός Χειρουργός'),
+(203, 157, 'Εργαλειοδότης'),
+(203, 65, 'Βοηθός Ιατρός'),
+(203, 17, 'Αναισθησιολόγος'),
+(204, 72, 'Βοηθός Ιατρός'),
+(204, 101, 'Εργαλειοδότης'),
+(205, 3, 'Αναισθησιολόγος'),
+(205, 163, 'Νοσηλευτής Αναισθησίας'),
+(205, 53, 'Βοηθός Ιατρός'),
+(206, 53, 'Βοηθός Χειρουργός'),
+(206, 126, 'Νοσηλευτής Αναισθησίας'),
+(207, 175, 'Βοηθός Νοσηλευτής'),
+(207, 15, 'Βοηθός Χειρουργός'),
+(208, 11, 'Αναισθησιολόγος'),
+(208, 169, 'Βοηθός Νοσηλευτής'),
+(209, 67, 'Βοηθός Ιατρός'),
+(209, 68, 'Βοηθός Χειρουργός'),
+(210, 284, 'Βοηθός Χειρουργός'),
+(210, 20, 'Αναισθησιολόγος'),
+(210, 80, 'Βοηθός Χειρουργός'),
+(211, 128, 'Νοσηλευτής Αναισθησίας'),
+(211, 74, 'Βοηθός Ιατρός'),
+(211, 75, 'Βοηθός Ιατρός'),
+(212, 163, 'Βοηθός Νοσηλευτής'),
+(212, 62, 'Αναισθησιολόγος'),
+(213, 97, 'Εργαλειοδότης'),
+(213, 40, 'Αναισθησιολόγος'),
+(214, 38, 'Βοηθός Χειρουργός'),
+(214, 106, 'Νοσηλευτής Αναισθησίας'),
+(215, 75, 'Βοηθός Ιατρός'),
+(215, 93, 'Εργαλειοδότης'),
+(216, 25, 'Αναισθησιολόγος'),
+(216, 211, 'Βοηθός Νοσηλευτής'),
+(216, 198, 'Βοηθός Νοσηλευτής'),
+(217, 104, 'Νοσηλευτής Αναισθησίας'),
+(217, 93, 'Βοηθός Νοσηλευτής'),
+(217, 197, 'Νοσηλευτής Αναισθησίας'),
+(218, 49, 'Αναισθησιολόγος'),
+(218, 45, 'Βοηθός Ιατρός'),
+(219, 168, 'Βοηθός Νοσηλευτής'),
+(219, 73, 'Βοηθός Ιατρός'),
+(220, 286, 'Βοηθός Ιατρός'),
+(220, 168, 'Βοηθός Νοσηλευτής'),
+(221, 46, 'Αναισθησιολόγος'),
+(221, 183, 'Βοηθός Νοσηλευτής'),
+(222, 162, 'Νοσηλευτής Αναισθησίας'),
+(222, 44, 'Βοηθός Χειρουργός'),
+(223, 217, 'Βοηθός Νοσηλευτής'),
+(223, 191, 'Νοσηλευτής Αναισθησίας'),
+(224, 24, 'Βοηθός Χειρουργός'),
+(224, 65, 'Βοηθός Χειρουργός'),
+(225, 10, 'Αναισθησιολόγος'),
+(226, 71, 'Βοηθός Ιατρός'),
+(226, 92, 'Νοσηλευτής Αναισθησίας'),
+(226, 82, 'Βοηθός Χειρουργός'),
+(227, 25, 'Βοηθός Ιατρός'),
+(227, 125, 'Νοσηλευτής Αναισθησίας'),
+(228, 288, 'Βοηθός Ιατρός'),
+(228, 57, 'Βοηθός Ιατρός'),
+(229, 197, 'Βοηθός Νοσηλευτής'),
+(230, 62, 'Βοηθός Χειρουργός'),
+(230, 76, 'Αναισθησιολόγος'),
+(231, 49, 'Βοηθός Ιατρός'),
+(231, 21, 'Βοηθός Χειρουργός'),
+(232, 34, 'Βοηθός Χειρουργός'),
+(232, 178, 'Νοσηλευτής Αναισθησίας'),
+(232, 216, 'Βοηθός Νοσηλευτής'),
+(233, 152, 'Εργαλειοδότης'),
+(234, 57, 'Βοηθός Χειρουργός'),
+(234, 139, 'Εργαλειοδότης'),
+(234, 89, 'Εργαλειοδότης'),
+(235, 31, 'Αναισθησιολόγος'),
+(236, 4, 'Αναισθησιολόγος'),
+(236, 168, 'Βοηθός Νοσηλευτής'),
+(236, 38, 'Αναισθησιολόγος'),
+(237, 62, 'Αναισθησιολόγος'),
+(237, 103, 'Βοηθός Νοσηλευτής'),
+(238, 223, 'Νοσηλευτής Αναισθησίας'),
+(239, 37, 'Βοηθός Χειρουργός'),
+(239, 7, 'Βοηθός Χειρουργός'),
+(240, 200, 'Βοηθός Νοσηλευτής'),
+(240, 65, 'Βοηθός Ιατρός'),
+(241, 230, 'Βοηθός Νοσηλευτής'),
+(241, 157, 'Εργαλειοδότης'),
+(242, 75, 'Αναισθησιολόγος'),
+(243, 217, 'Εργαλειοδότης'),
+(244, 65, 'Βοηθός Ιατρός'),
+(245, 62, 'Βοηθός Χειρουργός'),
+(245, 178, 'Εργαλειοδότης'),
+(246, 9, 'Αναισθησιολόγος'),
+(246, 287, 'Βοηθός Ιατρός'),
+(247, 43, 'Βοηθός Χειρουργός'),
+(248, 284, 'Βοηθός Χειρουργός'),
+(249, 205, 'Νοσηλευτής Αναισθησίας'),
+(249, 18, 'Βοηθός Χειρουργός'),
+(249, 200, 'Βοηθός Νοσηλευτής'),
+(250, 27, 'Βοηθός Χειρουργός'),
+(251, 51, 'Βοηθός Ιατρός'),
+(251, 5, 'Βοηθός Ιατρός'),
+(252, 7, 'Βοηθός Ιατρός'),
+(253, 49, 'Αναισθησιολόγος'),
+(253, 195, 'Εργαλειοδότης'),
+(254, 290, 'Αναισθησιολόγος'),
+(254, 68, 'Αναισθησιολόγος'),
+(255, 103, 'Εργαλειοδότης'),
+(255, 130, 'Νοσηλευτής Αναισθησίας'),
+(255, 14, 'Βοηθός Χειρουργός'),
+(256, 58, 'Βοηθός Ιατρός'),
+(256, 125, 'Νοσηλευτής Αναισθησίας'),
+(257, 47, 'Βοηθός Ιατρός'),
+(257, 153, 'Νοσηλευτής Αναισθησίας'),
+(258, 102, 'Νοσηλευτής Αναισθησίας'),
+(258, 177, 'Νοσηλευτής Αναισθησίας'),
+(258, 124, 'Βοηθός Νοσηλευτής'),
+(259, 195, 'Βοηθός Νοσηλευτής'),
+(260, 284, 'Αναισθησιολόγος'),
+(261, 91, 'Νοσηλευτής Αναισθησίας'),
+(261, 59, 'Αναισθησιολόγος'),
+(262, 229, 'Βοηθός Νοσηλευτής'),
+(262, 52, 'Αναισθησιολόγος'),
+(263, 15, 'Βοηθός Χειρουργός'),
+(263, 210, 'Νοσηλευτής Αναισθησίας'),
+(264, 34, 'Αναισθησιολόγος'),
+(264, 137, 'Νοσηλευτής Αναισθησίας'),
+(265, 208, 'Βοηθός Νοσηλευτής'),
+(266, 198, 'Βοηθός Νοσηλευτής'),
+(267, 12, 'Βοηθός Ιατρός'),
+(267, 164, 'Νοσηλευτής Αναισθησίας'),
+(267, 9, 'Βοηθός Ιατρός'),
+(268, 123, 'Νοσηλευτής Αναισθησίας'),
+(268, 128, 'Εργαλειοδότης'),
+(269, 27, 'Βοηθός Χειρουργός'),
+(269, 66, 'Βοηθός Χειρουργός'),
+(270, 61, 'Βοηθός Ιατρός'),
+(270, 12, 'Βοηθός Χειρουργός'),
+(271, 205, 'Νοσηλευτής Αναισθησίας'),
+(271, 54, 'Βοηθός Ιατρός'),
+(272, 101, 'Εργαλειοδότης'),
+(273, 17, 'Βοηθός Ιατρός'),
+(273, 129, 'Βοηθός Νοσηλευτής'),
+(274, 97, 'Βοηθός Νοσηλευτής'),
+(274, 40, 'Βοηθός Χειρουργός'),
+(275, 140, 'Εργαλειοδότης'),
+(276, 37, 'Βοηθός Χειρουργός'),
+(276, 284, 'Βοηθός Ιατρός'),
+(276, 283, 'Αναισθησιολόγος'),
+(277, 284, 'Βοηθός Χειρουργός'),
+(277, 76, 'Βοηθός Χειρουργός'),
+(278, 169, 'Νοσηλευτής Αναισθησίας'),
+(279, 103, 'Βοηθός Νοσηλευτής'),
+(280, 150, 'Νοσηλευτής Αναισθησίας'),
+(280, 75, 'Αναισθησιολόγος'),
+(280, 90, 'Εργαλειοδότης'),
+(281, 284, 'Αναισθησιολόγος'),
+(281, 290, 'Αναισθησιολόγος'),
+(281, 10, 'Βοηθός Ιατρός'),
+(282, 63, 'Αναισθησιολόγος'),
+(283, 163, 'Νοσηλευτής Αναισθησίας'),
+(284, 171, 'Εργαλειοδότης'),
+(284, 49, 'Βοηθός Ιατρός'),
+(285, 60, 'Βοηθός Χειρουργός'),
+(285, 32, 'Βοηθός Χειρουργός'),
+(286, 51, 'Βοηθός Ιατρός'),
+(287, 123, 'Εργαλειοδότης'),
+(287, 164, 'Βοηθός Νοσηλευτής'),
+(288, 67, 'Αναισθησιολόγος'),
+(288, 40, 'Αναισθησιολόγος'),
+(288, 52, 'Βοηθός Ιατρός'),
+(289, 76, 'Αναισθησιολόγος'),
+(289, 37, 'Αναισθησιολόγος'),
+(290, 203, 'Εργαλειοδότης'),
+(290, 14, 'Αναισθησιολόγος'),
+(291, 48, 'Αναισθησιολόγος'),
+(292, 74, 'Βοηθός Ιατρός'),
+(292, 72, 'Αναισθησιολόγος'),
+(293, 71, 'Αναισθησιολόγος'),
+(294, 113, 'Βοηθός Νοσηλευτής'),
+(294, 184, 'Εργαλειοδότης'),
+(294, 170, 'Νοσηλευτής Αναισθησίας'),
+(295, 133, 'Νοσηλευτής Αναισθησίας'),
+(295, 66, 'Βοηθός Χειρουργός'),
+(295, 18, 'Βοηθός Ιατρός'),
+(296, 60, 'Βοηθός Χειρουργός'),
+(296, 214, 'Βοηθός Νοσηλευτής'),
+(297, 124, 'Εργαλειοδότης'),
+(297, 160, 'Νοσηλευτής Αναισθησίας'),
+(298, 219, 'Εργαλειοδότης'),
+(298, 159, 'Εργαλειοδότης'),
+(299, 288, 'Βοηθός Χειρουργός'),
+(299, 232, 'Εργαλειοδότης'),
+(299, 89, 'Νοσηλευτής Αναισθησίας'),
+(300, 231, 'Νοσηλευτής Αναισθησίας'),
+(300, 7, 'Βοηθός Ιατρός'),
+(301, 81, 'Αναισθησιολόγος'),
+(301, 290, 'Βοηθός Χειρουργός'),
+(302, 111, 'Βοηθός Νοσηλευτής'),
+(303, 21, 'Αναισθησιολόγος'),
+(304, 80, 'Αναισθησιολόγος'),
+(304, 98, 'Νοσηλευτής Αναισθησίας'),
+(305, 43, 'Βοηθός Ιατρός'),
+(306, 23, 'Αναισθησιολόγος'),
+(306, 170, 'Νοσηλευτής Αναισθησίας'),
+(307, 150, 'Νοσηλευτής Αναισθησίας'),
+(307, 33, 'Αναισθησιολόγος'),
+(308, 39, 'Αναισθησιολόγος'),
+(308, 208, 'Εργαλειοδότης'),
+(309, 37, 'Αναισθησιολόγος'),
+(309, 289, 'Βοηθός Ιατρός'),
+(310, 171, 'Βοηθός Νοσηλευτής'),
+(310, 38, 'Βοηθός Ιατρός'),
+(311, 148, 'Νοσηλευτής Αναισθησίας'),
+(312, 70, 'Αναισθησιολόγος'),
+(312, 152, 'Βοηθός Νοσηλευτής'),
+(313, 144, 'Βοηθός Νοσηλευτής'),
+(314, 140, 'Νοσηλευτής Αναισθησίας'),
+(315, 43, 'Βοηθός Ιατρός'),
+(316, 118, 'Βοηθός Νοσηλευτής'),
+(316, 124, 'Εργαλειοδότης'),
+(317, 204, 'Εργαλειοδότης'),
+(317, 156, 'Εργαλειοδότης'),
+(318, 13, 'Βοηθός Ιατρός'),
+(319, 5, 'Βοηθός Χειρουργός'),
+(319, 24, 'Βοηθός Χειρουργός'),
+(320, 64, 'Βοηθός Χειρουργός'),
+(320, 157, 'Βοηθός Νοσηλευτής'),
+(320, 75, 'Βοηθός Ιατρός'),
+(321, 155, 'Εργαλειοδότης'),
+(322, 65, 'Βοηθός Χειρουργός'),
+(322, 202, 'Εργαλειοδότης'),
+(322, 16, 'Αναισθησιολόγος'),
+(323, 33, 'Βοηθός Ιατρός'),
+(324, 158, 'Νοσηλευτής Αναισθησίας'),
+(325, 80, 'Βοηθός Ιατρός'),
+(325, 192, 'Νοσηλευτής Αναισθησίας'),
+(326, 13, 'Βοηθός Χειρουργός'),
+(326, 205, 'Εργαλειοδότης'),
+(327, 51, 'Βοηθός Χειρουργός'),
+(327, 36, 'Αναισθησιολόγος'),
+(327, 77, 'Βοηθός Χειρουργός'),
+(328, 31, 'Βοηθός Χειρουργός'),
+(329, 21, 'Αναισθησιολόγος'),
+(329, 162, 'Νοσηλευτής Αναισθησίας'),
+(330, 158, 'Εργαλειοδότης'),
+(331, 18, 'Αναισθησιολόγος'),
+(331, 79, 'Αναισθησιολόγος'),
+(332, 62, 'Βοηθός Ιατρός'),
+(332, 138, 'Βοηθός Νοσηλευτής'),
+(333, 11, 'Βοηθός Ιατρός'),
+(333, 48, 'Βοηθός Χειρουργός'),
+(334, 72, 'Βοηθός Ιατρός'),
+(334, 70, 'Βοηθός Χειρουργός'),
+(334, 68, 'Αναισθησιολόγος');
 
+-- Σύνολο: 647 βοηθοί σε 334 επεμβάσεις
 
 COMMIT;
