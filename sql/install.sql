@@ -61,6 +61,7 @@ DROP TABLE IF EXISTS country CASCADE;
 
 
 
+
 -- ΜΕΡΟΣ Β: DROP VIEWS
 
 DROP VIEW IF EXISTS v_department_full_profile CASCADE;
@@ -132,7 +133,14 @@ DROP FUNCTION IF EXISTS fn_dr_after_discharge() CASCADE;
 DROP FUNCTION IF EXISTS fn_dr_prescribed_doctor() CASCADE;
 -- ΕΝΟΤΗΤΑ 11
 DROP FUNCTION IF EXISTS fn_image_entity_check() CASCADE;
+-- Απλά drops για τα νέα triggers
+DROP TRIGGER IF EXISTS trg_surgery_room_overlap      ON hospitalization_procedure;
+DROP TRIGGER IF EXISTS trg_surgery_doctor_overlap    ON hospitalization_procedure;
+DROP TRIGGER IF EXISTS trg_surgery_assistant_overlap ON procedure_participant;
 
+DROP FUNCTION IF EXISTS fn_surgery_room_overlap()      CASCADE;
+DROP FUNCTION IF EXISTS fn_surgery_doctor_overlap()    CASCADE;
+DROP FUNCTION IF EXISTS fn_surgery_assistant_overlap() CASCADE;
 
 
 -- ΜΕΡΟΣ Δ: CREATE TABLES
@@ -410,6 +418,7 @@ CREATE TABLE medical_procedure (
     procedure_code  VARCHAR(20) NOT NULL,
     description     TEXT        NOT NULL,
     category        VARCHAR(50),
+    duration_minutes INT,
     CONSTRAINT pk_procedure PRIMARY KEY (procedure_code)
 );
 
@@ -480,6 +489,8 @@ CREATE TABLE IF NOT EXISTS hospitalization_procedure (
     performed_by       INT         NOT NULL,
     notes              TEXT,
     room            INT,
+    start_time      TIMESTAMP,
+   duration_minutes INT CHECK (duration_minutes > 0),
     CONSTRAINT pk_hosp_proc PRIMARY KEY (hosp_procedure_id),
     CONSTRAINT fk_hp_hosp FOREIGN KEY (hospitalization_id) REFERENCES hospitalization (hospitalization_id),
     CONSTRAINT fk_hp_proc FOREIGN KEY (procedure_code)     REFERENCES medical_procedure (procedure_code),
@@ -2625,7 +2636,105 @@ COMMENT ON FUNCTION sp_discharge_patient IS
     'εκτελούνται αυτόματα. '
     'Επιστρέφει hospitalization_id, συνολικό κόστος και ημέρες νοσηλείας.';
 
+-- ── TRIGGER 1: Επικάλυψη αίθουσας ──────────────────────────
+CREATE OR REPLACE FUNCTION fn_surgery_room_overlap()
+RETURNS TRIGGER AS $$
+BEGIN
+    IF NEW.room IS NULL OR NEW.start_time IS NULL OR NEW.duration_minutes IS NULL THEN
+        RETURN NEW;
+    END IF;
 
+    IF EXISTS (
+        SELECT 1
+        FROM hospitalization_procedure
+        WHERE room = NEW.room
+          AND hosp_procedure_id <> COALESCE(NEW.hosp_procedure_id, -1)
+          AND start_time < (NEW.start_time + (NEW.duration_minutes || ' minutes')::INTERVAL)
+          AND (start_time + (duration_minutes || ' minutes')::INTERVAL) > NEW.start_time
+    ) THEN
+        RAISE EXCEPTION
+            'Επικάλυψη αίθουσας: room_id=% είναι ήδη κατειλημμένη αυτή την ώρα.',
+            NEW.room;
+    END IF;
+
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+CREATE TRIGGER trg_surgery_room_overlap
+BEFORE INSERT OR UPDATE ON hospitalization_procedure
+FOR EACH ROW EXECUTE FUNCTION fn_surgery_room_overlap();
+
+
+-- ── TRIGGER 2: Επικάλυψη χειρουργού ────────────────────────
+CREATE OR REPLACE FUNCTION fn_surgery_doctor_overlap()
+RETURNS TRIGGER AS $$
+BEGIN
+    IF NEW.start_time IS NULL OR NEW.duration_minutes IS NULL THEN
+        RETURN NEW;
+    END IF;
+
+    -- Έλεγχος κύριου χειρουργού (performed_by)
+    IF EXISTS (
+        SELECT 1
+        FROM hospitalization_procedure
+        WHERE performed_by = NEW.performed_by
+          AND hosp_procedure_id <> COALESCE(NEW.hosp_procedure_id, -1)
+          AND start_time < (NEW.start_time + (NEW.duration_minutes || ' minutes')::INTERVAL)
+          AND (start_time + (duration_minutes || ' minutes')::INTERVAL) > NEW.start_time
+    ) THEN
+        RAISE EXCEPTION
+            'Επικάλυψη χειρουργού: ο ιατρός (staff_id=%) συμμετέχει ήδη σε άλλη επέμβαση αυτή την ώρα.',
+            NEW.performed_by;
+    END IF;
+
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+CREATE TRIGGER trg_surgery_doctor_overlap
+BEFORE INSERT OR UPDATE ON hospitalization_procedure
+FOR EACH ROW EXECUTE FUNCTION fn_surgery_doctor_overlap();
+
+
+-- ── TRIGGER 3: Επικάλυψη βοηθού ────────────────────────────
+-- Ελέγχει τους βοηθούς (procedure_participant)
+CREATE OR REPLACE FUNCTION fn_surgery_assistant_overlap()
+RETURNS TRIGGER AS $$
+DECLARE
+    v_start_time TIMESTAMP;
+    v_duration   INT;
+BEGIN
+    SELECT start_time, duration_minutes
+    INTO v_start_time, v_duration
+    FROM hospitalization_procedure
+    WHERE hosp_procedure_id = NEW.hosp_procedure_id;
+
+    IF v_start_time IS NULL OR v_duration IS NULL THEN
+        RETURN NEW;
+    END IF;
+
+    IF EXISTS (
+        SELECT 1
+        FROM procedure_participant pp
+        JOIN hospitalization_procedure hp ON pp.hosp_procedure_id = hp.hosp_procedure_id
+        WHERE pp.staff_id = NEW.staff_id
+          AND pp.hosp_procedure_id <> NEW.hosp_procedure_id
+          AND hp.start_time < (v_start_time + (v_duration || ' minutes')::INTERVAL)
+          AND (hp.start_time + (hp.duration_minutes || ' minutes')::INTERVAL) > v_start_time
+    ) THEN
+        RAISE EXCEPTION
+            'Επικάλυψη βοηθού: ο staff (staff_id=%) συμμετέχει ήδη σε άλλη επέμβαση αυτή την ώρα.',
+            NEW.staff_id;
+    END IF;
+
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+CREATE TRIGGER trg_surgery_assistant_overlap
+BEFORE INSERT ON procedure_participant
+FOR EACH ROW EXECUTE FUNCTION fn_surgery_assistant_overlap();
 
 -- ΜΕΡΟΣ Η: INDEXES
 
@@ -2677,7 +2786,7 @@ CREATE INDEX idx_triage_urgency ON triage(urgency_level);
 CREATE INDEX idx_triage_referred_department ON triage(referred_dept_name);
 
 -- ΕΝΟΤΗΤΑ 6: HOSPITALIZATION
-CREATE INDEX idx_ken_description ON ken_code (description);
+CREATE INDEX idx_ken_code_description ON ken_code (description);
 CREATE INDEX idx_icd10_category ON icd10_code(category);
 CREATE INDEX idx_hospitalization_patient ON hospitalization(patient_id);
 CREATE INDEX idx_hospitalization_bed ON hospitalization(bed_id);
