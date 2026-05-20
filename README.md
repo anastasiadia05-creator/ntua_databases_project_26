@@ -151,7 +151,6 @@ Run everything directly from your terminal, without entering the psql shell:
 psql -U postgres -c "CREATE DATABASE ygeiopolis;"
 
 psql -U postgres -d ygeiopolis -f sql/install.sql
-psql -U postgres -d ygeiopolis -f sql/reference_data.sql
 psql -U postgres -d ygeiopolis -f sql/load.sql
 ```
 
@@ -178,7 +177,6 @@ ntua_databases_project_26/
 ├── sql/
 │   ├── install.sql             ← Schema creation (tables, indexes, triggers, views)
 │   ├── load.sql                ← Data loading script
-│   ├── reference_data.sql      ← Official reference data (ICD-10, KEN, drugs)
 │   ├── Q01.sql / Q01_out.txt
 │   ├── ...
 │   └── Q15.sql / Q15_out.txt
@@ -186,7 +184,7 @@ ntua_databases_project_26/
 ├── docs/
 │   └── report.pdf              ← Report with screenshots (incl. EXPLAIN for Q04, Q06)
 │
-└── code/                       ← (Optional) Additional code
+└── app/                       ← Code for the UI
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -222,10 +220,8 @@ ntua_databases_project_26/
 ## Team
 
 | Name | Student ID |
-|---|---|
-| — | — |
-| — | — |
-| — | — |
+| Αναστασία Διαμαντή | 03123110 |
+| Δέσποινα Δήμου | 03123150 |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
