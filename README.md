@@ -184,7 +184,10 @@ ntua_databases_project_26/
 ├── docs/
 │   └── report.pdf              ← Report with screenshots (incl. EXPLAIN for Q04, Q06)
 │
-└── app/                       ← Code for the UI
+└── app/                      ← Code for the UI
+│   ├── app.py                ← python code 
+│   ├── hospital_ui.html      ← html
+│   └── README
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
