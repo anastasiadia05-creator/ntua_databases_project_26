@@ -1,375 +1,207 @@
+<a id="readme-top"></a>
 
-# ntua_databases_project_26
+[![PostgreSQL][postgresql-shield]][postgresql-url]
+[![NTUA][ntua-shield]][ntua-url]
+[![ECE][ece-shield]][ece-url]
 
-### Γενικό Νοσοκομείο «Υγειόπολης» — Σύστημα Διαχείρισης Βάσης Δεδομένων
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15%2B-336791?logo=postgresql&logoColor=white)
-![ECE NTUA](https://img.shields.io/badge/ECE-NTUA-003087?logo=academia&logoColor=white)
-![Course](https://img.shields.io/badge/Βάσεις%20Δεδομένων-2025--2026-28a745)
-![Semester](https://img.shields.io/badge/6ο%20Εξάμηνο-ΣΗΜΜΥ-orange)
-
----
-
-### Περιγραφή
-
-## 🇬🇷 Ελληνικά
-
-Εξαμηνιαία εργασία για το μάθημα **Βάσεις Δεδομένων** (6ο εξάμηνο, ΣΗΜΜΥ ΕΜΠ, 2025-2026).
-
-Σχεδιάσαμε και υλοποιήσαμε μια πλήρη βάση δεδομένων για το **Γενικό Νοσοκομείο «Υγειόπολης»**, ένα σύστημα που διαχειρίζεται:
-
-- **Προσωπικό** — ιατροί (με ιεραρχία εποπτείας), νοσηλευτές, διοικητικό προσωπικό
-- **Τμήματα & Κλίνες** — 15+ τμήματα, κλίνες με τύπο και κατάσταση
-- **Ασθενείς & Νοσηλείες** — πλήρες ιστορικό, triage, διαγνώσεις ICD-10, ΚΕΝ κωδικοί
-- **Φάρμακα & Συνταγογράφηση** — δραστικές ουσίες, αλλεργίες, αλληλεπιδράσεις
-- **Χειρουργεία & Ιατρικές Πράξεις** — αίθουσες, συμμετέχοντες, ΚΕΝ χρεώσεις
-- **Εφημερίες & Βάρδιες** — 3 βάρδιες/ημέρα, περιορισμοί ανάπαυσης, μηνιαία όρια
-- **Αξιολογήσεις** — ασθενείς αξιολογούν ιατρούς και νοσηλείες
-
-## 🇬🇧 English
-
-### Description
-
-Semester project for the **Databases** course (6th Semester, ECE NTUA, 2025-2026).
-
-We designed and implemented a full relational database for **General Hospital "Ygeiopolis"**, a hospital management system covering staff, patients, hospitalizations, on-call scheduling, and billing.
-
-This repository contains all necessary files to set up and run the **Hospital Database**, including schema creation, reference data loading, and 15 optimized SQL queries.
+<br />
+<div align="center">
+  <h2 align="center">Hospital "Ygeiopolis" — Database Management System</h2>
+  <p align="center">
+    Semester Project for the "Databases" course (6th Semester, ECE NTUA, 2025–2026)
+    <br />
+    <a href="#getting-started"><strong>Get Started »</strong></a>
+    <br />
+    <br />
+    <a href="#queries">View Queries</a>
+    &middot;
+    <a href="#repository-structure">Repository Structure</a>
+    &middot;
+    <a href="#team">Team</a>
+  </p>
+</div>
 
 ---
 
-###  Χαρακτηριστικά Υλοποίησης
-
-- **Σχεσιακή ΒΔ** με πλήρεις περιορισμούς ακεραιότητας (PK, FK, CHECK, UNIQUE)
-- **Indexes** βελτιστοποιημένα για τα 15 ερωτήματα
-- **Views** για σύνθετες συνοπτικές απόψεις δεδομένων
-- **Triggers** για αυτόματους ελέγχους (π.χ. κυκλική εποπτεία, όρια βαρδιών)
-- **Δεδομένα αναφοράς** από επίσημες πηγές: ICD-10, ΚΕΝ, EMA Article 57
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#database-features">Database Features</a></li>
+    <li><a href="#assumptions">Assumptions</a></li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#repository-structure">Repository Structure</a></li>
+    <li><a href="#queries">Queries</a></li>
+    <li><a href="#team">Team</a></li>
+  </ol>
+</details>
 
 ---
 
-### Δομή Αρχείων
+## About The Project
+
+The **Hospital "Ygeiopolis" Database** is a full relational database system designed to emulate the real-world operation of a general hospital. It stores and manages data for all entities involved in hospital operations — doctors with specialty and supervision hierarchies, nurses, administrative staff, patients, hospitalizations, ICD-10 diagnoses, KEN billing codes, drug prescriptions and allergies, surgical procedures, on-call shift scheduling, and patient reviews.
+
+The database is optimized to query and analyze this data in an efficient manner, with carefully designed indexes, views, and triggers that enforce business rules automatically.
+
+This repository contains all necessary files to set up and run the database from scratch.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## Database Features
+
+- **Staff Management**: Stores doctors (with specialty, rank, and supervision hierarchy), nurses, and administrative personnel with role and office information.
+- **Patient & Hospitalization Tracking**: Manages patient records, emergency contacts, triage assessments, full hospitalization history, ICD-10 diagnoses, and KEN billing.
+- **Shift Scheduling**: Organizes 3 daily on-call shifts per department with automatic enforcement of rest periods, monthly limits, and consecutive night shift restrictions.
+- **Prescription & Drug Management**: Tracks prescriptions, active substances per drug (EMA Article 57), and patient allergies with partial substance matching.
+- **Surgical Procedures**: Records operating room usage, all procedure participants, and lead surgeons per intervention.
+- **Patient Reviews**: Patients can rate and review both their overall hospitalization experience and their attending doctors.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## Assumptions
+
+1. Each department operates 24/7, organized in three 8-hour shifts: morning (07:00–15:00), afternoon (15:00–23:00), and night (23:00–07:00).
+2. Resident doctors must have a mandatory supervisor; Directors have no supervisor.
+3. Circular supervision chains are forbidden and enforced via trigger.
+4. A minimum rest period of 8 hours is required between any two consecutive shifts for the same staff member.
+5. Maximum shifts per month: Doctors 15, Nurses 20, Administrative staff 25.
+6. No staff member may work more than 3 consecutive night shifts.
+7. Reference data (ICD-10, KEN, EMA drugs) is imported as-is from official sources. Allergy matching uses partial match (`LIKE`) on active substance names.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+Install one of the following DBMS:
+
+- **PostgreSQL 15+** *(recommended)* — https://www.postgresql.org/
+- MySQL 8+ — https://www.mysql.com/
+- MariaDB 10.6+ — https://mariadb.org/
+
+> All scripts were written and tested on **PostgreSQL 15+**.
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/<username>/ntua_databases_project_26.git
+   cd ntua_databases_project_26
+   ```
+
+2. Connect to PostgreSQL:
+
+   ```bash
+   psql -U postgres
+   ```
+
+   On Windows:
+
+   ```cmd
+   cd "C:\Program Files\PostgreSQL\15\bin"
+   psql.exe -U postgres
+   ```
+
+3. Create the database and run the scripts:
+
+   ```sql
+   CREATE DATABASE ygeiopolis;
+   \c ygeiopolis
+
+   \i sql/install.sql
+   \i sql/reference_data.sql
+   \i sql/load.sql
+   ```
+
+4. Run a query:
+
+   ```sql
+   \i sql/Q01.sql
+   ```
+
+   To save output to a file:
+
+   ```sql
+   \o sql/Q01_out.txt
+   \i sql/Q01.sql
+   \o
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## Repository Structure
 
 ```
 ntua_databases_project_26/
 │
 ├── README.md
-│
 ├── diagrams/
-│   ├── er.pdf                ← Διάγραμμα Οντοτήτων-Συσχετίσεων (E/R)
-│   └── relational.pdf        ← Σχεσιακό Διάγραμμα
+│   ├── er.pdf                  ← Entity-Relationship diagram
+│   └── relational.pdf          ← Relational schema diagram
 │
 ├── sql/
-│   ├── install.sql           ← Δημιουργία σχήματος (CREATE TABLE, indexes, triggers, views)
-│   ├── load.sql              ← Φόρτωση δεδομένων (INSERT)
-│   ├── reference_data.sql    ← Δεδομένα αναφοράς (ICD-10, ΚΕΝ, φάρμακα)
+│   ├── install.sql             ← Schema creation (tables, indexes, triggers, views)
+│   ├── load.sql                ← Data loading script
+│   ├── reference_data.sql      ← Official reference data (ICD-10, KEN, drugs)
 │   ├── Q01.sql / Q01_out.txt
-│   ├── Q02.sql / Q02_out.txt
 │   ├── ...
 │   └── Q15.sql / Q15_out.txt
 │
 ├── docs/
-│   └── report.pdf            ← Αναφορά με screenshots (περιλαμβάνει EXPLAIN για Q04, Q06)
+│   └── report.pdf              ← Report with screenshots (incl. EXPLAIN for Q04, Q06)
 │
-└── code/                     ← (Προαιρετικά) Επιπλέον κώδικας
+└── code/                       ← (Optional) Additional code
 ```
 
----
-
-### Προαπαιτούμενα
-
-Απαιτείται εγκατεστημένη μία από τις παρακάτω βάσεις δεδομένων:
-
-| DBMS | Έκδοση | Σύνδεσμος |
-|---|---|---|
-| **PostgreSQL**  *(προτείνεται)* | 15+ | https://www.postgresql.org/ |
-| MySQL | 8+ | https://www.mysql.com/ |
-| MariaDB | 10.6+ | https://mariadb.org/ |
-
->  Τα scripts έχουν γραφτεί και δοκιμαστεί σε **PostgreSQL 15+**. Δεν χρησιμοποιούνται enums, arrays, JSON ή XML.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 
-###  Εγκατάσταση & Εκτέλεση
-
-#### Βήμα 1 — Κλωνοποίηση αποθετηρίου
-
-```bash
-git clone https://github.com/<username>/ntua_databases_project_26.git
-cd ntua_databases_project_26
-```
-
-#### Βήμα 2 — Σύνδεση με PostgreSQL
-
-```bash
-psql -U postgres
-```
-
-> **Windows** (standalone PostgreSQL):
-> ```cmd
-> cd "C:\Program Files\PostgreSQL\15\bin"
-> psql.exe -U postgres
-> ```
-
-#### Βήμα 3 — Δημιουργία βάσης & εκτέλεση scripts
-
-Μέσα στο `psql`:
-
-```sql
-CREATE DATABASE ygeiopolis;
-\c ygeiopolis
-
-\i sql/install.sql
-\i sql/reference_data.sql
-\i sql/load.sql
-```
-
-> ✅ Η βάση είναι έτοιμη!
-
-#### Εκτέλεση ερωτημάτων
-
-```sql
--- Εκτέλεση μεμονωμένου ερωτήματος
-\i sql/Q01.sql
-
--- Αποθήκευση αποτελέσματος σε αρχείο
-\o sql/Q01_out.txt
-\i sql/Q01.sql
-\o
-```
-
----
-
-### 📊 Ερωτήματα SQL (Q01–Q15)
-
-| # | Περιγραφή |
-|---|---|
-| Q01 | Συνολικά έσοδα ανά τμήμα/έτος, ανάλυση ΚΕΝ & ασφαλιστικός φορέας |
-| Q02 | Ιατροί ανά ειδικότητα, εφημερίες τρέχοντος έτους & επεμβάσεις ως κύριοι χειρουργοί |
-| Q03 | Ασθενείς με >3 νοσηλείες στο ίδιο τμήμα & συνολικό κόστος |
-| Q04 ⚡ | Μέσος όρος αξιολογήσεων συγκεκριμένου ιατρού *(+ EXPLAIN ANALYZE)* |
-| Q05 | Νέοι ιατροί (<35 ετών) με τις περισσότερες χειρουργικές επεμβάσεις |
-| Q06 ⚡ | Ιστορικό νοσηλειών ασθενή, διαγνώσεις ICD-10, κόστος *(+ EXPLAIN ANALYZE)* |
-| Q07 | Κατανομή αλλεργιών ανά δραστική ουσία & αριθμός φαρμάκων που την περιέχουν |
-| Q08 | Προσωπικό χωρίς προγραμματισμένη εφημερία σε συγκεκριμένη ημερομηνία/τμήμα |
-| Q09 | *(βλ. εκφώνηση)* |
-| Q10 | Top-3 ζεύγη δραστικών ουσιών που συνταγογραφήθηκαν ταυτόχρονα |
-| Q11 | Ιατροί με ≥5 λιγότερες επεμβάσεις από τον πρώτο (τρέχον έτος) |
-| Q12 | Απαιτούμενο προσωπικό ανά τμήμα/βάρδια για συγκεκριμένη εβδομάδα |
-| Q13 | Ιεραρχία εποπτείας κάθε ιατρού (Recursive CTE) |
-| Q14 | ICD-10 κατηγορίες με ίδιο αριθμό εισαγωγών σε δύο συνεχόμενα έτη (≥5 περιστατικά) |
-| Q15 | Κατανομή triage ανά επίπεδο επείγοντος, μέσος χρόνος αναμονής & ποσοστό νοσηλείας |
-
-> ⚡ Τα Q04 και Q06 περιλαμβάνουν σύγκριση `EXPLAIN` / `EXPLAIN ANALYZE` και εναλλακτική έκδοση με index hint.
-
----
-
-### 🗂️ Επισκόπηση Σχήματος
-
-| Κατηγορία | Πίνακες |
-|---|---|
-| Προσωπικό | `staff`, `doctor`, `nurse`, `admin_staff`, `doctor_specialty` |
-| Τμήματα | `department`, `department_beds`, `department_specialty`, `doctor_department` |
-| Ασθενείς | `patient`, `emergency_contact`, `patient_allergy`, `triage` |
-| Νοσηλείες | `hospitalization`, `hospitalization_staff`, `hospitalization_procedure`, `hospitalization_lab` |
-| Χειρουργεία | `operating_room`, `procedure_participant`, `medical_procedure` |
-| Φάρμακα | `drug`, `active_substance`, `drug_substance`, `prescription` |
-| Βάρδιες | `shifts`, `shift_staff`, `duty_assignment` |
-| Αξιολογήσεις | `patient_hospitalization_review`, `patient_doctor_review` |
-| Αναφορά | `icd10_code`, `ken_code`, `insurer`, `country` |
-
----
-
-### 📐 Παραδοχές
-
-1. Τα δεδομένα αναφοράς (ICD-10, ΚΕΝ, φάρμακα EMA) εισάγονται **ως έχουν** από επίσημες πηγές.
-2. Για αλλεργίες χρησιμοποιείται **partial match** (`LIKE`) στις δραστικές ουσίες.
-3. Οι ειδικευόμενοι ιατροί έχουν **υποχρεωτικά επόπτη** · οι Διευθυντές **δεν έχουν** επόπτη.
-4. **Κυκλική αλυσίδα εποπτείας απαγορεύεται** (επιβάλλεται μέσω trigger).
-5. Κάθε μέλος προσωπικού έχει ελάχιστο **διάστημα ανάπαυσης 8 ωρών** μεταξύ βαρδιών.
-6. Μέγιστα όρια βαρδιών/μήνα: Ιατροί **15**, Νοσηλευτές **20**, Διοικητικό **25**.
-7. Κανένας δεν μπορεί να συμμετέχει σε περισσότερες από **3 συνεχόμενες νυχτερινές** βάρδιες.
-
----
-
-### 👥 Ομάδα
-
-| Όνομα | Αριθμός Μητρώου |
-|---|---|
-| — | — |
-| — | — |
-| — | — |
-
----
----
-
-## 🇬🇧 English
-
-### 📋 Description
-
-Semester project for the **Databases** course (6th Semester, ECE NTUA, 2025-2026).
-
-We designed and implemented a full relational database for **General Hospital "Ygeiopolis"** — a realistic hospital management system covering staff, patients, hospitalizations, on-call scheduling, and billing.
-
-This repository contains all necessary files to set up and run the **Hospital Database**, including schema creation, reference data loading, and 15 optimized SQL queries.
-
----
-
-### ✨ Features
-
-- **Full relational schema** with integrity constraints (PK, FK, CHECK, UNIQUE, domain)
-- **Optimized indexes** tailored to all 15 queries
-- **Views** for complex aggregated data perspectives
-- **Triggers** for business rule enforcement (e.g. circular supervision prevention, shift limits)
-- **Official reference data**: ICD-10 diagnoses, KEN billing codes, EMA Article 57 drug substances
-
----
-
-### 📁 Repository Structure
-
-```
-ntua_databases_project_26/
-│
-├── README.md
-│
-├── diagrams/
-│   ├── er.pdf                ← Entity-Relationship diagram
-│   └── relational.pdf        ← Relational schema diagram
-│
-├── sql/
-│   ├── install.sql           ← Schema creation (CREATE TABLE, indexes, triggers, views)
-│   ├── load.sql              ← Data loading script (INSERT)
-│   ├── reference_data.sql    ← Reference data (ICD-10, KEN codes, drugs)
-│   ├── Q01.sql / Q01_out.txt
-│   ├── Q02.sql / Q02_out.txt
-│   ├── ...
-│   └── Q15.sql / Q15_out.txt
-│
-├── docs/
-│   └── report.pdf            ← Report with screenshots (incl. EXPLAIN for Q04, Q06)
-│
-└── code/                     ← (Optional) Additional application code
-```
-
----
-
-### ⚙️ Prerequisites
-
-One of the following DBMS must be installed:
-
-| DBMS | Version | Link |
-|---|---|---|
-| **PostgreSQL** ✅ *(recommended)* | 15+ | https://www.postgresql.org/ |
-| MySQL | 8+ | https://www.mysql.com/ |
-| MariaDB | 10.6+ | https://mariadb.org/ |
-
-> ⚠️ All scripts were written and tested on **PostgreSQL 15+**. No enums, arrays, JSON, or XML are used.
-
----
-
-### 🚀 Setup & Run
-
-#### Step 1 — Clone the repository
-
-```bash
-git clone https://github.com/<username>/ntua_databases_project_26.git
-cd ntua_databases_project_26
-```
-
-#### Step 2 — Connect to PostgreSQL
-
-```bash
-psql -U postgres
-```
-
-> **Windows** (standalone PostgreSQL):
-> ```cmd
-> cd "C:\Program Files\PostgreSQL\15\bin"
-> psql.exe -U postgres
-> ```
-
-#### Step 3 — Create database & run scripts
-
-Inside `psql`:
-
-```sql
-CREATE DATABASE ygeiopolis;
-\c ygeiopolis
-
-\i sql/install.sql
-\i sql/reference_data.sql
-\i sql/load.sql
-```
-
-> ✅ The database is ready!
-
-#### Running queries
-
-```sql
--- Run a single query
-\i sql/Q01.sql
-
--- Save output to file
-\o sql/Q01_out.txt
-\i sql/Q01.sql
-\o
-```
-
----
-
-### 📊 SQL Queries (Q01–Q15)
+## Queries
 
 | # | Description |
 |---|---|
-| Q01 | Total revenue per department/year, KEN code breakdown & insurer distribution |
-| Q02 | Doctors by specialty, on-call status this year & surgeries as lead surgeon |
-| Q03 | Patients with >3 hospitalizations in the same department & total cost |
-| Q04 ⚡ | Average patient reviews for a specific doctor *(+ EXPLAIN ANALYZE)* |
-| Q05 | Young doctors (<35 y.o.) with the most surgical procedures as lead surgeon |
-| Q06 ⚡ | Hospitalization history for a patient, ICD-10 diagnoses, cost *(+ EXPLAIN ANALYZE)* |
-| Q07 | Allergy distribution per active substance & number of drugs containing it |
+| Q01 | Total revenue per department and year, with KEN code breakdown and insurer distribution |
+| Q02 | Doctors by specialty, on-call activity this year, and surgeries as lead surgeon |
+| Q03 | Patients hospitalized more than 3 times in the same department, with total cost |
+| Q04 ⚡ | Average patient review scores for a specific doctor *(+ EXPLAIN ANALYZE)* |
+| Q05 | Young doctors (age < 35) with the most surgical procedures as lead surgeon |
+| Q06 ⚡ | Full hospitalization history for a specific patient, with ICD-10 diagnoses and cost *(+ EXPLAIN ANALYZE)* |
+| Q07 | Allergy counts per active substance and number of drugs containing it |
 | Q08 | Staff with no scheduled shift on a given date and department |
 | Q09 | *(see assignment specification)* |
 | Q10 | Top-3 active substance pairs co-prescribed during the same hospitalization |
-| Q11 | Doctors with ≥5 fewer procedures than the top surgeon (current year) |
-| Q12 | Required staff per department/shift for a specific week, broken down by subclass |
-| Q13 | Full supervision hierarchy for each doctor (Recursive CTE) |
-| Q14 | ICD-10 categories with the same admission count across two consecutive years (≥5 cases) |
-| Q15 | Triage distribution by urgency level, avg. wait time & hospitalization rate |
+| Q11 | Doctors with at least 5 fewer procedures than the top surgeon in the current year |
+| Q12 | Required staff per department and shift for a specific week, broken down by subclass |
+| Q13 | Full supervision hierarchy per doctor, from direct supervisor to Director (Recursive CTE) |
+| Q14 | ICD-10 categories with equal admission counts across two consecutive years (min. 5 cases each) |
+| Q15 | Triage distribution by urgency level, average wait time, hospitalization rate, and referral breakdown |
 
-> ⚡ Q04 and Q06 include `EXPLAIN` / `EXPLAIN ANALYZE` comparison and an index-hint alternative version.
+> ⚡ Q04 and Q06 include an `EXPLAIN` / `EXPLAIN ANALYZE` comparison and an alternative version with index hints, as required by the assignment.
 
----
-
-### 🗂️ Schema Overview
-
-| Category | Tables |
-|---|---|
-| Staff | `staff`, `doctor`, `nurse`, `admin_staff`, `doctor_specialty` |
-| Departments | `department`, `department_beds`, `department_specialty`, `doctor_department` |
-| Patients | `patient`, `emergency_contact`, `patient_allergy`, `triage` |
-| Hospitalizations | `hospitalization`, `hospitalization_staff`, `hospitalization_procedure`, `hospitalization_lab` |
-| Surgery | `operating_room`, `procedure_participant`, `medical_procedure` |
-| Medications | `drug`, `active_substance`, `drug_substance`, `prescription` |
-| Shifts | `shifts`, `shift_staff`, `duty_assignment` |
-| Reviews | `patient_hospitalization_review`, `patient_doctor_review` |
-| Reference Data | `icd10_code`, `ken_code`, `insurer`, `country` |
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 
-### 📐 Assumptions
-
-1. Reference data (ICD-10, KEN, EMA drugs) is imported **as-is** from official sources.
-2. Drug allergy matching uses **partial match** (`LIKE`) on active substance names.
-3. Resident doctors must have a **mandatory supervisor**; Directors have **no supervisor**.
-4. **Circular supervision chains are forbidden** (enforced via trigger).
-5. A minimum **8-hour rest period** is required between consecutive shifts for all staff.
-6. Maximum shifts per month: Doctors **15**, Nurses **20**, Admin staff **25**.
-7. No staff member may work more than **3 consecutive night shifts**.
-
----
-
-### 👥 Team
+## Team
 
 | Name | Student ID |
 |---|---|
@@ -377,6 +209,14 @@ CREATE DATABASE ygeiopolis;
 | — | — |
 | — | — |
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ---
 
-*NTUA — School of Electrical & Computer Engineering | Databases Lab 2025-2026 | M. Koniaris*
+<!-- MARKDOWN LINKS -->
+[postgresql-shield]: https://img.shields.io/badge/PostgreSQL-15%2B-336791?style=for-the-badge&logo=postgresql&logoColor=white
+[postgresql-url]: https://www.postgresql.org/
+[ntua-shield]: https://img.shields.io/badge/NTUA-ECE-003087?style=for-the-badge
+[ntua-url]: https://www.ece.ntua.gr/
+[ece-shield]: https://img.shields.io/badge/Databases-2025--2026-28a745?style=for-the-badge
+[ece-url]: https://www.ece.ntua.gr/
