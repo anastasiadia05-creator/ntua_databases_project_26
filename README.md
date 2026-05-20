@@ -10,9 +10,9 @@
 
 ---
 
-## 🇬🇷 Ελληνικά
-
 ### Περιγραφή
+
+## 🇬🇷 Ελληνικά
 
 Εξαμηνιαία εργασία για το μάθημα **Βάσεις Δεδομένων** (6ο εξάμηνο, ΣΗΜΜΥ ΕΜΠ, 2025-2026).
 
@@ -25,6 +25,16 @@
 - **Χειρουργεία & Ιατρικές Πράξεις** — αίθουσες, συμμετέχοντες, ΚΕΝ χρεώσεις
 - **Εφημερίες & Βάρδιες** — 3 βάρδιες/ημέρα, περιορισμοί ανάπαυσης, μηνιαία όρια
 - **Αξιολογήσεις** — ασθενείς αξιολογούν ιατρούς και νοσηλείες
+
+## 🇬🇧 English
+
+### Description
+
+Semester project for the **Databases** course (6th Semester, ECE NTUA, 2025-2026).
+
+We designed and implemented a full relational database for **General Hospital "Ygeiopolis"** — a realistic hospital management system covering staff, patients, hospitalizations, on-call scheduling, and billing.
+
+This repository contains all necessary files to set up and run the **Hospital Database**, including schema creation, reference data loading, and 15 optimized SQL queries.
 
 ---
 
