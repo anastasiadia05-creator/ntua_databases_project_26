@@ -53,7 +53,3 @@
 - `0..N` = zero or many child rows.
 - `PK/FK` = το column είναι ταυτόχρονα primary key και foreign key, συνήθως για subtype ή junction table.
 - `composite FK` = foreign key που αποτελείται από περισσότερα από ένα columns.
-
-## Συμπέρασμα
-
-Για documentation χρησιμοποίησε το **E-R diagram** ως conceptual overview και το παρόν **relational model** ως implementation documentation. Το relational είναι αυτό που πρέπει να συμφωνεί 1:1 με το `install.sql`.
