@@ -1,0 +1,3 @@
+Azithromycin|Ciprofloxacin|5
+Aspirin|Heparin|4
+Azithromycin|Metformin|4
