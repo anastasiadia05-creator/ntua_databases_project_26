@@ -47,7 +47,7 @@
 
 ## About The Project
 
-The **Hospital "Ygeiopolis" Database** is a full relational database system designed to emulate the real-world operation of a general hospital. It stores and manages data for all entities involved in hospital operations — doctors with specialty and supervision hierarchies, nurses, administrative staff, patients, hospitalizations, ICD-10 diagnoses, KEN billing codes, drug prescriptions and allergies, surgical procedures, on-call shift scheduling, and patient reviews.
+The **Hospital "Ygeiopolis" Database** is a full relational database system designed to emulate an operation management system of a general hospital. It stores and manages data for all entities involved in hospital operations: doctors with specialty and supervision hierarchies, nurses, administrative staff, patients, hospitalizations, ICD-10 diagnoses, KEN billing codes, drug prescriptions and allergies, surgical procedures, on-call shift scheduling, and patient reviews.
 
 The database is optimized to query and analyze this data in an efficient manner, with carefully designed indexes, views, and triggers that enforce business rules automatically.
 
@@ -91,8 +91,6 @@ This repository contains all necessary files to set up and run the database from
 Install one of the following DBMS:
 
 - **PostgreSQL 15+** *(recommended)* — https://www.postgresql.org/
-- MySQL 8+ — https://www.mysql.com/
-- MariaDB 10.6+ — https://mariadb.org/
 
 > All scripts were written and tested on **PostgreSQL 15+**.
 
