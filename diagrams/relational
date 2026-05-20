@@ -6,12 +6,12 @@
 
 Το diagram μπορεί να χρησιμοποιηθεί σε:
 
-* GitHub README
-* Markdown docs
-* Obsidian
-* Notion
-* GitLab Wiki
-* VS Code Markdown Preview
+- GitHub README
+- Markdown docs
+- Obsidian
+- Notion
+- GitLab Wiki
+- VS Code Markdown Preview
 
 ---
 
@@ -164,12 +164,12 @@ erDiagram
 
 Includes:
 
-* STAFF
-* DOCTOR
-* NURSE
-* ADMIN_STAFF
-* DOCTOR_SPECIALTY
-* DOCTOR_DEPARTMENT
+- STAFF
+- DOCTOR
+- NURSE
+- ADMIN_STAFF
+- DOCTOR_SPECIALTY
+- DOCTOR_DEPARTMENT
 
 This section models hospital employees and their specialization.
 
@@ -179,10 +179,10 @@ This section models hospital employees and their specialization.
 
 Includes:
 
-* PATIENT
-* PATIENT_ALLERGY
-* EMERGENCY_CONTACT
-* PATIENT_EMERGENCY_CONTACT
+- PATIENT
+- PATIENT_ALLERGY
+- EMERGENCY_CONTACT
+- PATIENT_EMERGENCY_CONTACT
 
 This section stores patient demographic and emergency data.
 
@@ -192,10 +192,10 @@ This section stores patient demographic and emergency data.
 
 Includes:
 
-* HOSPITALIZATION
-* HOSPITALIZATION_STAFF
-* ICD10_CODE
-* KEN_CODE
+- HOSPITALIZATION
+- HOSPITALIZATION_STAFF
+- ICD10_CODE
+- KEN_CODE
 
 This is the core medical workflow.
 
@@ -205,11 +205,11 @@ This is the core medical workflow.
 
 Includes:
 
-* MEDICAL_PROCEDURE
-* HOSPITALIZATION_PROCEDURE
-* PROCEDURE_PARTICIPANT
-* LAB_EXAM
-* HOSPITALIZATION_LAB
+- MEDICAL_PROCEDURE
+- HOSPITALIZATION_PROCEDURE
+- PROCEDURE_PARTICIPANT
+- LAB_EXAM
+- HOSPITALIZATION_LAB
 
 This models surgeries, operations and laboratory exams.
 
@@ -219,10 +219,10 @@ This models surgeries, operations and laboratory exams.
 
 Includes:
 
-* DRUG
-* ACTIVE_SUBSTANCE
-* DRUG_SUBSTANCE
-* PRESCRIPTION
+- DRUG
+- ACTIVE_SUBSTANCE
+- DRUG_SUBSTANCE
+- PRESCRIPTION
 
 This section models medication and prescriptions.
 
@@ -236,12 +236,11 @@ GitHub supports Mermaid diagrams natively.
 
 Just paste the block:
 
-````markdown
+```markdown
 ```mermaid
 ...
-````
-
-````
+```
+```
 
 ---
 
@@ -273,7 +272,7 @@ Example:
 
 ```mermaid
 DOCTOR ||--o{ PRESCRIPTION : writes
-````
+```
 
 ---
 
@@ -288,3 +287,4 @@ For very large systems, recommended split:
 5. Scheduling ERD
 
 This improves readability.
+
