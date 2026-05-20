@@ -6,7 +6,7 @@
 
 <br />
 <div align="center">
-  <h2 align="center">Hospital "Ygeiopolis" — Database Management System</h2>
+  <h2 align="center">Hospital "Ygeiopolis" - Database Management System</h2>
   <p align="center">
     Semester Project for the "Databases" course (6th Semester, ECE NTUA, 2025–2026)
     <br />
