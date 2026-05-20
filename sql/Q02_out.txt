@@ -1,8 +1,8 @@
-61|Βιολέτα|Γκούμα|Καρδιολογία|Επιμελητής Β|ΟΧΙ|4
-47|Ιωάννα|Κεφαλά|Καρδιολογία|Επιμελητής Β|ΟΧΙ|3
-82|Φίλιππος|Τσιόδρας|Καρδιολογία|Ειδικευόμενος|ΟΧΙ|3
-2|Κωνσταντίνος|Αλεξίου|Καρδιολογία|Διευθυντής|ΟΧΙ|2
-18|Απόστολος|Ζέρβας|Καρδιολογία|Επιμελητής Α|ΟΧΙ|2
-19|Μαρία|Τριανταφύλλου|Καρδιολογία|Επιμελητής Α|ΟΧΙ|2
-45|Αχιλλέας|Κοντός|Καρδιολογία|Επιμελητής Α|ΟΧΙ|1
-67|Θάλεια|Κωνσταντίνου|Καρδιολογία|Ειδικευόμενος|ΟΧΙ|1
+staff_id: 61 | first_name: Βιολέτα | last_name: Γκούμα | specialty: Καρδιολογία | rank: Επιμελητής Β | had_shift_this_year: ΝΑΙ | lead_doctor_procedures: 4
+staff_id: 47 | first_name: Ιωάννα | last_name: Κεφαλά | specialty: Καρδιολογία | rank: Επιμελητής Β | had_shift_this_year: ΝΑΙ | lead_doctor_procedures: 3
+staff_id: 82 | first_name: Φίλιππος | last_name: Τσιόδρας | specialty: Καρδιολογία | rank: Ειδικευόμενος | had_shift_this_year: ΟΧΙ | lead_doctor_procedures: 3
+staff_id: 2 | first_name: Κωνσταντίνος | last_name: Αλεξίου | specialty: Καρδιολογία | rank: Διευθυντής | had_shift_this_year: ΟΧΙ | lead_doctor_procedures: 2
+staff_id: 18 | first_name: Απόστολος | last_name: Ζέρβας | specialty: Καρδιολογία | rank: Επιμελητής Α | had_shift_this_year: ΟΧΙ | lead_doctor_procedures: 2
+staff_id: 19 | first_name: Μαρία | last_name: Τριανταφύλλου | specialty: Καρδιολογία | rank: Επιμελητής Α | had_shift_this_year: ΟΧΙ | lead_doctor_procedures: 2
+staff_id: 45 | first_name: Αχιλλέας | last_name: Κοντός | specialty: Καρδιολογία | rank: Επιμελητής Α | had_shift_this_year: ΝΑΙ | lead_doctor_procedures: 1
+staff_id: 67 | first_name: Θάλεια | last_name: Κωνσταντίνου | specialty: Καρδιολογία | rank: Ειδικευόμενος | had_shift_this_year: ΟΧΙ | lead_doctor_procedures: 1
