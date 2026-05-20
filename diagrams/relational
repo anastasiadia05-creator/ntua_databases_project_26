@@ -1,0 +1,290 @@
+# Hospital Database ER Diagram Documentation
+
+## Overview
+
+Αυτό το documentation περιέχει Entity Relationship Diagram (ERD) σε Mermaid format για το schema του αρχείου `install.sql`.
+
+Το diagram μπορεί να χρησιμοποιηθεί σε:
+
+* GitHub README
+* Markdown docs
+* Obsidian
+* Notion
+* GitLab Wiki
+* VS Code Markdown Preview
+
+---
+
+# Full ER Diagram
+
+```mermaid
+erDiagram
+
+    COUNTRY ||--o{ PATIENT : nationality
+    INSURER ||--o{ PATIENT : insured_by
+
+    DEPARTMENT ||--o{ DEPARTMENT_BEDS : has
+    DEPARTMENT ||--o{ NURSE : contains
+    DEPARTMENT ||--o{ ADMIN_STAFF : contains
+    DEPARTMENT ||--o{ DOCTOR_DEPARTMENT : linked_to
+    DEPARTMENT ||--o{ DEPARTMENT_SPECIALTY : supports
+
+    STAFF ||--|| DOCTOR : subtype
+    STAFF ||--|| NURSE : subtype
+    STAFF ||--|| ADMIN_STAFF : subtype
+
+    DOCTOR_SPECIALTY ||--o{ DOCTOR : specializes
+    DOCTOR_SPECIALTY ||--o{ DEPARTMENT_SPECIALTY : assigned
+
+    DOCTOR ||--o{ DOCTOR_DEPARTMENT : works_in
+    DOCTOR ||--o{ PRESCRIPTION : writes
+    DOCTOR ||--o{ PATIENT_DOCTOR_REVIEW : reviewed
+
+    PATIENT ||--o{ TRIAGE : enters
+    PATIENT ||--o{ HOSPITALIZATION : admitted
+    PATIENT ||--o{ PRESCRIPTION : receives
+    PATIENT ||--o{ PATIENT_ALLERGY : has
+    PATIENT ||--o{ PATIENT_EMERGENCY_CONTACT : linked
+    PATIENT ||--o{ PATIENT_DOCTOR_REVIEW : submits
+    PATIENT ||--o{ PATIENT_HOSPITALIZATION_REVIEW : submits
+
+    EMERGENCY_CONTACT ||--o{ PATIENT_EMERGENCY_CONTACT : connected
+
+    HOSPITALIZATION ||--o{ HOSPITALIZATION_STAFF : assigned
+    HOSPITALIZATION ||--o{ HOSPITALIZATION_PROCEDURE : includes
+    HOSPITALIZATION ||--o{ HOSPITALIZATION_LAB : includes
+    HOSPITALIZATION ||--o{ PATIENT_HOSPITALIZATION_REVIEW : reviewed
+
+    ICD10_CODE ||--o{ HOSPITALIZATION : diagnosis
+    KEN_CODE ||--o{ HOSPITALIZATION : billing
+
+    OPERATING_ROOM ||--o{ MEDICAL_PROCEDURE : hosts
+
+    MEDICAL_PROCEDURE ||--o{ HOSPITALIZATION_PROCEDURE : used_in
+    MEDICAL_PROCEDURE ||--o{ PROCEDURE_PARTICIPANT : performed_by
+
+    LAB_EXAM ||--o{ HOSPITALIZATION_LAB : executed
+
+    DRUG ||--o{ PRESCRIPTION : prescribed
+    DRUG ||--o{ DRUG_SUBSTANCE : contains
+
+    ACTIVE_SUBSTANCE ||--o{ DRUG_SUBSTANCE : ingredient
+
+
+    COUNTRY {
+        char country_code PK
+        varchar name
+    }
+
+    INSURER {
+        int insurer_id PK
+        varchar insurer_name
+    }
+
+    DEPARTMENT {
+        varchar department_name PK
+        varchar location
+    }
+
+    STAFF {
+        int staff_id PK
+        varchar first_name
+        varchar last_name
+        varchar role
+    }
+
+    DOCTOR {
+        int staff_id PK
+        varchar specialty
+    }
+
+    NURSE {
+        int staff_id PK
+        varchar department_name FK
+    }
+
+    ADMIN_STAFF {
+        int staff_id PK
+        varchar role
+    }
+
+    PATIENT {
+        int patient_id PK
+        varchar first_name
+        varchar last_name
+        date birth_date
+    }
+
+    TRIAGE {
+        int triage_id PK
+        int patient_id FK
+        int nurse_id FK
+    }
+
+    HOSPITALIZATION {
+        int hospitalization_id PK
+        int patient_id FK
+        varchar icd10_code FK
+    }
+
+    PRESCRIPTION {
+        int prescription_id PK
+        int patient_id FK
+        int doctor_id FK
+    }
+
+    DRUG {
+        varchar drug_code PK
+        varchar name
+    }
+
+    ACTIVE_SUBSTANCE {
+        varchar name PK
+    }
+
+    MEDICAL_PROCEDURE {
+        int procedure_id PK
+        varchar title
+    }
+
+    LAB_EXAM {
+        int exam_id PK
+        varchar exam_name
+    }
+
+```
+
+---
+
+# Architecture Notes
+
+## Main Domains
+
+### 1. Staff Management
+
+Includes:
+
+* STAFF
+* DOCTOR
+* NURSE
+* ADMIN_STAFF
+* DOCTOR_SPECIALTY
+* DOCTOR_DEPARTMENT
+
+This section models hospital employees and their specialization.
+
+---
+
+### 2. Patient Management
+
+Includes:
+
+* PATIENT
+* PATIENT_ALLERGY
+* EMERGENCY_CONTACT
+* PATIENT_EMERGENCY_CONTACT
+
+This section stores patient demographic and emergency data.
+
+---
+
+### 3. Hospitalization
+
+Includes:
+
+* HOSPITALIZATION
+* HOSPITALIZATION_STAFF
+* ICD10_CODE
+* KEN_CODE
+
+This is the core medical workflow.
+
+---
+
+### 4. Medical Procedures & Labs
+
+Includes:
+
+* MEDICAL_PROCEDURE
+* HOSPITALIZATION_PROCEDURE
+* PROCEDURE_PARTICIPANT
+* LAB_EXAM
+* HOSPITALIZATION_LAB
+
+This models surgeries, operations and laboratory exams.
+
+---
+
+### 5. Pharmacy & Prescriptions
+
+Includes:
+
+* DRUG
+* ACTIVE_SUBSTANCE
+* DRUG_SUBSTANCE
+* PRESCRIPTION
+
+This section models medication and prescriptions.
+
+---
+
+# Recommended Usage
+
+## GitHub Markdown
+
+GitHub supports Mermaid diagrams natively.
+
+Just paste the block:
+
+````markdown
+```mermaid
+...
+````
+
+````
+
+---
+
+## VS Code
+
+Install:
+
+- Markdown Preview Mermaid Support
+
+---
+
+## Export to PNG/SVG
+
+Recommended tools:
+
+- Mermaid Live Editor
+- dbdiagram.io
+- Obsidian Export
+
+---
+
+# Suggested Improvements
+
+## Add Cardinalities
+
+You can later refine the relationships with exact business constraints.
+
+Example:
+
+```mermaid
+DOCTOR ||--o{ PRESCRIPTION : writes
+````
+
+---
+
+## Split Into Multiple Diagrams
+
+For very large systems, recommended split:
+
+1. Staff ERD
+2. Patient ERD
+3. Hospitalization ERD
+4. Pharmacy ERD
+5. Scheduling ERD
+
+This improves readability.
