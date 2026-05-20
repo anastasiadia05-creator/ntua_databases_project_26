@@ -98,108 +98,202 @@ Install one of the following DBMS:
 
 ## Installation
 
+
 ### 1. Download the Repository
-
+ 
 Download the repository files from:
-
+ 
 ```text
 https://github.com/anastasiadia05-creator/ntua_databases_project_26
 ```
-
+ 
 Extract the project folder anywhere on your computer.
-
+ 
 ---
-
+ 
 ### 2. Open a Terminal Inside the Project Folder
-
+ 
 #### On Windows
-
+ 
 1. Open the project folder in File Explorer
 2. Click on the address bar
-3. Type:
-
-```text
-cmd
-```
-
-4. Press `Enter`
-
+3. Type `cmd` and press `Enter`
 A terminal window will open directly inside the project folder.
-
+ 
 ---
-
+ 
 ## Database Setup
-
-Choose one of the two methods below.
-
+ 
+Choose one of the three methods below.
+ 
 ---
-
-### Method 1 — Interactive (psql shell)
-
+ 
+### Method 1 — pgAdmin 4 (Graphical Interface, Recommended for Windows)
+ 
+This is the easiest method and avoids encoding issues on Windows.
+ 
+**Step 1 — Open pgAdmin 4**
+ 
+Launch pgAdmin 4 from the Start Menu or from the PostgreSQL installation folder.
+ 
+**Step 2 — Create the database**
+ 
+1. In the left panel, expand **Servers → PostgreSQL**
+2. Right-click on **Databases** → **Create** → **Database...**
+3. Set the following:
+   - **Database**: `ygeiopolis`
+   - **Owner**: `postgres`
+4. Go to the **Definition** tab and set **Encoding** to `UTF8`
+5. Click **Save**
+**Step 3 — Open the Query Tool**
+ 
+1. Click on the `ygeiopolis` database to select it
+2. From the top menu: **Tools → Query Tool**
+**Step 4 — Run the SQL scripts in order**
+ 
+For each of the three files below, repeat:
+1. Click the **Open File** icon (📂) in the Query Tool toolbar
+2. Navigate to the `sql/` folder of the project
+3. Select the file and click **Open**
+4. Press **F5** (or click ▶ **Execute**) to run it
+Run in this order:
+- `sql/install.sql`
+- `sql/reference_data.sql`
+- `sql/load.sql`
+**Step 5 — Run a query and save its output**
+ 
+1. Open the desired query file (e.g. `sql/Q01.sql`) in the Query Tool
+2. Press **F5** to execute
+3. In the results panel, click **Download as CSV** or copy the output manually
+> If you prefer to save output as `.txt`, use Method 2 or Method 3 below.
+ 
+---
+ 
+### Method 2 — Interactive (psql shell)
+ 
 Connect to PostgreSQL:
-
+ 
 ```bash
 psql -U postgres
 ```
-
-If `psql` is not recognized, run:
-
+ 
+If `psql` is not recognized on Windows, navigate to the PostgreSQL bin folder first:
+ 
 ```cmd
 cd "C:\Program Files\PostgreSQL\15\bin"
 psql.exe -U postgres
 ```
-
+ 
+> Replace `15` with your installed version (e.g. `18`).
+ 
 Then, inside the `psql` shell, run:
-
+ 
 ```sql
 CREATE DATABASE ygeiopolis;
 \c ygeiopolis
-
+ 
 \i sql/install.sql
 \i sql/reference_data.sql
 \i sql/load.sql
 ```
-
----
-
-### Running Queries
-
-To run a query and save its output:
-
+ 
+**Running queries and saving output:**
+ 
 ```sql
 \o sql/Q01_out.txt
 \i sql/Q01.sql
 \o
 ```
-
+ 
 ---
-
-### Method 2 — Direct (command line flags)
-
-Run everything directly from your terminal, without entering the `psql` shell:
-
+ 
+### Method 3 — Direct (command line flags)
+ 
+Run everything directly from your terminal, without entering the `psql` shell.
+ 
+> Make sure your terminal is open inside the project folder before running these commands.
+ 
 ```bash
 psql -U postgres -c "CREATE DATABASE ygeiopolis;"
-
+ 
 psql -U postgres -d ygeiopolis -f sql/install.sql
 psql -U postgres -d ygeiopolis -f sql/reference_data.sql
 psql -U postgres -d ygeiopolis -f sql/load.sql
 ```
-
----
-
-### Running Queries
-
-To run a query and save its output:
-
+ 
+**Running a query and saving its output:**
+ 
 ```bash
 psql -U postgres -d ygeiopolis -f sql/Q01.sql > sql/Q01_out.txt
 ```
-
+ 
+**Running all 15 queries at once (PowerShell):**
+ 
+```powershell
+$psql = "C:\Program Files\PostgreSQL\15\bin\psql.exe"
+for ($i = 1; $i -le 15; $i++) {
+    $num = $i.ToString("D2")
+    & $psql -U postgres -d ygeiopolis -f "sql/Q$num.sql" > "sql/Q${num}_out.txt"
+    Write-Host "Done: Q$num"
+}
+```
+ 
+> Replace `15` with your installed PostgreSQL version.
+ 
 ---
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
+ 
+###  Troubleshooting — Encoding Error on Windows (PowerShell / psql)
+ 
+When running the SQL scripts via PowerShell or the `psql` command line on Windows, you may encounter errors like:
+ 
+```
+ERROR: character with byte sequence 0x81 in encoding "WIN1253" has no equivalent in encoding "UTF8"
+ERROR: current transaction is aborted, commands ignored until end of transaction block
+ROLLBACK
+```
+ 
+**Why this happens:**
+ 
+Windows uses the **WIN1253** (Greek) encoding by default for file system operations. When PowerShell reads a `.sql` file and passes it to `psql`, the PostgreSQL server (which expects **UTF-8**) cannot interpret certain byte sequences, causing the entire transaction to roll back.
+ 
+**Solution — Convert the SQL files to UTF-8 before loading:**
+ 
+Run the following Python script from inside the project folder. It automatically detects and converts all `.sql` files:
+ 
+```powershell
+python -c "
+import os
+files = ['sql/install.sql', 'sql/load.sql', 'sql/reference_data.sql']
+encodings_to_try = ['utf-8-sig', 'cp1253', 'cp1252', 'iso-8859-7', 'utf-16']
+for f in files:
+    for enc in encodings_to_try:
+        try:
+            with open(f, 'r', encoding=enc) as fh:
+                content = fh.read()
+            with open(f, 'w', encoding='utf-8') as fh:
+                fh.write(content)
+            print(f'OK: {f} (was {enc})')
+            break
+        except:
+            continue
+"
+```
+ 
+Then drop and recreate the database to start clean:
+ 
+```powershell
+& "C:\Program Files\PostgreSQL\15\bin\psql.exe" -U postgres -c "DROP DATABASE ygeiopolis;"
+& "C:\Program Files\PostgreSQL\15\bin\psql.exe" -U postgres -c "CREATE DATABASE ygeiopolis;"
+& "C:\Program Files\PostgreSQL\15\bin\psql.exe" -U postgres -d ygeiopolis -f sql/install.sql
+& "C:\Program Files\PostgreSQL\15\bin\psql.exe" -U postgres -d ygeiopolis -f sql/reference_data.sql
+& "C:\Program Files\PostgreSQL\15\bin\psql.exe" -U postgres -d ygeiopolis -f sql/load.sql
+```
+ 
+> **Tip:** To avoid this issue entirely, use **Method 1 (pgAdmin 4)**, which handles file encoding automatically.
+ 
+---
+ 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ---
 
 ## Repository Structure
