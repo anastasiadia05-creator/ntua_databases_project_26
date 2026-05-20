@@ -2736,6 +2736,34 @@ CREATE TRIGGER trg_surgery_assistant_overlap
 BEFORE INSERT ON procedure_participant
 FOR EACH ROW EXECUTE FUNCTION fn_surgery_assistant_overlap();
 
+-- #31 | trg_prescription_doctor_guard
+-- Ελέγχει ότι ο ιατρός που συνταγογραφεί ανήκει στο
+-- ιατρικό team της νοσηλείας (hospitalization_staff).
+
+CREATE OR REPLACE FUNCTION fn_prescription_doctor_guard()
+RETURNS TRIGGER AS $$
+BEGIN
+    IF NOT EXISTS (
+        SELECT 1
+        FROM hospitalization_staff
+        WHERE hospitalization_id = NEW.hospitalization_id
+          AND staff_id           = NEW.doctor_id
+    ) THEN
+        RAISE EXCEPTION
+            'Μη εξουσιοδοτημένη συνταγογράφηση: ο ιατρός (staff_id=%) '
+            'δεν ανήκει στο ιατρικό team της νοσηλείας (hospitalization_id=%).',
+            NEW.doctor_id, NEW.hospitalization_id;
+    END IF;
+
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+CREATE TRIGGER trg_prescription_doctor_guard
+BEFORE INSERT ON prescription
+FOR EACH ROW EXECUTE FUNCTION fn_prescription_doctor_guard();
+
+
 -- ΜΕΡΟΣ Η: INDEXES
 
 -- ΕΝΟΤΗΤΑ 0: REFERENCE DATA
