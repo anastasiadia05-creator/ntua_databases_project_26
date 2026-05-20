@@ -16,7 +16,6 @@ DROP TABLE IF EXISTS image CASCADE;
 DROP TABLE IF EXISTS patient_doctor_review CASCADE;
 DROP TABLE IF EXISTS patient_hospitalization_review CASCADE;
 -- ΕΝΟΤΗΤΑ 9: SHIFT SCHEDULING
-DROP TABLE IF EXISTS duty_assignment CASCADE;
 DROP TABLE IF EXISTS shift_staff CASCADE;
 DROP TABLE IF EXISTS shifts CASCADE;
 -- ΕΝΟΤΗΤΑ 8: PRESCRIPTIONS
@@ -558,20 +557,6 @@ CREATE TABLE shift_staff (
     CONSTRAINT fk_ss_shift FOREIGN KEY (shift_id) REFERENCES shifts (shift_id) ON DELETE CASCADE  ON UPDATE CASCADE,
     CONSTRAINT fk_ss_staff FOREIGN KEY (staff_id) REFERENCES staff (staff_id)  ON DELETE RESTRICT ON UPDATE CASCADE
 );
-
--- Ανάθεση Εργασιών
-CREATE TABLE duty_assignment (
-    duty_id INT GENERATED ALWAYS AS IDENTITY,
-    staff_id INT NOT NULL,
-    shift_id INT NOT NULL,
-    department_name VARCHAR(100) NOT NULL,
-    PRIMARY KEY (duty_id),
-    CONSTRAINT uq_duty_assign UNIQUE (staff_id, shift_id),
-    CONSTRAINT fk_duty_assign_staff_id FOREIGN KEY (staff_id) REFERENCES staff (staff_id) ON DELETE CASCADE,
-    CONSTRAINT fk_duty_assign_shift_id FOREIGN KEY (shift_id) REFERENCES shifts (shift_id) ON DELETE CASCADE,
-    CONSTRAINT fk_duty_assign_dept_id FOREIGN KEY (department_name) REFERENCES department (department_name) ON DELETE CASCADE
-);
-
 
 -- ΕΝΟΤΗΤΑ 10: REVIEWS
 
@@ -2271,65 +2256,6 @@ JOIN drug dr ON pr.drug_code = dr.drug_code
 ORDER BY pr.patient_id, pr.start_date;
 
 -- ΕΝΟΤΗΤΑ 9: SHIFT SCHEDULING
-
--- v_staff_availability: τρέχουσα διαθεσιμότητα ιατρών/νοσηλευτών
-CREATE VIEW v_staff_availability AS
-WITH current_shift AS (
-    SELECT DISTINCT ss.staff_id
-    FROM shift_staff ss
-    JOIN shifts sh ON ss.shift_id = sh.shift_id
-    WHERE sh.shift_date = CURRENT_DATE
-      AND (
-        (sh.shift_type = 'Π'
-            AND CURRENT_TIME BETWEEN '07:00' AND '15:00')
-        OR
-        (sh.shift_type = 'Α'
-            AND CURRENT_TIME BETWEEN '15:00' AND '23:00')
-        OR
-        (sh.shift_type = 'Ν'
-            AND (CURRENT_TIME >= '23:00' OR CURRENT_TIME <= '07:00'))
-      )
-),
-active_hosp_count AS (
-    SELECT hs.staff_id, COUNT(*) AS active_patients
-    FROM hospitalization_staff hs
-    JOIN hospitalization h ON hs.hospitalization_id = h.hospitalization_id
-    WHERE h.discharge_date IS NULL
-    GROUP BY hs.staff_id
-)
-SELECT
-    s.staff_id,
-    s.first_name,
-    s.last_name,
-    s.staff_type,
-    CASE
-        WHEN s.staff_type = 'Ιατρός' THEN d.rank
-        WHEN s.staff_type = 'Νοσηλευτής' THEN n.nurse_rank
-    END AS rank,
-    CASE
-        WHEN s.staff_type = 'Ιατρός' THEN d.specialty
-        WHEN s.staff_type = 'Νοσηλευτής' THEN n.department_name
-    END AS specialty_or_dept,
-    CASE
-        WHEN cs.staff_id IS NOT NULL THEN 'on_shift'
-        WHEN da.staff_id IS NOT NULL THEN 'on_duty'
-        ELSE 'available'
-    END AS availability_status,
-    COALESCE(ahc.active_patients, 0) AS active_patient_count
-FROM staff s
-LEFT JOIN doctor d ON s.staff_id = d.staff_id
-LEFT JOIN nurse n ON s.staff_id = n.staff_id
-LEFT JOIN current_shift cs ON s.staff_id = cs.staff_id
-LEFT JOIN (
-    SELECT DISTINCT da2.staff_id
-    FROM duty_assignment da2
-    JOIN shifts sh2 ON da2.shift_id = sh2.shift_id
-    WHERE sh2.shift_date = CURRENT_DATE
-) da ON s.staff_id = da.staff_id
-LEFT JOIN active_hosp_count ahc ON s.staff_id = ahc.staff_id
-WHERE s.staff_type IN ('Ιατρός', 'Νοσηλευτής')
-ORDER BY availability_status, ahc.active_patients NULLS LAST, s.last_name, s.first_name;
-
 -- v_triage_nurses: νοσηλευτές στη βάρδια τρέχουσας ώρας
 CREATE VIEW v_triage_nurses AS
 SELECT
@@ -2788,9 +2714,6 @@ CREATE INDEX idx_shifts_department ON shifts(department_name);
 CREATE INDEX idx_shifts_date ON shifts(shift_date);
 CREATE INDEX idx_shifts_type ON shifts(shift_type);
 CREATE INDEX idx_shift_staff_staff ON shift_staff(staff_id);
-CREATE INDEX idx_duty_assignment_staff ON duty_assignment(staff_id);
-CREATE INDEX idx_duty_assignment_shift ON duty_assignment(shift_id);
-CREATE INDEX idx_duty_assignment_department ON duty_assignment(department_name);
 
 -- ΕΝΟΤΗΤΑ 10: REVIEWS
 CREATE INDEX idx_patient_doctor_review_doctor ON patient_doctor_review(doctor_id);
