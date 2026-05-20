@@ -47,7 +47,7 @@
 
 ## About The Project
 
-The **Hospital "Ygeiopolis" Database** is a full relational database system designed to emulate an operation management database of a general hospital. It stores and manages data for all entities involved in hospital operations — doctors with specialty and supervision hierarchies, nurses, administrative staff, patients, hospitalizations, ICD-10 diagnoses, KEN billing codes, drug prescriptions and allergies, surgical procedures, on-call shift scheduling, and patient reviews.
+The **Hospital "Ygeiopolis" Database** is a full relational database system designed to emulate an operation management database of a general hospital. It stores and manages data for all entities involved in hospital operations: doctors with specialty and supervision hierarchies, nurses, administrative staff, patients, hospitalizations, ICD-10 diagnoses, KEN billing codes, drug prescriptions and allergies, surgical procedures, on-call shift scheduling, and patient reviews.
 
 The database is optimized to query and analyze this data in an efficient manner, with carefully designed indexes, views, and triggers that enforce business rules automatically.
 
