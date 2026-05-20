@@ -94,53 +94,43 @@ Install the following DBMS:
 
 > All scripts were written and tested on **PostgreSQL 15+**.
 
-### Installation
+Installation
 
-1. Clone the repository:
+Clone the repository:
 
-   ```bash
-   git clone https://github.com/<username>/ntua_databases_project_26.git
+bash   git clone https://github.com/<username>/ntua_databases_project_26.git
    cd ntua_databases_project_26
-   ```
 
-2. Connect to PostgreSQL:
+Set up the database — choose one of the two methods below:
 
-   ```bash
-   psql -U postgres
-   ```
 
-   On Windows:
+Method 1 — Interactive (psql shell)
+Connect to PostgreSQL:
+bashpsql -U postgres
+On Windows:
+cmdcd "C:\Program Files\PostgreSQL\15\bin"
+psql.exe -U postgres
+Then, inside the psql shell, run:
+sqlCREATE DATABASE ygeiopolis;
+\c ygeiopolis
 
-   ```cmd
-   cd "C:\Program Files\PostgreSQL\15\bin"
-   psql.exe -U postgres
-   ```
+\i sql/install.sql
+\i sql/reference_data.sql
+\i sql/load.sql
+To run a query and save its output:
+sql\o sql/Q01_out.txt
+\i sql/Q01.sql
+\o
 
-3. Create the database and run the scripts:
+Method 2 — Direct (command line flags)
+Run everything directly from your terminal, without entering the psql shell:
+bashpsql -U postgres -c "CREATE DATABASE ygeiopolis;"
 
-   ```sql
-   CREATE DATABASE ygeiopolis;
-   \c ygeiopolis
-
-   \i sql/install.sql
-   \i sql/reference_data.sql
-   \i sql/load.sql
-   ```
-
-4. Run a query:
-
-   ```sql
-   \i sql/Q01.sql
-   ```
-
-   To save output to a file:
-
-   ```sql
-   \o sql/Q01_out.txt
-   \i sql/Q01.sql
-   \o
-   ```
-
+psql -U postgres -d ygeiopolis -f sql/install.sql
+psql -U postgres -d ygeiopolis -f sql/reference_data.sql
+psql -U postgres -d ygeiopolis -f sql/load.sql
+To run a query and save its output:
+bashpsql -U postgres -d ygeiopolis -f sql/Q01.sql > sql/Q01_out.txt
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
