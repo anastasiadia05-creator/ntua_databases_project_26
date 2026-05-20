@@ -185,8 +185,8 @@ ntua_databases_project_26/
 │   └── report.pdf              ← Report with screenshots (incl. EXPLAIN for Q04, Q06)
 │
 └── app/                      ← Code for the UI
-│   ├── app.py                ← python code 
-│   ├── hospital_ui.html      ← html
+│   ├── app.py                ← python API routes code 
+│   ├── hospital_ui.html      ← html basic frontend
 │   └── README
 ```
 
