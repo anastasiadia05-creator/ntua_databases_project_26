@@ -58,7 +58,6 @@ pip install flask flask-cors psycopg2-binary
 .
 ├── app.py              # Flask backend — όλα τα API routes
 ├── hospital_ui.html    # Κύριο frontend
-├── queries.html        # Σελίδα αναλυτικών ερωτημάτων
 └── README.md
 ```
 
